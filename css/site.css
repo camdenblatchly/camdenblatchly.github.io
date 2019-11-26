@@ -1,0 +1,27 @@
+:root {
+  --mainColor: #ff9800;
+}
+
+
+a {
+  background:
+     linear-gradient(
+       to bottom, var(--mainColor) 0%,
+       var(--mainColor) 100%
+     );
+    background-position: 0 100%;
+    background-repeat: repeat-x;
+    background-size: 4px 4px;
+  color: black;
+  text-decoration: none;
+  transition: background-size .2s;
+}
+
+a:hover {
+  background-size: 4px 50px;
+  color: black;
+}
+
+.intro {
+	padding: 5% 15% 5% 15%;
+}
