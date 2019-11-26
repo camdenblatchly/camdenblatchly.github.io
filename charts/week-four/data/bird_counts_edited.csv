@@ -1,2151 +1,2151 @@
-Index,Count,Species,Species_Index,Year
-0,0.0,"Heron, Great Blue ",0,1989
-1,0.0,"Heron, Great Blue ",0,1990
-2,0.0,"Heron, Great Blue ",0,1991
-3,0.0,"Heron, Great Blue ",0,1992
-4,1.0,"Heron, Great Blue ",0,1993
-5,0.0,"Heron, Great Blue ",0,1994
-6,0.0,"Heron, Great Blue ",0,1995
-7,0.0,"Heron, Great Blue ",0,1996
-8,0.0,"Heron, Great Blue ",0,1997
-9,0.0,"Heron, Great Blue ",0,1998
-10,0.0,"Heron, Great Blue ",0,1999
-11,0.0,"Heron, Great Blue ",0,2000
-12,0.0,"Heron, Great Blue ",0,2001
-13,1.0,"Heron, Great Blue ",0,2002
-14,0.0,"Heron, Great Blue ",0,2003
-15,0.0,"Heron, Great Blue ",0,2004
-16,0.0,"Heron, Great Blue ",0,2005
-17,0.0,"Heron, Great Blue ",0,2006
-18,0.0,"Heron, Great Blue ",0,2007
-19,0.0,"Heron, Great Blue ",0,2008
-20,0.0,"Heron, Great Blue ",0,2009
-21,0.0,"Heron, Great Blue ",0,2010
-22,0.0,"Heron, Great Blue ",0,2011
-23,0.0,"Heron, Great Blue ",0,2012
-24,0.0,"Heron, Great Blue ",0,2013
-25,0.0,"Goose, Canada ",1,1989
-26,1.0,"Goose, Canada ",1,1990
-27,3.0,"Goose, Canada ",1,1991
-28,0.0,"Goose, Canada ",1,1992
-29,0.0,"Goose, Canada ",1,1993
-30,0.0,"Goose, Canada ",1,1994
-31,0.0,"Goose, Canada ",1,1995
-32,0.0,"Goose, Canada ",1,1996
-33,0.0,"Goose, Canada ",1,1997
-34,3.0,"Goose, Canada ",1,1998
-35,0.0,"Goose, Canada ",1,1999
-36,0.0,"Goose, Canada ",1,2000
-37,0.0,"Goose, Canada ",1,2001
-38,0.0,"Goose, Canada ",1,2002
-39,11.0,"Goose, Canada ",1,2003
-40,0.0,"Goose, Canada ",1,2004
-41,0.0,"Goose, Canada ",1,2005
-42,0.0,"Goose, Canada ",1,2006
-43,0.0,"Goose, Canada ",1,2007
-44,0.0,"Goose, Canada ",1,2008
-45,0.0,"Goose, Canada ",1,2009
-46,1.0,"Goose, Canada ",1,2010
-47,0.0,"Goose, Canada ",1,2011
-48,0.0,"Goose, Canada ",1,2012
-49,0.0,"Goose, Canada ",1,2013
-50,0.0,"Goose, Snow",2,1989
-51,0.0,"Goose, Snow",2,1990
-52,0.0,"Goose, Snow",2,1991
-53,0.0,"Goose, Snow",2,1992
-54,0.0,"Goose, Snow",2,1993
-55,0.0,"Goose, Snow",2,1994
-56,0.0,"Goose, Snow",2,1995
-57,0.0,"Goose, Snow",2,1996
-58,0.0,"Goose, Snow",2,1997
-59,0.0,"Goose, Snow",2,1998
-60,0.0,"Goose, Snow",2,1999
-61,0.0,"Goose, Snow",2,2000
-62,0.0,"Goose, Snow",2,2001
-63,0.0,"Goose, Snow",2,2002
-64,0.0,"Goose, Snow",2,2003
-65,0.0,"Goose, Snow",2,2004
-66,0.0,"Goose, Snow",2,2005
-67,0.0,"Goose, Snow",2,2006
-68,0.0,"Goose, Snow",2,2007
-69,5.0,"Goose, Snow",2,2008
-70,0.0,"Goose, Snow",2,2009
-71,0.0,"Goose, Snow",2,2010
-72,0.0,"Goose, Snow",2,2011
-73,0.0,"Goose, Snow",2,2012
-74,0.0,"Goose, Snow",2,2013
-75,0.0,"Duck,Wood ",3,1989
-76,0.0,"Duck,Wood ",3,1990
-77,0.0,"Duck,Wood ",3,1991
-78,1.0,"Duck,Wood ",3,1992
-79,0.0,"Duck,Wood ",3,1993
-80,0.0,"Duck,Wood ",3,1994
-81,0.0,"Duck,Wood ",3,1995
-82,0.0,"Duck,Wood ",3,1996
-83,0.0,"Duck,Wood ",3,1997
-84,0.0,"Duck,Wood ",3,1998
-85,0.0,"Duck,Wood ",3,1999
-86,0.0,"Duck,Wood ",3,2000
-87,0.0,"Duck,Wood ",3,2001
-88,0.0,"Duck,Wood ",3,2002
-89,0.0,"Duck,Wood ",3,2003
-90,0.0,"Duck,Wood ",3,2004
-91,0.0,"Duck,Wood ",3,2005
-92,0.0,"Duck,Wood ",3,2006
-93,0.0,"Duck,Wood ",3,2007
-94,0.0,"Duck,Wood ",3,2008
-95,0.0,"Duck,Wood ",3,2009
-96,0.0,"Duck,Wood ",3,2010
-97,0.0,"Duck,Wood ",3,2011
-98,0.0,"Duck,Wood ",3,2012
-99,0.0,"Duck,Wood ",3,2013
-100,6.0,"Duck, Mallard",4,1989
-101,4.0,"Duck, Mallard",4,1990
-102,40.0,"Duck, Mallard",4,1991
-103,72.0,"Duck, Mallard",4,1992
-104,49.0,"Duck, Mallard",4,1993
-105,85.0,"Duck, Mallard",4,1994
-106,53.0,"Duck, Mallard",4,1995
-107,32.0,"Duck, Mallard",4,1996
-108,63.0,"Duck, Mallard",4,1997
-109,0.0,"Duck, Mallard",4,1998
-110,0.0,"Duck, Mallard",4,1999
-111,14.0,"Duck, Mallard",4,2000
-112,125.0,"Duck, Mallard",4,2001
-113,150.0,"Duck, Mallard",4,2002
-114,19.0,"Duck, Mallard",4,2003
-115,180.0,"Duck, Mallard",4,2004
-116,57.0,"Duck, Mallard",4,2005
-117,22.0,"Duck, Mallard",4,2006
-118,67.0,"Duck, Mallard",4,2007
-119,137.0,"Duck, Mallard",4,2008
-120,29.0,"Duck, Mallard",4,2009
-121,75.0,"Duck, Mallard",4,2010
-122,25.0,"Duck, Mallard",4,2011
-123,18.0,"Duck, Mallard",4,2012
-124,51.0,"Duck, Mallard",4,2013
-125,58.0,"Duck, American Black ",5,1989
-126,24.0,"Duck, American Black ",5,1990
-127,0.0,"Duck, American Black ",5,1991
-128,2.0,"Duck, American Black ",5,1992
-129,15.0,"Duck, American Black ",5,1993
-130,53.0,"Duck, American Black ",5,1994
-131,5.0,"Duck, American Black ",5,1995
-132,4.0,"Duck, American Black ",5,1996
-133,6.0,"Duck, American Black ",5,1997
-134,0.0,"Duck, American Black ",5,1998
-135,2.0,"Duck, American Black ",5,1999
-136,0.0,"Duck, American Black ",5,2000
-137,0.0,"Duck, American Black ",5,2001
-138,0.0,"Duck, American Black ",5,2002
-139,0.0,"Duck, American Black ",5,2003
-140,0.0,"Duck, American Black ",5,2004
-141,5.0,"Duck, American Black ",5,2005
-142,1.0,"Duck, American Black ",5,2006
-143,5.0,"Duck, American Black ",5,2007
-144,10.0,"Duck, American Black ",5,2008
-145,0.0,"Duck, American Black ",5,2009
-146,1.0,"Duck, American Black ",5,2010
-147,0.0,"Duck, American Black ",5,2011
-148,0.0,"Duck, American Black ",5,2012
-149,2.0,"Duck, American Black ",5,2013
-150,2.0,"Merganser, Hooded ",6,1989
-151,0.0,"Merganser, Hooded ",6,1990
-152,0.0,"Merganser, Hooded ",6,1991
-153,0.0,"Merganser, Hooded ",6,1992
-154,0.0,"Merganser, Hooded ",6,1993
-155,0.0,"Merganser, Hooded ",6,1994
-156,0.0,"Merganser, Hooded ",6,1995
-157,0.0,"Merganser, Hooded ",6,1996
-158,0.0,"Merganser, Hooded ",6,1997
-159,0.0,"Merganser, Hooded ",6,1998
-160,0.0,"Merganser, Hooded ",6,1999
-161,0.0,"Merganser, Hooded ",6,2000
-162,2.0,"Merganser, Hooded ",6,2001
-163,0.0,"Merganser, Hooded ",6,2002
-164,0.0,"Merganser, Hooded ",6,2003
-165,0.0,"Merganser, Hooded ",6,2004
-166,0.0,"Merganser, Hooded ",6,2005
-167,0.0,"Merganser, Hooded ",6,2006
-168,0.0,"Merganser, Hooded ",6,2007
-169,0.0,"Merganser, Hooded ",6,2008
-170,0.0,"Merganser, Hooded ",6,2009
-171,0.0,"Merganser, Hooded ",6,2010
-172,0.0,"Merganser, Hooded ",6,2011
-173,1.0,"Merganser, Hooded ",6,2012
-174,3.0,"Merganser, Hooded ",6,2013
-175,0.0,"Vulture, Turkey",7,1989
-176,0.0,"Vulture, Turkey",7,1990
-177,0.0,"Vulture, Turkey",7,1991
-178,0.0,"Vulture, Turkey",7,1992
-179,0.0,"Vulture, Turkey",7,1993
-180,0.0,"Vulture, Turkey",7,1994
-181,0.0,"Vulture, Turkey",7,1995
-182,0.0,"Vulture, Turkey",7,1996
-183,0.0,"Vulture, Turkey",7,1997
-184,0.0,"Vulture, Turkey",7,1998
-185,0.0,"Vulture, Turkey",7,1999
-186,0.0,"Vulture, Turkey",7,2000
-187,0.0,"Vulture, Turkey",7,2001
-188,0.0,"Vulture, Turkey",7,2002
-189,1.0,"Vulture, Turkey",7,2003
-190,0.0,"Vulture, Turkey",7,2004
-191,0.0,"Vulture, Turkey",7,2005
-192,0.0,"Vulture, Turkey",7,2006
-193,0.0,"Vulture, Turkey",7,2007
-194,0.0,"Vulture, Turkey",7,2008
-195,0.0,"Vulture, Turkey",7,2009
-196,0.0,"Vulture, Turkey",7,2010
-197,0.0,"Vulture, Turkey",7,2011
-198,0.0,"Vulture, Turkey",7,2012
-199,0.0,"Vulture, Turkey",7,2013
-200,0.0,"Eagle, Golden",8,1989
-201,0.0,"Eagle, Golden",8,1990
-202,0.0,"Eagle, Golden",8,1991
-203,0.0,"Eagle, Golden",8,1992
-204,0.0,"Eagle, Golden",8,1993
-205,0.0,"Eagle, Golden",8,1994
-206,0.0,"Eagle, Golden",8,1995
-207,0.0,"Eagle, Golden",8,1996
-208,0.0,"Eagle, Golden",8,1997
-209,0.0,"Eagle, Golden",8,1998
-210,0.0,"Eagle, Golden",8,1999
-211,0.0,"Eagle, Golden",8,2000
-212,0.0,"Eagle, Golden",8,2001
-213,0.0,"Eagle, Golden",8,2002
-214,0.0,"Eagle, Golden",8,2003
-215,0.0,"Eagle, Golden",8,2004
-216,0.0,"Eagle, Golden",8,2005
-217,0.0,"Eagle, Golden",8,2006
-218,0.0,"Eagle, Golden",8,2007
-219,2.0,"Eagle, Golden",8,2008
-220,0.0,"Eagle, Golden",8,2009
-221,0.0,"Eagle, Golden",8,2010
-222,0.0,"Eagle, Golden",8,2011
-223,0.0,"Eagle, Golden",8,2012
-224,0.0,"Eagle, Golden",8,2013
-225,0.0,"Eagle, Bald",9,1989
-226,0.0,"Eagle, Bald",9,1990
-227,0.0,"Eagle, Bald",9,1991
-228,0.0,"Eagle, Bald",9,1992
-229,0.0,"Eagle, Bald",9,1993
-230,0.0,"Eagle, Bald",9,1994
-231,0.0,"Eagle, Bald",9,1995
-232,0.0,"Eagle, Bald",9,1996
-233,0.0,"Eagle, Bald",9,1997
-234,0.0,"Eagle, Bald",9,1998
-235,0.0,"Eagle, Bald",9,1999
-236,0.0,"Eagle, Bald",9,2000
-237,0.0,"Eagle, Bald",9,2001
-238,0.0,"Eagle, Bald",9,2002
-239,2.0,"Eagle, Bald",9,2003
-240,0.0,"Eagle, Bald",9,2004
-241,2.0,"Eagle, Bald",9,2005
-242,1.0,"Eagle, Bald",9,2006
-243,1.0,"Eagle, Bald",9,2007
-244,3.0,"Eagle, Bald",9,2008
-245,1.0,"Eagle, Bald",9,2009
-246,0.0,"Eagle, Bald",9,2010
-247,1.0,"Eagle, Bald",9,2011
-248,1.0,"Eagle, Bald",9,2012
-249,0.0,"Eagle, Bald",9,2013
-250,0.0,"Harrier, Northern ",10,1989
-251,0.0,"Harrier, Northern ",10,1990
-252,0.0,"Harrier, Northern ",10,1991
-253,0.0,"Harrier, Northern ",10,1992
-254,1.0,"Harrier, Northern ",10,1993
-255,1.0,"Harrier, Northern ",10,1994
-256,0.0,"Harrier, Northern ",10,1995
-257,0.0,"Harrier, Northern ",10,1996
-258,0.0,"Harrier, Northern ",10,1997
-259,0.0,"Harrier, Northern ",10,1998
-260,0.0,"Harrier, Northern ",10,1999
-261,0.0,"Harrier, Northern ",10,2000
-262,0.0,"Harrier, Northern ",10,2001
-263,0.0,"Harrier, Northern ",10,2002
-264,1.0,"Harrier, Northern ",10,2003
-265,0.0,"Harrier, Northern ",10,2004
-266,0.0,"Harrier, Northern ",10,2005
-267,1.0,"Harrier, Northern ",10,2006
-268,0.0,"Harrier, Northern ",10,2007
-269,0.0,"Harrier, Northern ",10,2008
-270,0.0,"Harrier, Northern ",10,2009
-271,0.0,"Harrier, Northern ",10,2010
-272,0.0,"Harrier, Northern ",10,2011
-273,0.0,"Harrier, Northern ",10,2012
-274,0.0,"Harrier, Northern ",10,2013
-275,0.0,"Hawk, Sharp-shinned ",11,1989
-276,0.0,"Hawk, Sharp-shinned ",11,1990
-277,1.0,"Hawk, Sharp-shinned ",11,1991
-278,2.0,"Hawk, Sharp-shinned ",11,1992
-279,0.0,"Hawk, Sharp-shinned ",11,1993
-280,0.0,"Hawk, Sharp-shinned ",11,1994
-281,0.0,"Hawk, Sharp-shinned ",11,1995
-282,0.0,"Hawk, Sharp-shinned ",11,1996
-283,2.0,"Hawk, Sharp-shinned ",11,1997
-284,0.0,"Hawk, Sharp-shinned ",11,1998
-285,3.0,"Hawk, Sharp-shinned ",11,1999
-286,0.0,"Hawk, Sharp-shinned ",11,2000
-287,0.0,"Hawk, Sharp-shinned ",11,2001
-288,0.0,"Hawk, Sharp-shinned ",11,2002
-289,0.0,"Hawk, Sharp-shinned ",11,2003
-290,2.0,"Hawk, Sharp-shinned ",11,2004
-291,2.0,"Hawk, Sharp-shinned ",11,2005
-292,0.0,"Hawk, Sharp-shinned ",11,2006
-293,2.0,"Hawk, Sharp-shinned ",11,2007
-294,1.0,"Hawk, Sharp-shinned ",11,2008
-295,0.0,"Hawk, Sharp-shinned ",11,2009
-296,1.0,"Hawk, Sharp-shinned ",11,2010
-297,1.0,"Hawk, Sharp-shinned ",11,2011
-298,0.0,"Hawk, Sharp-shinned ",11,2012
-299,0.0,"Hawk, Sharp-shinned ",11,2013
-300,0.0,"Hawk, Cooper's",12,1989
-301,0.0,"Hawk, Cooper's",12,1990
-302,0.0,"Hawk, Cooper's",12,1991
-303,0.0,"Hawk, Cooper's",12,1992
-304,0.0,"Hawk, Cooper's",12,1993
-305,0.0,"Hawk, Cooper's",12,1994
-306,0.0,"Hawk, Cooper's",12,1995
-307,0.0,"Hawk, Cooper's",12,1996
-308,0.0,"Hawk, Cooper's",12,1997
-309,0.0,"Hawk, Cooper's",12,1998
-310,0.0,"Hawk, Cooper's",12,1999
-311,0.0,"Hawk, Cooper's",12,2000
-312,0.0,"Hawk, Cooper's",12,2001
-313,0.0,"Hawk, Cooper's",12,2002
-314,0.0,"Hawk, Cooper's",12,2003
-315,0.0,"Hawk, Cooper's",12,2004
-316,0.0,"Hawk, Cooper's",12,2005
-317,1.0,"Hawk, Cooper's",12,2006
-318,0.0,"Hawk, Cooper's",12,2007
-319,0.0,"Hawk, Cooper's",12,2008
-320,0.0,"Hawk, Cooper's",12,2009
-321,0.0,"Hawk, Cooper's",12,2010
-322,0.0,"Hawk, Cooper's",12,2011
-323,1.0,"Hawk, Cooper's",12,2012
-324,1.0,"Hawk, Cooper's",12,2013
-325,0.0,"Goshawk, Northern ",13,1989
-326,0.0,"Goshawk, Northern ",13,1990
-327,1.0,"Goshawk, Northern ",13,1991
-328,0.0,"Goshawk, Northern ",13,1992
-329,0.0,"Goshawk, Northern ",13,1993
-330,0.0,"Goshawk, Northern ",13,1994
-331,1.0,"Goshawk, Northern ",13,1995
-332,0.0,"Goshawk, Northern ",13,1996
-333,1.0,"Goshawk, Northern ",13,1997
-334,0.0,"Goshawk, Northern ",13,1998
-335,1.0,"Goshawk, Northern ",13,1999
-336,0.0,"Goshawk, Northern ",13,2000
-337,0.0,"Goshawk, Northern ",13,2001
-338,0.0,"Goshawk, Northern ",13,2002
-339,0.0,"Goshawk, Northern ",13,2003
-340,0.0,"Goshawk, Northern ",13,2004
-341,0.0,"Goshawk, Northern ",13,2005
-342,0.0,"Goshawk, Northern ",13,2006
-343,1.0,"Goshawk, Northern ",13,2007
-344,0.0,"Goshawk, Northern ",13,2008
-345,0.0,"Goshawk, Northern ",13,2009
-346,0.0,"Goshawk, Northern ",13,2010
-347,1.0,"Goshawk, Northern ",13,2011
-348,1.0,"Goshawk, Northern ",13,2012
-349,0.0,"Goshawk, Northern ",13,2013
-350,0.0,"Hawk, Red-tailed ",14,1989
-351,0.0,"Hawk, Red-tailed ",14,1990
-352,0.0,"Hawk, Red-tailed ",14,1991
-353,0.0,"Hawk, Red-tailed ",14,1992
-354,1.0,"Hawk, Red-tailed ",14,1993
-355,0.0,"Hawk, Red-tailed ",14,1994
-356,0.0,"Hawk, Red-tailed ",14,1995
-357,1.0,"Hawk, Red-tailed ",14,1996
-358,0.0,"Hawk, Red-tailed ",14,1997
-359,0.0,"Hawk, Red-tailed ",14,1998
-360,1.0,"Hawk, Red-tailed ",14,1999
-361,2.0,"Hawk, Red-tailed ",14,2000
-362,1.0,"Hawk, Red-tailed ",14,2001
-363,0.0,"Hawk, Red-tailed ",14,2002
-364,3.0,"Hawk, Red-tailed ",14,2003
-365,5.0,"Hawk, Red-tailed ",14,2004
-366,3.0,"Hawk, Red-tailed ",14,2005
-367,4.0,"Hawk, Red-tailed ",14,2006
-368,1.0,"Hawk, Red-tailed ",14,2007
-369,3.0,"Hawk, Red-tailed ",14,2008
-370,3.0,"Hawk, Red-tailed ",14,2009
-371,0.0,"Hawk, Red-tailed ",14,2010
-372,1.0,"Hawk, Red-tailed ",14,2011
-373,2.0,"Hawk, Red-tailed ",14,2012
-374,2.0,"Hawk, Red-tailed ",14,2013
-375,1.0,Hawk Species (UH),15,1989
-376,0.0,Hawk Species (UH),15,1990
-377,0.0,Hawk Species (UH),15,1991
-378,0.0,Hawk Species (UH),15,1992
-379,0.0,Hawk Species (UH),15,1993
-380,0.0,Hawk Species (UH),15,1994
-381,0.0,Hawk Species (UH),15,1995
-382,1.0,Hawk Species (UH),15,1996
-383,0.0,Hawk Species (UH),15,1997
-384,0.0,Hawk Species (UH),15,1998
-385,0.0,Hawk Species (UH),15,1999
-386,0.0,Hawk Species (UH),15,2000
-387,3.0,Hawk Species (UH),15,2001
-388,1.0,Hawk Species (UH),15,2002
-389,0.0,Hawk Species (UH),15,2003
-390,0.0,Hawk Species (UH),15,2004
-391,1.0,Hawk Species (UH),15,2005
-392,0.0,Hawk Species (UH),15,2006
-393,0.0,Hawk Species (UH),15,2007
-394,2.0,Hawk Species (UH),15,2008
-395,1.0,Hawk Species (UH),15,2009
-396,0.0,Hawk Species (UH),15,2010
-397,1.0,Hawk Species (UH),15,2011
-398,0.0,Hawk Species (UH),15,2012
-399,0.0,Hawk Species (UH),15,2013
-400,0.0,"Pheasant, Ring-necked ",16,1989
-401,7.0,"Pheasant, Ring-necked ",16,1990
-402,0.0,"Pheasant, Ring-necked ",16,1991
-403,1.0,"Pheasant, Ring-necked ",16,1992
-404,0.0,"Pheasant, Ring-necked ",16,1993
-405,0.0,"Pheasant, Ring-necked ",16,1994
-406,0.0,"Pheasant, Ring-necked ",16,1995
-407,0.0,"Pheasant, Ring-necked ",16,1996
-408,0.0,"Pheasant, Ring-necked ",16,1997
-409,0.0,"Pheasant, Ring-necked ",16,1998
-410,0.0,"Pheasant, Ring-necked ",16,1999
-411,0.0,"Pheasant, Ring-necked ",16,2000
-412,0.0,"Pheasant, Ring-necked ",16,2001
-413,0.0,"Pheasant, Ring-necked ",16,2002
-414,0.0,"Pheasant, Ring-necked ",16,2003
-415,0.0,"Pheasant, Ring-necked ",16,2004
-416,0.0,"Pheasant, Ring-necked ",16,2005
-417,1.0,"Pheasant, Ring-necked ",16,2006
-418,0.0,"Pheasant, Ring-necked ",16,2007
-419,0.0,"Pheasant, Ring-necked ",16,2008
-420,0.0,"Pheasant, Ring-necked ",16,2009
-421,0.0,"Pheasant, Ring-necked ",16,2010
-422,2.0,"Pheasant, Ring-necked ",16,2011
-423,0.0,"Pheasant, Ring-necked ",16,2012
-424,0.0,"Pheasant, Ring-necked ",16,2013
-425,0.0,"Grouse, Spruce ",17,1989
-426,0.0,"Grouse, Spruce ",17,1990
-427,0.0,"Grouse, Spruce ",17,1991
-428,0.0,"Grouse, Spruce ",17,1992
-429,0.0,"Grouse, Spruce ",17,1993
-430,1.0,"Grouse, Spruce ",17,1994
-431,0.0,"Grouse, Spruce ",17,1995
-432,1.0,"Grouse, Spruce ",17,1996
-433,0.0,"Grouse, Spruce ",17,1997
-434,0.0,"Grouse, Spruce ",17,1998
-435,0.0,"Grouse, Spruce ",17,1999
-436,0.0,"Grouse, Spruce ",17,2000
-437,0.0,"Grouse, Spruce ",17,2001
-438,2.0,"Grouse, Spruce ",17,2002
-439,0.0,"Grouse, Spruce ",17,2003
-440,0.0,"Grouse, Spruce ",17,2004
-441,0.0,"Grouse, Spruce ",17,2005
-442,0.0,"Grouse, Spruce ",17,2006
-443,0.0,"Grouse, Spruce ",17,2007
-444,0.0,"Grouse, Spruce ",17,2008
-445,0.0,"Grouse, Spruce ",17,2009
-446,1.0,"Grouse, Spruce ",17,2010
-447,0.0,"Grouse, Spruce ",17,2011
-448,0.0,"Grouse, Spruce ",17,2012
-449,0.0,"Grouse, Spruce ",17,2013
-450,8.0,"Grouse, Ruffed ",18,1989
-451,4.0,"Grouse, Ruffed ",18,1990
-452,2.0,"Grouse, Ruffed ",18,1991
-453,5.0,"Grouse, Ruffed ",18,1992
-454,3.0,"Grouse, Ruffed ",18,1993
-455,5.0,"Grouse, Ruffed ",18,1994
-456,4.0,"Grouse, Ruffed ",18,1995
-457,5.0,"Grouse, Ruffed ",18,1996
-458,2.0,"Grouse, Ruffed ",18,1997
-459,3.0,"Grouse, Ruffed ",18,1998
-460,11.0,"Grouse, Ruffed ",18,1999
-461,3.0,"Grouse, Ruffed ",18,2000
-462,9.0,"Grouse, Ruffed ",18,2001
-463,2.0,"Grouse, Ruffed ",18,2002
-464,13.0,"Grouse, Ruffed ",18,2003
-465,9.0,"Grouse, Ruffed ",18,2004
-466,7.0,"Grouse, Ruffed ",18,2005
-467,3.0,"Grouse, Ruffed ",18,2006
-468,1.0,"Grouse, Ruffed ",18,2007
-469,2.0,"Grouse, Ruffed ",18,2008
-470,1.0,"Grouse, Ruffed ",18,2009
-471,1.0,"Grouse, Ruffed ",18,2010
-472,5.0,"Grouse, Ruffed ",18,2011
-473,0.0,"Grouse, Ruffed ",18,2012
-474,3.0,"Grouse, Ruffed ",18,2013
-475,0.0,"Turkey, Wild ",19,1989
-476,0.0,"Turkey, Wild ",19,1990
-477,0.0,"Turkey, Wild ",19,1991
-478,0.0,"Turkey, Wild ",19,1992
-479,0.0,"Turkey, Wild ",19,1993
-480,0.0,"Turkey, Wild ",19,1994
-481,0.0,"Turkey, Wild ",19,1995
-482,0.0,"Turkey, Wild ",19,1996
-483,1.0,"Turkey, Wild ",19,1997
-484,0.0,"Turkey, Wild ",19,1998
-485,19.0,"Turkey, Wild ",19,1999
-486,0.0,"Turkey, Wild ",19,2000
-487,0.0,"Turkey, Wild ",19,2001
-488,30.0,"Turkey, Wild ",19,2002
-489,185.0,"Turkey, Wild ",19,2003
-490,181.0,"Turkey, Wild ",19,2004
-491,75.0,"Turkey, Wild ",19,2005
-492,6.0,"Turkey, Wild ",19,2006
-493,72.0,"Turkey, Wild ",19,2007
-494,65.0,"Turkey, Wild ",19,2008
-495,116.0,"Turkey, Wild ",19,2009
-496,64.0,"Turkey, Wild ",19,2010
-497,0.0,"Turkey, Wild ",19,2011
-498,75.0,"Turkey, Wild ",19,2012
-499,75.0,"Turkey, Wild ",19,2013
-500,0.0,"Gull, Ring-billed",20,1989
-501,0.0,"Gull, Ring-billed",20,1990
-502,0.0,"Gull, Ring-billed",20,1991
-503,0.0,"Gull, Ring-billed",20,1992
-504,0.0,"Gull, Ring-billed",20,1993
-505,0.0,"Gull, Ring-billed",20,1994
-506,0.0,"Gull, Ring-billed",20,1995
-507,0.0,"Gull, Ring-billed",20,1996
-508,0.0,"Gull, Ring-billed",20,1997
-509,0.0,"Gull, Ring-billed",20,1998
-510,0.0,"Gull, Ring-billed",20,1999
-511,0.0,"Gull, Ring-billed",20,2000
-512,0.0,"Gull, Ring-billed",20,2001
-513,2.0,"Gull, Ring-billed",20,2002
-514,0.0,"Gull, Ring-billed",20,2003
-515,0.0,"Gull, Ring-billed",20,2004
-516,0.0,"Gull, Ring-billed",20,2005
-517,0.0,"Gull, Ring-billed",20,2006
-518,3.0,"Gull, Ring-billed",20,2007
-519,0.0,"Gull, Ring-billed",20,2008
-520,0.0,"Gull, Ring-billed",20,2009
-521,0.0,"Gull, Ring-billed",20,2010
-522,0.0,"Gull, Ring-billed",20,2011
-523,0.0,"Gull, Ring-billed",20,2012
-524,0.0,"Gull, Ring-billed",20,2013
-525,4.0,"Gull, Herring ",21,1989
-526,1.0,"Gull, Herring ",21,1990
-527,3.0,"Gull, Herring ",21,1991
-528,1.0,"Gull, Herring ",21,1992
-529,24.0,"Gull, Herring ",21,1993
-530,0.0,"Gull, Herring ",21,1994
-531,0.0,"Gull, Herring ",21,1995
-532,4.0,"Gull, Herring ",21,1996
-533,0.0,"Gull, Herring ",21,1997
-534,0.0,"Gull, Herring ",21,1998
-535,0.0,"Gull, Herring ",21,1999
-536,0.0,"Gull, Herring ",21,2000
-537,22.0,"Gull, Herring ",21,2001
-538,5.0,"Gull, Herring ",21,2002
-539,2.0,"Gull, Herring ",21,2003
-540,0.0,"Gull, Herring ",21,2004
-541,1.0,"Gull, Herring ",21,2005
-542,0.0,"Gull, Herring ",21,2006
-543,0.0,"Gull, Herring ",21,2007
-544,0.0,"Gull, Herring ",21,2008
-545,0.0,"Gull, Herring ",21,2009
-546,0.0,"Gull, Herring ",21,2010
-547,0.0,"Gull, Herring ",21,2011
-548,0.0,"Gull, Herring ",21,2012
-549,0.0,"Gull, Herring ",21,2013
-550,1.0,"Gull, Great Black-backed ",22,1989
-551,0.0,"Gull, Great Black-backed ",22,1990
-552,2.0,"Gull, Great Black-backed ",22,1991
-553,0.0,"Gull, Great Black-backed ",22,1992
-554,0.0,"Gull, Great Black-backed ",22,1993
-555,0.0,"Gull, Great Black-backed ",22,1994
-556,0.0,"Gull, Great Black-backed ",22,1995
-557,0.0,"Gull, Great Black-backed ",22,1996
-558,0.0,"Gull, Great Black-backed ",22,1997
-559,0.0,"Gull, Great Black-backed ",22,1998
-560,0.0,"Gull, Great Black-backed ",22,1999
-561,6.0,"Gull, Great Black-backed ",22,2000
-562,0.0,"Gull, Great Black-backed ",22,2001
-563,0.0,"Gull, Great Black-backed ",22,2002
-564,1.0,"Gull, Great Black-backed ",22,2003
-565,0.0,"Gull, Great Black-backed ",22,2004
-566,0.0,"Gull, Great Black-backed ",22,2005
-567,1.0,"Gull, Great Black-backed ",22,2006
-568,0.0,"Gull, Great Black-backed ",22,2007
-569,1.0,"Gull, Great Black-backed ",22,2008
-570,0.0,"Gull, Great Black-backed ",22,2009
-571,0.0,"Gull, Great Black-backed ",22,2010
-572,0.0,"Gull, Great Black-backed ",22,2011
-573,0.0,"Gull, Great Black-backed ",22,2012
-574,0.0,"Gull, Great Black-backed ",22,2013
-575,0.0,Gull Species (UG),23,1989
-576,0.0,Gull Species (UG),23,1990
-577,0.0,Gull Species (UG),23,1991
-578,0.0,Gull Species (UG),23,1992
-579,0.0,Gull Species (UG),23,1993
-580,1.0,Gull Species (UG),23,1994
-581,0.0,Gull Species (UG),23,1995
-582,0.0,Gull Species (UG),23,1996
-583,0.0,Gull Species (UG),23,1997
-584,3.0,Gull Species (UG),23,1998
-585,1.0,Gull Species (UG),23,1999
-586,0.0,Gull Species (UG),23,2000
-587,0.0,Gull Species (UG),23,2001
-588,0.0,Gull Species (UG),23,2002
-589,0.0,Gull Species (UG),23,2003
-590,0.0,Gull Species (UG),23,2004
-591,0.0,Gull Species (UG),23,2005
-592,1.0,Gull Species (UG),23,2006
-593,1.0,Gull Species (UG),23,2007
-594,0.0,Gull Species (UG),23,2008
-595,0.0,Gull Species (UG),23,2009
-596,1.0,Gull Species (UG),23,2010
-597,0.0,Gull Species (UG),23,2011
-598,0.0,Gull Species (UG),23,2012
-599,0.0,Gull Species (UG),23,2013
-600,179.0,"Dove, Mourning ",24,1989
-601,146.0,"Dove, Mourning ",24,1990
-602,198.0,"Dove, Mourning ",24,1991
-603,250.0,"Dove, Mourning ",24,1992
-604,95.0,"Dove, Mourning ",24,1993
-605,104.0,"Dove, Mourning ",24,1994
-606,171.0,"Dove, Mourning ",24,1995
-607,189.0,"Dove, Mourning ",24,1996
-608,313.0,"Dove, Mourning ",24,1997
-609,146.0,"Dove, Mourning ",24,1998
-610,204.0,"Dove, Mourning ",24,1999
-611,111.0,"Dove, Mourning ",24,2000
-612,101.0,"Dove, Mourning ",24,2001
-613,177.0,"Dove, Mourning ",24,2002
-614,131.0,"Dove, Mourning ",24,2003
-615,95.0,"Dove, Mourning ",24,2004
-616,199.0,"Dove, Mourning ",24,2005
-617,218.0,"Dove, Mourning ",24,2006
-618,236.0,"Dove, Mourning ",24,2007
-619,181.0,"Dove, Mourning ",24,2008
-620,129.0,"Dove, Mourning ",24,2009
-621,74.0,"Dove, Mourning ",24,2010
-622,123.0,"Dove, Mourning ",24,2011
-623,100.0,"Dove, Mourning ",24,2012
-624,183.0,"Dove, Mourning ",24,2013
-625,160.0,"Pigeon, Rock ",25,1989
-626,71.0,"Pigeon, Rock ",25,1990
-627,104.0,"Pigeon, Rock ",25,1991
-628,136.0,"Pigeon, Rock ",25,1992
-629,60.0,"Pigeon, Rock ",25,1993
-630,187.0,"Pigeon, Rock ",25,1994
-631,67.0,"Pigeon, Rock ",25,1995
-632,80.0,"Pigeon, Rock ",25,1996
-633,40.0,"Pigeon, Rock ",25,1997
-634,47.0,"Pigeon, Rock ",25,1998
-635,33.0,"Pigeon, Rock ",25,1999
-636,24.0,"Pigeon, Rock ",25,2000
-637,148.0,"Pigeon, Rock ",25,2001
-638,94.0,"Pigeon, Rock ",25,2002
-639,140.0,"Pigeon, Rock ",25,2003
-640,122.0,"Pigeon, Rock ",25,2004
-641,64.0,"Pigeon, Rock ",25,2005
-642,37.0,"Pigeon, Rock ",25,2006
-643,87.0,"Pigeon, Rock ",25,2007
-644,32.0,"Pigeon, Rock ",25,2008
-645,73.0,"Pigeon, Rock ",25,2009
-646,20.0,"Pigeon, Rock ",25,2010
-647,182.0,"Pigeon, Rock ",25,2011
-648,120.0,"Pigeon, Rock ",25,2012
-649,111.0,"Pigeon, Rock ",25,2013
-650,0.0,"Owl, Great Horned ",26,1989
-651,0.0,"Owl, Great Horned ",26,1990
-652,0.0,"Owl, Great Horned ",26,1991
-653,0.0,"Owl, Great Horned ",26,1992
-654,0.0,"Owl, Great Horned ",26,1993
-655,0.0,"Owl, Great Horned ",26,1994
-656,0.0,"Owl, Great Horned ",26,1995
-657,0.0,"Owl, Great Horned ",26,1996
-658,0.0,"Owl, Great Horned ",26,1997
-659,1.0,"Owl, Great Horned ",26,1998
-660,0.0,"Owl, Great Horned ",26,1999
-661,0.0,"Owl, Great Horned ",26,2000
-662,0.0,"Owl, Great Horned ",26,2001
-663,0.0,"Owl, Great Horned ",26,2002
-664,0.0,"Owl, Great Horned ",26,2003
-665,2.0,"Owl, Great Horned ",26,2004
-666,0.0,"Owl, Great Horned ",26,2005
-667,0.0,"Owl, Great Horned ",26,2006
-668,0.0,"Owl, Great Horned ",26,2007
-669,0.0,"Owl, Great Horned ",26,2008
-670,0.0,"Owl, Great Horned ",26,2009
-671,0.0,"Owl, Great Horned ",26,2010
-672,0.0,"Owl, Great Horned ",26,2011
-673,0.0,"Owl, Great Horned ",26,2012
-674,0.0,"Owl, Great Horned ",26,2013
-675,0.0,"Owl, Barred ",27,1989
-676,0.0,"Owl, Barred ",27,1990
-677,1.0,"Owl, Barred ",27,1991
-678,0.0,"Owl, Barred ",27,1992
-679,0.0,"Owl, Barred ",27,1993
-680,0.0,"Owl, Barred ",27,1994
-681,0.0,"Owl, Barred ",27,1995
-682,1.0,"Owl, Barred ",27,1996
-683,3.0,"Owl, Barred ",27,1997
-684,0.0,"Owl, Barred ",27,1998
-685,2.0,"Owl, Barred ",27,1999
-686,0.0,"Owl, Barred ",27,2000
-687,1.0,"Owl, Barred ",27,2001
-688,1.0,"Owl, Barred ",27,2002
-689,0.0,"Owl, Barred ",27,2003
-690,4.0,"Owl, Barred ",27,2004
-691,2.0,"Owl, Barred ",27,2005
-692,0.0,"Owl, Barred ",27,2006
-693,3.0,"Owl, Barred ",27,2007
-694,1.0,"Owl, Barred ",27,2008
-695,1.0,"Owl, Barred ",27,2009
-696,0.0,"Owl, Barred ",27,2010
-697,2.0,"Owl, Barred ",27,2011
-698,1.0,"Owl, Barred ",27,2012
-699,0.0,"Owl, Barred ",27,2013
-700,0.0,"Woodpecker, Red-headed",28,1989
-701,0.0,"Woodpecker, Red-headed",28,1990
-702,0.0,"Woodpecker, Red-headed",28,1991
-703,0.0,"Woodpecker, Red-headed",28,1992
-704,0.0,"Woodpecker, Red-headed",28,1993
-705,0.0,"Woodpecker, Red-headed",28,1994
-706,0.0,"Woodpecker, Red-headed",28,1995
-707,0.0,"Woodpecker, Red-headed",28,1996
-708,0.0,"Woodpecker, Red-headed",28,1997
-709,0.0,"Woodpecker, Red-headed",28,1998
-710,0.0,"Woodpecker, Red-headed",28,1999
-711,0.0,"Woodpecker, Red-headed",28,2000
-712,0.0,"Woodpecker, Red-headed",28,2001
-713,0.0,"Woodpecker, Red-headed",28,2002
-714,0.0,"Woodpecker, Red-headed",28,2003
-715,0.0,"Woodpecker, Red-headed",28,2004
-716,0.0,"Woodpecker, Red-headed",28,2005
-717,0.0,"Woodpecker, Red-headed",28,2006
-718,0.0,"Woodpecker, Red-headed",28,2007
-719,1.0,"Woodpecker, Red-headed",28,2008
-720,0.0,"Woodpecker, Red-headed",28,2009
-721,0.0,"Woodpecker, Red-headed",28,2010
-722,0.0,"Woodpecker, Red-headed",28,2011
-723,0.0,"Woodpecker, Red-headed",28,2012
-724,0.0,"Woodpecker, Red-headed",28,2013
-725,0.0,"Woodpecker, Red Bellied",29,1989
-726,0.0,"Woodpecker, Red Bellied",29,1990
-727,0.0,"Woodpecker, Red Bellied",29,1991
-728,0.0,"Woodpecker, Red Bellied",29,1992
-729,0.0,"Woodpecker, Red Bellied",29,1993
-730,0.0,"Woodpecker, Red Bellied",29,1994
-731,0.0,"Woodpecker, Red Bellied",29,1995
-732,0.0,"Woodpecker, Red Bellied",29,1996
-733,0.0,"Woodpecker, Red Bellied",29,1997
-734,0.0,"Woodpecker, Red Bellied",29,1998
-735,0.0,"Woodpecker, Red Bellied",29,1999
-736,0.0,"Woodpecker, Red Bellied",29,2000
-737,0.0,"Woodpecker, Red Bellied",29,2001
-738,0.0,"Woodpecker, Red Bellied",29,2002
-739,0.0,"Woodpecker, Red Bellied",29,2003
-740,0.0,"Woodpecker, Red Bellied",29,2004
-741,0.0,"Woodpecker, Red Bellied",29,2005
-742,0.0,"Woodpecker, Red Bellied",29,2006
-743,0.0,"Woodpecker, Red Bellied",29,2007
-744,0.0,"Woodpecker, Red Bellied",29,2008
-745,1.0,"Woodpecker, Red Bellied",29,2009
-746,0.0,"Woodpecker, Red Bellied",29,2010
-747,1.0,"Woodpecker, Red Bellied",29,2011
-748,0.0,"Woodpecker, Red Bellied",29,2012
-749,1.0,"Woodpecker, Red Bellied",29,2013
-750,62.0,"Woodpecker, Downy ",30,1989
-751,16.0,"Woodpecker, Downy ",30,1990
-752,19.0,"Woodpecker, Downy ",30,1991
-753,28.0,"Woodpecker, Downy ",30,1992
-754,20.0,"Woodpecker, Downy ",30,1993
-755,45.0,"Woodpecker, Downy ",30,1994
-756,41.0,"Woodpecker, Downy ",30,1995
-757,25.0,"Woodpecker, Downy ",30,1996
-758,34.0,"Woodpecker, Downy ",30,1997
-759,14.0,"Woodpecker, Downy ",30,1998
-760,46.0,"Woodpecker, Downy ",30,1999
-761,28.0,"Woodpecker, Downy ",30,2000
-762,12.0,"Woodpecker, Downy ",30,2001
-763,24.0,"Woodpecker, Downy ",30,2002
-764,44.0,"Woodpecker, Downy ",30,2003
-765,71.0,"Woodpecker, Downy ",30,2004
-766,43.0,"Woodpecker, Downy ",30,2005
-767,60.0,"Woodpecker, Downy ",30,2006
-768,43.0,"Woodpecker, Downy ",30,2007
-769,35.0,"Woodpecker, Downy ",30,2008
-770,39.0,"Woodpecker, Downy ",30,2009
-771,23.0,"Woodpecker, Downy ",30,2010
-772,28.0,"Woodpecker, Downy ",30,2011
-773,23.0,"Woodpecker, Downy ",30,2012
-774,44.0,"Woodpecker, Downy ",30,2013
-775,39.0,"Woodpecker, Hairy ",31,1989
-776,21.0,"Woodpecker, Hairy ",31,1990
-777,26.0,"Woodpecker, Hairy ",31,1991
-778,20.0,"Woodpecker, Hairy ",31,1992
-779,30.0,"Woodpecker, Hairy ",31,1993
-780,22.0,"Woodpecker, Hairy ",31,1994
-781,26.0,"Woodpecker, Hairy ",31,1995
-782,14.0,"Woodpecker, Hairy ",31,1996
-783,30.0,"Woodpecker, Hairy ",31,1997
-784,15.0,"Woodpecker, Hairy ",31,1998
-785,24.0,"Woodpecker, Hairy ",31,1999
-786,11.0,"Woodpecker, Hairy ",31,2000
-787,23.0,"Woodpecker, Hairy ",31,2001
-788,29.0,"Woodpecker, Hairy ",31,2002
-789,47.0,"Woodpecker, Hairy ",31,2003
-790,22.0,"Woodpecker, Hairy ",31,2004
-791,34.0,"Woodpecker, Hairy ",31,2005
-792,38.0,"Woodpecker, Hairy ",31,2006
-793,40.0,"Woodpecker, Hairy ",31,2007
-794,39.0,"Woodpecker, Hairy ",31,2008
-795,43.0,"Woodpecker, Hairy ",31,2009
-796,38.0,"Woodpecker, Hairy ",31,2010
-797,40.0,"Woodpecker, Hairy ",31,2011
-798,25.0,"Woodpecker, Hairy ",31,2012
-799,40.0,"Woodpecker, Hairy ",31,2013
-800,6.0,"Woodpecker, Pileated ",32,1989
-801,2.0,"Woodpecker, Pileated ",32,1990
-802,5.0,"Woodpecker, Pileated ",32,1991
-803,3.0,"Woodpecker, Pileated ",32,1992
-804,4.0,"Woodpecker, Pileated ",32,1993
-805,1.0,"Woodpecker, Pileated ",32,1994
-806,0.0,"Woodpecker, Pileated ",32,1995
-807,2.0,"Woodpecker, Pileated ",32,1996
-808,4.0,"Woodpecker, Pileated ",32,1997
-809,0.0,"Woodpecker, Pileated ",32,1998
-810,3.0,"Woodpecker, Pileated ",32,1999
-811,3.0,"Woodpecker, Pileated ",32,2000
-812,7.0,"Woodpecker, Pileated ",32,2001
-813,4.0,"Woodpecker, Pileated ",32,2002
-814,5.0,"Woodpecker, Pileated ",32,2003
-815,7.0,"Woodpecker, Pileated ",32,2004
-816,4.0,"Woodpecker, Pileated ",32,2005
-817,4.0,"Woodpecker, Pileated ",32,2006
-818,4.0,"Woodpecker, Pileated ",32,2007
-819,7.0,"Woodpecker, Pileated ",32,2008
-820,5.0,"Woodpecker, Pileated ",32,2009
-821,4.0,"Woodpecker, Pileated ",32,2010
-822,3.0,"Woodpecker, Pileated ",32,2011
-823,3.0,"Woodpecker, Pileated ",32,2012
-824,10.0,"Woodpecker, Pileated ",32,2013
-825,1.0,"Shrike, Northern ",33,1989
-826,0.0,"Shrike, Northern ",33,1990
-827,0.0,"Shrike, Northern ",33,1991
-828,0.0,"Shrike, Northern ",33,1992
-829,0.0,"Shrike, Northern ",33,1993
-830,0.0,"Shrike, Northern ",33,1994
-831,0.0,"Shrike, Northern ",33,1995
-832,0.0,"Shrike, Northern ",33,1996
-833,3.0,"Shrike, Northern ",33,1997
-834,0.0,"Shrike, Northern ",33,1998
-835,0.0,"Shrike, Northern ",33,1999
-836,0.0,"Shrike, Northern ",33,2000
-837,0.0,"Shrike, Northern ",33,2001
-838,0.0,"Shrike, Northern ",33,2002
-839,0.0,"Shrike, Northern ",33,2003
-840,1.0,"Shrike, Northern ",33,2004
-841,0.0,"Shrike, Northern ",33,2005
-842,2.0,"Shrike, Northern ",33,2006
-843,0.0,"Shrike, Northern ",33,2007
-844,0.0,"Shrike, Northern ",33,2008
-845,0.0,"Shrike, Northern ",33,2009
-846,1.0,"Shrike, Northern ",33,2010
-847,0.0,"Shrike, Northern ",33,2011
-848,0.0,"Shrike, Northern ",33,2012
-849,1.0,"Shrike, Northern ",33,2013
-850,631.0,"Jay, Blue ",34,1989
-851,191.0,"Jay, Blue ",34,1990
-852,190.0,"Jay, Blue ",34,1991
-853,171.0,"Jay, Blue ",34,1992
-854,154.0,"Jay, Blue ",34,1993
-855,100.0,"Jay, Blue ",34,1994
-856,60.0,"Jay, Blue ",34,1995
-857,176.0,"Jay, Blue ",34,1996
-858,302.0,"Jay, Blue ",34,1997
-859,46.0,"Jay, Blue ",34,1998
-860,137.0,"Jay, Blue ",34,1999
-861,140.0,"Jay, Blue ",34,2000
-862,165.0,"Jay, Blue ",34,2001
-863,143.0,"Jay, Blue ",34,2002
-864,112.0,"Jay, Blue ",34,2003
-865,152.0,"Jay, Blue ",34,2004
-866,284.0,"Jay, Blue ",34,2005
-867,116.0,"Jay, Blue ",34,2006
-868,47.0,"Jay, Blue ",34,2007
-869,537.0,"Jay, Blue ",34,2008
-870,344.0,"Jay, Blue ",34,2009
-871,70.0,"Jay, Blue ",34,2010
-872,173.0,"Jay, Blue ",34,2011
-873,96.0,"Jay, Blue ",34,2012
-874,288.0,"Jay, Blue ",34,2013
-875,0.0,"Jay, Gray ",35,1989
-876,0.0,"Jay, Gray ",35,1990
-877,0.0,"Jay, Gray ",35,1991
-878,0.0,"Jay, Gray ",35,1992
-879,0.0,"Jay, Gray ",35,1993
-880,0.0,"Jay, Gray ",35,1994
-881,0.0,"Jay, Gray ",35,1995
-882,0.0,"Jay, Gray ",35,1996
-883,0.0,"Jay, Gray ",35,1997
-884,0.0,"Jay, Gray ",35,1998
-885,0.0,"Jay, Gray ",35,1999
-886,0.0,"Jay, Gray ",35,2000
-887,2.0,"Jay, Gray ",35,2001
-888,1.0,"Jay, Gray ",35,2002
-889,0.0,"Jay, Gray ",35,2003
-890,0.0,"Jay, Gray ",35,2004
-891,0.0,"Jay, Gray ",35,2005
-892,0.0,"Jay, Gray ",35,2006
-893,0.0,"Jay, Gray ",35,2007
-894,0.0,"Jay, Gray ",35,2008
-895,0.0,"Jay, Gray ",35,2009
-896,2.0,"Jay, Gray ",35,2010
-897,0.0,"Jay, Gray ",35,2011
-898,0.0,"Jay, Gray ",35,2012
-899,0.0,"Jay, Gray ",35,2013
-900,36.0,"Raven, Common ",36,1989
-901,11.0,"Raven, Common ",36,1990
-902,11.0,"Raven, Common ",36,1991
-903,12.0,"Raven, Common ",36,1992
-904,11.0,"Raven, Common ",36,1993
-905,9.0,"Raven, Common ",36,1994
-906,17.0,"Raven, Common ",36,1995
-907,18.0,"Raven, Common ",36,1996
-908,9.0,"Raven, Common ",36,1997
-909,14.0,"Raven, Common ",36,1998
-910,3.0,"Raven, Common ",36,1999
-911,10.0,"Raven, Common ",36,2000
-912,65.0,"Raven, Common ",36,2001
-913,12.0,"Raven, Common ",36,2002
-914,81.0,"Raven, Common ",36,2003
-915,24.0,"Raven, Common ",36,2004
-916,101.0,"Raven, Common ",36,2005
-917,25.0,"Raven, Common ",36,2006
-918,55.0,"Raven, Common ",36,2007
-919,50.0,"Raven, Common ",36,2008
-920,34.0,"Raven, Common ",36,2009
-921,114.0,"Raven, Common ",36,2010
-922,20.0,"Raven, Common ",36,2011
-923,34.0,"Raven, Common ",36,2012
-924,34.0,"Raven, Common ",36,2013
-925,347.0,"Crow, American ",37,1989
-926,133.0,"Crow, American ",37,1990
-927,239.0,"Crow, American ",37,1991
-928,302.0,"Crow, American ",37,1992
-929,179.0,"Crow, American ",37,1993
-930,303.0,"Crow, American ",37,1994
-931,64.0,"Crow, American ",37,1995
-932,151.0,"Crow, American ",37,1996
-933,112.0,"Crow, American ",37,1997
-934,214.0,"Crow, American ",37,1998
-935,72.0,"Crow, American ",37,1999
-936,191.0,"Crow, American ",37,2000
-937,140.0,"Crow, American ",37,2001
-938,148.0,"Crow, American ",37,2002
-939,90.0,"Crow, American ",37,2003
-940,80.0,"Crow, American ",37,2004
-941,234.0,"Crow, American ",37,2005
-942,167.0,"Crow, American ",37,2006
-943,41.0,"Crow, American ",37,2007
-944,178.0,"Crow, American ",37,2008
-945,111.0,"Crow, American ",37,2009
-946,66.0,"Crow, American ",37,2010
-947,135.0,"Crow, American ",37,2011
-948,111.0,"Crow, American ",37,2012
-949,153.0,"Crow, American ",37,2013
-950,25.0,"Lark, Horned ",38,1989
-951,0.0,"Lark, Horned ",38,1990
-952,0.0,"Lark, Horned ",38,1991
-953,0.0,"Lark, Horned ",38,1992
-954,0.0,"Lark, Horned ",38,1993
-955,0.0,"Lark, Horned ",38,1994
-956,0.0,"Lark, Horned ",38,1995
-957,0.0,"Lark, Horned ",38,1996
-958,1.0,"Lark, Horned ",38,1997
-959,1.0,"Lark, Horned ",38,1998
-960,0.0,"Lark, Horned ",38,1999
-961,0.0,"Lark, Horned ",38,2000
-962,0.0,"Lark, Horned ",38,2001
-963,0.0,"Lark, Horned ",38,2002
-964,0.0,"Lark, Horned ",38,2003
-965,0.0,"Lark, Horned ",38,2004
-966,0.0,"Lark, Horned ",38,2005
-967,0.0,"Lark, Horned ",38,2006
-968,0.0,"Lark, Horned ",38,2007
-969,0.0,"Lark, Horned ",38,2008
-970,0.0,"Lark, Horned ",38,2009
-971,0.0,"Lark, Horned ",38,2010
-972,0.0,"Lark, Horned ",38,2011
-973,0.0,"Lark, Horned ",38,2012
-974,1.0,"Lark, Horned ",38,2013
-975,10.0,Tufted Titmouse,39,1989
-976,7.0,Tufted Titmouse,39,1990
-977,2.0,Tufted Titmouse,39,1991
-978,8.0,Tufted Titmouse,39,1992
-979,16.0,Tufted Titmouse,39,1993
-980,21.0,Tufted Titmouse,39,1994
-981,28.0,Tufted Titmouse,39,1995
-982,2.0,Tufted Titmouse,39,1996
-983,28.0,Tufted Titmouse,39,1997
-984,3.0,Tufted Titmouse,39,1998
-985,32.0,Tufted Titmouse,39,1999
-986,5.0,Tufted Titmouse,39,2000
-987,22.0,Tufted Titmouse,39,2001
-988,0.0,Tufted Titmouse,39,2002
-989,11.0,Tufted Titmouse,39,2003
-990,54.0,Tufted Titmouse,39,2004
-991,55.0,Tufted Titmouse,39,2005
-992,53.0,Tufted Titmouse,39,2006
-993,18.0,Tufted Titmouse,39,2007
-994,31.0,Tufted Titmouse,39,2008
-995,32.0,Tufted Titmouse,39,2009
-996,23.0,Tufted Titmouse,39,2010
-997,18.0,Tufted Titmouse,39,2011
-998,28.0,Tufted Titmouse,39,2012
-999,36.0,Tufted Titmouse,39,2013
-1000,875.0,"Chickadee, Black-capped",40,1989
-1001,600.0,"Chickadee, Black-capped",40,1990
-1002,454.0,"Chickadee, Black-capped",40,1991
-1003,669.0,"Chickadee, Black-capped",40,1992
-1004,355.0,"Chickadee, Black-capped",40,1993
-1005,506.0,"Chickadee, Black-capped",40,1994
-1006,555.0,"Chickadee, Black-capped",40,1995
-1007,593.0,"Chickadee, Black-capped",40,1996
-1008,998.0,"Chickadee, Black-capped",40,1997
-1009,363.0,"Chickadee, Black-capped",40,1998
-1010,762.0,"Chickadee, Black-capped",40,1999
-1011,375.0,"Chickadee, Black-capped",40,2000
-1012,623.0,"Chickadee, Black-capped",40,2001
-1013,528.0,"Chickadee, Black-capped",40,2002
-1014,692.0,"Chickadee, Black-capped",40,2003
-1015,985.0,"Chickadee, Black-capped",40,2004
-1016,843.0,"Chickadee, Black-capped",40,2005
-1017,731.0,"Chickadee, Black-capped",40,2006
-1018,656.0,"Chickadee, Black-capped",40,2007
-1019,735.0,"Chickadee, Black-capped",40,2008
-1020,488.0,"Chickadee, Black-capped",40,2009
-1021,424.0,"Chickadee, Black-capped",40,2010
-1022,409.0,"Chickadee, Black-capped",40,2011
-1023,362.0,"Chickadee, Black-capped",40,2012
-1024,623.0,"Chickadee, Black-capped",40,2013
-1025,0.0,"Chickadee, Boreal ",41,1989
-1026,0.0,"Chickadee, Boreal ",41,1990
-1027,0.0,"Chickadee, Boreal ",41,1991
-1028,0.0,"Chickadee, Boreal ",41,1992
-1029,0.0,"Chickadee, Boreal ",41,1993
-1030,0.0,"Chickadee, Boreal ",41,1994
-1031,3.0,"Chickadee, Boreal ",41,1995
-1032,2.0,"Chickadee, Boreal ",41,1996
-1033,0.0,"Chickadee, Boreal ",41,1997
-1034,0.0,"Chickadee, Boreal ",41,1998
-1035,1.0,"Chickadee, Boreal ",41,1999
-1036,2.0,"Chickadee, Boreal ",41,2000
-1037,2.0,"Chickadee, Boreal ",41,2001
-1038,0.0,"Chickadee, Boreal ",41,2002
-1039,0.0,"Chickadee, Boreal ",41,2003
-1040,0.0,"Chickadee, Boreal ",41,2004
-1041,0.0,"Chickadee, Boreal ",41,2005
-1042,0.0,"Chickadee, Boreal ",41,2006
-1043,0.0,"Chickadee, Boreal ",41,2007
-1044,0.0,"Chickadee, Boreal ",41,2008
-1045,0.0,"Chickadee, Boreal ",41,2009
-1046,0.0,"Chickadee, Boreal ",41,2010
-1047,0.0,"Chickadee, Boreal ",41,2011
-1048,0.0,"Chickadee, Boreal ",41,2012
-1049,0.0,"Chickadee, Boreal ",41,2013
-1050,55.0,"Nuthatch, Red-breasted ",42,1989
-1051,31.0,"Nuthatch, Red-breasted ",42,1990
-1052,19.0,"Nuthatch, Red-breasted ",42,1991
-1053,78.0,"Nuthatch, Red-breasted ",42,1992
-1054,47.0,"Nuthatch, Red-breasted ",42,1993
-1055,77.0,"Nuthatch, Red-breasted ",42,1994
-1056,51.0,"Nuthatch, Red-breasted ",42,1995
-1057,53.0,"Nuthatch, Red-breasted ",42,1996
-1058,107.0,"Nuthatch, Red-breasted ",42,1997
-1059,39.0,"Nuthatch, Red-breasted ",42,1998
-1060,31.0,"Nuthatch, Red-breasted ",42,1999
-1061,21.0,"Nuthatch, Red-breasted ",42,2000
-1062,53.0,"Nuthatch, Red-breasted ",42,2001
-1063,64.0,"Nuthatch, Red-breasted ",42,2002
-1064,39.0,"Nuthatch, Red-breasted ",42,2003
-1065,152.0,"Nuthatch, Red-breasted ",42,2004
-1066,27.0,"Nuthatch, Red-breasted ",42,2005
-1067,30.0,"Nuthatch, Red-breasted ",42,2006
-1068,16.0,"Nuthatch, Red-breasted ",42,2007
-1069,40.0,"Nuthatch, Red-breasted ",42,2008
-1070,43.0,"Nuthatch, Red-breasted ",42,2009
-1071,24.0,"Nuthatch, Red-breasted ",42,2010
-1072,20.0,"Nuthatch, Red-breasted ",42,2011
-1073,33.0,"Nuthatch, Red-breasted ",42,2012
-1074,36.0,"Nuthatch, Red-breasted ",42,2013
-1075,80.0,"Nuthatch, White-breasted",43,1989
-1076,47.0,"Nuthatch, White-breasted",43,1990
-1077,8.0,"Nuthatch, White-breasted",43,1991
-1078,40.0,"Nuthatch, White-breasted",43,1992
-1079,45.0,"Nuthatch, White-breasted",43,1993
-1080,48.0,"Nuthatch, White-breasted",43,1994
-1081,36.0,"Nuthatch, White-breasted",43,1995
-1082,54.0,"Nuthatch, White-breasted",43,1996
-1083,125.0,"Nuthatch, White-breasted",43,1997
-1084,30.0,"Nuthatch, White-breasted",43,1998
-1085,67.0,"Nuthatch, White-breasted",43,1999
-1086,57.0,"Nuthatch, White-breasted",43,2000
-1087,38.0,"Nuthatch, White-breasted",43,2001
-1088,47.0,"Nuthatch, White-breasted",43,2002
-1089,65.0,"Nuthatch, White-breasted",43,2003
-1090,159.0,"Nuthatch, White-breasted",43,2004
-1091,63.0,"Nuthatch, White-breasted",43,2005
-1092,73.0,"Nuthatch, White-breasted",43,2006
-1093,57.0,"Nuthatch, White-breasted",43,2007
-1094,59.0,"Nuthatch, White-breasted",43,2008
-1095,94.0,"Nuthatch, White-breasted",43,2009
-1096,56.0,"Nuthatch, White-breasted",43,2010
-1097,38.0,"Nuthatch, White-breasted",43,2011
-1098,48.0,"Nuthatch, White-breasted",43,2012
-1099,74.0,"Nuthatch, White-breasted",43,2013
-1100,3.0,Brown Creeper,44,1989
-1101,0.0,Brown Creeper,44,1990
-1102,2.0,Brown Creeper,44,1991
-1103,2.0,Brown Creeper,44,1992
-1104,4.0,Brown Creeper,44,1993
-1105,6.0,Brown Creeper,44,1994
-1106,7.0,Brown Creeper,44,1995
-1107,9.0,Brown Creeper,44,1996
-1108,5.0,Brown Creeper,44,1997
-1109,0.0,Brown Creeper,44,1998
-1110,16.0,Brown Creeper,44,1999
-1111,3.0,Brown Creeper,44,2000
-1112,2.0,Brown Creeper,44,2001
-1113,6.0,Brown Creeper,44,2002
-1114,2.0,Brown Creeper,44,2003
-1115,17.0,Brown Creeper,44,2004
-1116,7.0,Brown Creeper,44,2005
-1117,9.0,Brown Creeper,44,2006
-1118,6.0,Brown Creeper,44,2007
-1119,8.0,Brown Creeper,44,2008
-1120,5.0,Brown Creeper,44,2009
-1121,4.0,Brown Creeper,44,2010
-1122,6.0,Brown Creeper,44,2011
-1123,1.0,Brown Creeper,44,2012
-1124,14.0,Brown Creeper,44,2013
-1125,0.0,"Wren, Carolina",45,1989
-1126,0.0,"Wren, Carolina",45,1990
-1127,0.0,"Wren, Carolina",45,1991
-1128,0.0,"Wren, Carolina",45,1992
-1129,0.0,"Wren, Carolina",45,1993
-1130,0.0,"Wren, Carolina",45,1994
-1131,0.0,"Wren, Carolina",45,1995
-1132,0.0,"Wren, Carolina",45,1996
-1133,0.0,"Wren, Carolina",45,1997
-1134,0.0,"Wren, Carolina",45,1998
-1135,0.0,"Wren, Carolina",45,1999
-1136,0.0,"Wren, Carolina",45,2000
-1137,0.0,"Wren, Carolina",45,2001
-1138,0.0,"Wren, Carolina",45,2002
-1139,0.0,"Wren, Carolina",45,2003
-1140,0.0,"Wren, Carolina",45,2004
-1141,0.0,"Wren, Carolina",45,2005
-1142,0.0,"Wren, Carolina",45,2006
-1143,0.0,"Wren, Carolina",45,2007
-1144,1.0,"Wren, Carolina",45,2008
-1145,0.0,"Wren, Carolina",45,2009
-1146,0.0,"Wren, Carolina",45,2010
-1147,0.0,"Wren, Carolina",45,2011
-1148,0.0,"Wren, Carolina",45,2012
-1149,0.0,"Wren, Carolina",45,2013
-1150,0.0,"Wren, Winter ",46,1989
-1151,0.0,"Wren, Winter ",46,1990
-1152,0.0,"Wren, Winter ",46,1991
-1153,0.0,"Wren, Winter ",46,1992
-1154,0.0,"Wren, Winter ",46,1993
-1155,0.0,"Wren, Winter ",46,1994
-1156,0.0,"Wren, Winter ",46,1995
-1157,0.0,"Wren, Winter ",46,1996
-1158,0.0,"Wren, Winter ",46,1997
-1159,0.0,"Wren, Winter ",46,1998
-1160,1.0,"Wren, Winter ",46,1999
-1161,0.0,"Wren, Winter ",46,2000
-1162,0.0,"Wren, Winter ",46,2001
-1163,0.0,"Wren, Winter ",46,2002
-1164,0.0,"Wren, Winter ",46,2003
-1165,0.0,"Wren, Winter ",46,2004
-1166,0.0,"Wren, Winter ",46,2005
-1167,0.0,"Wren, Winter ",46,2006
-1168,0.0,"Wren, Winter ",46,2007
-1169,0.0,"Wren, Winter ",46,2008
-1170,0.0,"Wren, Winter ",46,2009
-1171,0.0,"Wren, Winter ",46,2010
-1172,0.0,"Wren, Winter ",46,2011
-1173,0.0,"Wren, Winter ",46,2012
-1174,2.0,"Wren, Winter ",46,2013
-1175,10.0,"Kinglet, Golden-crowned ",47,1989
-1176,0.0,"Kinglet, Golden-crowned ",47,1990
-1177,1.0,"Kinglet, Golden-crowned ",47,1991
-1178,1.0,"Kinglet, Golden-crowned ",47,1992
-1179,2.0,"Kinglet, Golden-crowned ",47,1993
-1180,36.0,"Kinglet, Golden-crowned ",47,1994
-1181,2.0,"Kinglet, Golden-crowned ",47,1995
-1182,5.0,"Kinglet, Golden-crowned ",47,1996
-1183,1.0,"Kinglet, Golden-crowned ",47,1997
-1184,16.0,"Kinglet, Golden-crowned ",47,1998
-1185,0.0,"Kinglet, Golden-crowned ",47,1999
-1186,27.0,"Kinglet, Golden-crowned ",47,2000
-1187,4.0,"Kinglet, Golden-crowned ",47,2001
-1188,21.0,"Kinglet, Golden-crowned ",47,2002
-1189,17.0,"Kinglet, Golden-crowned ",47,2003
-1190,53.0,"Kinglet, Golden-crowned ",47,2004
-1191,9.0,"Kinglet, Golden-crowned ",47,2005
-1192,15.0,"Kinglet, Golden-crowned ",47,2006
-1193,2.0,"Kinglet, Golden-crowned ",47,2007
-1194,8.0,"Kinglet, Golden-crowned ",47,2008
-1195,9.0,"Kinglet, Golden-crowned ",47,2009
-1196,2.0,"Kinglet, Golden-crowned ",47,2010
-1197,42.0,"Kinglet, Golden-crowned ",47,2011
-1198,6.0,"Kinglet, Golden-crowned ",47,2012
-1199,12.0,"Kinglet, Golden-crowned ",47,2013
-1200,0.0,"Bluebird, Eastern",48,1989
-1201,0.0,"Bluebird, Eastern",48,1990
-1202,0.0,"Bluebird, Eastern",48,1991
-1203,0.0,"Bluebird, Eastern",48,1992
-1204,0.0,"Bluebird, Eastern",48,1993
-1205,0.0,"Bluebird, Eastern",48,1994
-1206,0.0,"Bluebird, Eastern",48,1995
-1207,0.0,"Bluebird, Eastern",48,1996
-1208,0.0,"Bluebird, Eastern",48,1997
-1209,0.0,"Bluebird, Eastern",48,1998
-1210,0.0,"Bluebird, Eastern",48,1999
-1211,0.0,"Bluebird, Eastern",48,2000
-1212,0.0,"Bluebird, Eastern",48,2001
-1213,0.0,"Bluebird, Eastern",48,2002
-1214,0.0,"Bluebird, Eastern",48,2003
-1215,0.0,"Bluebird, Eastern",48,2004
-1216,0.0,"Bluebird, Eastern",48,2005
-1217,0.0,"Bluebird, Eastern",48,2006
-1218,0.0,"Bluebird, Eastern",48,2007
-1219,8.0,"Bluebird, Eastern",48,2008
-1220,0.0,"Bluebird, Eastern",48,2009
-1221,0.0,"Bluebird, Eastern",48,2010
-1222,8.0,"Bluebird, Eastern",48,2011
-1223,0.0,"Bluebird, Eastern",48,2012
-1224,4.0,"Bluebird, Eastern",48,2013
-1225,0.0,"Robin, American ",49,1989
-1226,0.0,"Robin, American ",49,1990
-1227,5.0,"Robin, American ",49,1991
-1228,0.0,"Robin, American ",49,1992
-1229,0.0,"Robin, American ",49,1993
-1230,0.0,"Robin, American ",49,1994
-1231,0.0,"Robin, American ",49,1995
-1232,0.0,"Robin, American ",49,1996
-1233,0.0,"Robin, American ",49,1997
-1234,6.0,"Robin, American ",49,1998
-1235,0.0,"Robin, American ",49,1999
-1236,0.0,"Robin, American ",49,2000
-1237,0.0,"Robin, American ",49,2001
-1238,0.0,"Robin, American ",49,2002
-1239,0.0,"Robin, American ",49,2003
-1240,2.0,"Robin, American ",49,2004
-1241,8.0,"Robin, American ",49,2005
-1242,4.0,"Robin, American ",49,2006
-1243,0.0,"Robin, American ",49,2007
-1244,7.0,"Robin, American ",49,2008
-1245,1.0,"Robin, American ",49,2009
-1246,0.0,"Robin, American ",49,2010
-1247,28.0,"Robin, American ",49,2011
-1248,1.0,"Robin, American ",49,2012
-1249,14.0,"Robin, American ",49,2013
-1250,0.0,"Thursh, Hermit ",50,1989
-1251,0.0,"Thursh, Hermit ",50,1990
-1252,0.0,"Thursh, Hermit ",50,1991
-1253,0.0,"Thursh, Hermit ",50,1992
-1254,0.0,"Thursh, Hermit ",50,1993
-1255,0.0,"Thursh, Hermit ",50,1994
-1256,0.0,"Thursh, Hermit ",50,1995
-1257,0.0,"Thursh, Hermit ",50,1996
-1258,0.0,"Thursh, Hermit ",50,1997
-1259,0.0,"Thursh, Hermit ",50,1998
-1260,0.0,"Thursh, Hermit ",50,1999
-1261,0.0,"Thursh, Hermit ",50,2000
-1262,1.0,"Thursh, Hermit ",50,2001
-1263,0.0,"Thursh, Hermit ",50,2002
-1264,0.0,"Thursh, Hermit ",50,2003
-1265,0.0,"Thursh, Hermit ",50,2004
-1266,0.0,"Thursh, Hermit ",50,2005
-1267,0.0,"Thursh, Hermit ",50,2006
-1268,0.0,"Thursh, Hermit ",50,2007
-1269,0.0,"Thursh, Hermit ",50,2008
-1270,0.0,"Thursh, Hermit ",50,2009
-1271,0.0,"Thursh, Hermit ",50,2010
-1272,0.0,"Thursh, Hermit ",50,2011
-1273,0.0,"Thursh, Hermit ",50,2012
-1274,0.0,"Thursh, Hermit ",50,2013
-1275,0.0,"Mockingbird, Northern ",51,1989
-1276,0.0,"Mockingbird, Northern ",51,1990
-1277,1.0,"Mockingbird, Northern ",51,1991
-1278,0.0,"Mockingbird, Northern ",51,1992
-1279,2.0,"Mockingbird, Northern ",51,1993
-1280,0.0,"Mockingbird, Northern ",51,1994
-1281,0.0,"Mockingbird, Northern ",51,1995
-1282,1.0,"Mockingbird, Northern ",51,1996
-1283,1.0,"Mockingbird, Northern ",51,1997
-1284,1.0,"Mockingbird, Northern ",51,1998
-1285,3.0,"Mockingbird, Northern ",51,1999
-1286,1.0,"Mockingbird, Northern ",51,2000
-1287,2.0,"Mockingbird, Northern ",51,2001
-1288,1.0,"Mockingbird, Northern ",51,2002
-1289,1.0,"Mockingbird, Northern ",51,2003
-1290,0.0,"Mockingbird, Northern ",51,2004
-1291,0.0,"Mockingbird, Northern ",51,2005
-1292,0.0,"Mockingbird, Northern ",51,2006
-1293,0.0,"Mockingbird, Northern ",51,2007
-1294,0.0,"Mockingbird, Northern ",51,2008
-1295,0.0,"Mockingbird, Northern ",51,2009
-1296,0.0,"Mockingbird, Northern ",51,2010
-1297,0.0,"Mockingbird, Northern ",51,2011
-1298,0.0,"Mockingbird, Northern ",51,2012
-1299,0.0,"Mockingbird, Northern ",51,2013
-1300,213.0,"Starling, European ",52,1989
-1301,134.0,"Starling, European ",52,1990
-1302,112.0,"Starling, European ",52,1991
-1303,230.0,"Starling, European ",52,1992
-1304,82.0,"Starling, European ",52,1993
-1305,131.0,"Starling, European ",52,1994
-1306,77.0,"Starling, European ",52,1995
-1307,77.0,"Starling, European ",52,1996
-1308,140.0,"Starling, European ",52,1997
-1309,185.0,"Starling, European ",52,1998
-1310,98.0,"Starling, European ",52,1999
-1311,180.0,"Starling, European ",52,2000
-1312,102.0,"Starling, European ",52,2001
-1313,175.0,"Starling, European ",52,2002
-1314,196.0,"Starling, European ",52,2003
-1315,241.0,"Starling, European ",52,2004
-1316,19.0,"Starling, European ",52,2005
-1317,70.0,"Starling, European ",52,2006
-1318,96.0,"Starling, European ",52,2007
-1319,62.0,"Starling, European ",52,2008
-1320,74.0,"Starling, European ",52,2009
-1321,63.0,"Starling, European ",52,2010
-1322,412.0,"Starling, European ",52,2011
-1323,114.0,"Starling, European ",52,2012
-1324,173.0,"Starling, European ",52,2013
-1325,37.0,"Waxwing, Bohemian ",53,1989
-1326,0.0,"Waxwing, Bohemian ",53,1990
-1327,0.0,"Waxwing, Bohemian ",53,1991
-1328,0.0,"Waxwing, Bohemian ",53,1992
-1329,0.0,"Waxwing, Bohemian ",53,1993
-1330,0.0,"Waxwing, Bohemian ",53,1994
-1331,0.0,"Waxwing, Bohemian ",53,1995
-1332,0.0,"Waxwing, Bohemian ",53,1996
-1333,0.0,"Waxwing, Bohemian ",53,1997
-1334,0.0,"Waxwing, Bohemian ",53,1998
-1335,0.0,"Waxwing, Bohemian ",53,1999
-1336,0.0,"Waxwing, Bohemian ",53,2000
-1337,50.0,"Waxwing, Bohemian ",53,2001
-1338,0.0,"Waxwing, Bohemian ",53,2002
-1339,0.0,"Waxwing, Bohemian ",53,2003
-1340,0.0,"Waxwing, Bohemian ",53,2004
-1341,13.0,"Waxwing, Bohemian ",53,2005
-1342,0.0,"Waxwing, Bohemian ",53,2006
-1343,41.0,"Waxwing, Bohemian ",53,2007
-1344,78.0,"Waxwing, Bohemian ",53,2008
-1345,0.0,"Waxwing, Bohemian ",53,2009
-1346,49.0,"Waxwing, Bohemian ",53,2010
-1347,9.0,"Waxwing, Bohemian ",53,2011
-1348,0.0,"Waxwing, Bohemian ",53,2012
-1349,0.0,"Waxwing, Bohemian ",53,2013
-1350,0.0,"Waxwing, Cedar ",54,1989
-1351,0.0,"Waxwing, Cedar ",54,1990
-1352,0.0,"Waxwing, Cedar ",54,1991
-1353,0.0,"Waxwing, Cedar ",54,1992
-1354,0.0,"Waxwing, Cedar ",54,1993
-1355,0.0,"Waxwing, Cedar ",54,1994
-1356,0.0,"Waxwing, Cedar ",54,1995
-1357,7.0,"Waxwing, Cedar ",54,1996
-1358,6.0,"Waxwing, Cedar ",54,1997
-1359,32.0,"Waxwing, Cedar ",54,1998
-1360,16.0,"Waxwing, Cedar ",54,1999
-1361,25.0,"Waxwing, Cedar ",54,2000
-1362,51.0,"Waxwing, Cedar ",54,2001
-1363,78.0,"Waxwing, Cedar ",54,2002
-1364,20.0,"Waxwing, Cedar ",54,2003
-1365,46.0,"Waxwing, Cedar ",54,2004
-1366,7.0,"Waxwing, Cedar ",54,2005
-1367,26.0,"Waxwing, Cedar ",54,2006
-1368,2.0,"Waxwing, Cedar ",54,2007
-1369,89.0,"Waxwing, Cedar ",54,2008
-1370,31.0,"Waxwing, Cedar ",54,2009
-1371,26.0,"Waxwing, Cedar ",54,2010
-1372,4.0,"Waxwing, Cedar ",54,2011
-1373,0.0,"Waxwing, Cedar ",54,2012
-1374,184.0,"Waxwing, Cedar ",54,2013
-1375,0.0,"Warbler, Yellow-rumped ",55,1989
-1376,0.0,"Warbler, Yellow-rumped ",55,1990
-1377,0.0,"Warbler, Yellow-rumped ",55,1991
-1378,0.0,"Warbler, Yellow-rumped ",55,1992
-1379,0.0,"Warbler, Yellow-rumped ",55,1993
-1380,0.0,"Warbler, Yellow-rumped ",55,1994
-1381,0.0,"Warbler, Yellow-rumped ",55,1995
-1382,0.0,"Warbler, Yellow-rumped ",55,1996
-1383,0.0,"Warbler, Yellow-rumped ",55,1997
-1384,0.0,"Warbler, Yellow-rumped ",55,1998
-1385,3.0,"Warbler, Yellow-rumped ",55,1999
-1386,0.0,"Warbler, Yellow-rumped ",55,2000
-1387,0.0,"Warbler, Yellow-rumped ",55,2001
-1388,0.0,"Warbler, Yellow-rumped ",55,2002
-1389,0.0,"Warbler, Yellow-rumped ",55,2003
-1390,0.0,"Warbler, Yellow-rumped ",55,2004
-1391,0.0,"Warbler, Yellow-rumped ",55,2005
-1392,0.0,"Warbler, Yellow-rumped ",55,2006
-1393,0.0,"Warbler, Yellow-rumped ",55,2007
-1394,0.0,"Warbler, Yellow-rumped ",55,2008
-1395,0.0,"Warbler, Yellow-rumped ",55,2009
-1396,0.0,"Warbler, Yellow-rumped ",55,2010
-1397,0.0,"Warbler, Yellow-rumped ",55,2011
-1398,0.0,"Warbler, Yellow-rumped ",55,2012
-1399,0.0,"Warbler, Yellow-rumped ",55,2013
-1400,7.0,"Cardinal, Northern ",56,1989
-1401,5.0,"Cardinal, Northern ",56,1990
-1402,10.0,"Cardinal, Northern ",56,1991
-1403,3.0,"Cardinal, Northern ",56,1992
-1404,2.0,"Cardinal, Northern ",56,1993
-1405,11.0,"Cardinal, Northern ",56,1994
-1406,8.0,"Cardinal, Northern ",56,1995
-1407,4.0,"Cardinal, Northern ",56,1996
-1408,15.0,"Cardinal, Northern ",56,1997
-1409,10.0,"Cardinal, Northern ",56,1998
-1410,8.0,"Cardinal, Northern ",56,1999
-1411,5.0,"Cardinal, Northern ",56,2000
-1412,4.0,"Cardinal, Northern ",56,2001
-1413,5.0,"Cardinal, Northern ",56,2002
-1414,5.0,"Cardinal, Northern ",56,2003
-1415,13.0,"Cardinal, Northern ",56,2004
-1416,6.0,"Cardinal, Northern ",56,2005
-1417,36.0,"Cardinal, Northern ",56,2006
-1418,3.0,"Cardinal, Northern ",56,2007
-1419,18.0,"Cardinal, Northern ",56,2008
-1420,10.0,"Cardinal, Northern ",56,2009
-1421,5.0,"Cardinal, Northern ",56,2010
-1422,4.0,"Cardinal, Northern ",56,2011
-1423,6.0,"Cardinal, Northern ",56,2012
-1424,15.0,"Cardinal, Northern ",56,2013
-1425,0.0,"Grosbeak, Rose-breasted",57,1989
-1426,0.0,"Grosbeak, Rose-breasted",57,1990
-1427,0.0,"Grosbeak, Rose-breasted",57,1991
-1428,0.0,"Grosbeak, Rose-breasted",57,1992
-1429,0.0,"Grosbeak, Rose-breasted",57,1993
-1430,0.0,"Grosbeak, Rose-breasted",57,1994
-1431,0.0,"Grosbeak, Rose-breasted",57,1995
-1432,0.0,"Grosbeak, Rose-breasted",57,1996
-1433,0.0,"Grosbeak, Rose-breasted",57,1997
-1434,0.0,"Grosbeak, Rose-breasted",57,1998
-1435,0.0,"Grosbeak, Rose-breasted",57,1999
-1436,0.0,"Grosbeak, Rose-breasted",57,2000
-1437,0.0,"Grosbeak, Rose-breasted",57,2001
-1438,0.0,"Grosbeak, Rose-breasted",57,2002
-1439,0.0,"Grosbeak, Rose-breasted",57,2003
-1440,0.0,"Grosbeak, Rose-breasted",57,2004
-1441,0.0,"Grosbeak, Rose-breasted",57,2005
-1442,0.0,"Grosbeak, Rose-breasted",57,2006
-1443,0.0,"Grosbeak, Rose-breasted",57,2007
-1444,1.0,"Grosbeak, Rose-breasted",57,2008
-1445,0.0,"Grosbeak, Rose-breasted",57,2009
-1446,0.0,"Grosbeak, Rose-breasted",57,2010
-1447,0.0,"Grosbeak, Rose-breasted",57,2011
-1448,0.0,"Grosbeak, Rose-breasted",57,2012
-1449,0.0,"Grosbeak, Rose-breasted",57,2013
-1450,0.0,"Towhee, Eastern",58,1989
-1451,0.0,"Towhee, Eastern",58,1990
-1452,0.0,"Towhee, Eastern",58,1991
-1453,0.0,"Towhee, Eastern",58,1992
-1454,0.0,"Towhee, Eastern",58,1993
-1455,0.0,"Towhee, Eastern",58,1994
-1456,0.0,"Towhee, Eastern",58,1995
-1457,0.0,"Towhee, Eastern",58,1996
-1458,0.0,"Towhee, Eastern",58,1997
-1459,0.0,"Towhee, Eastern",58,1998
-1460,0.0,"Towhee, Eastern",58,1999
-1461,0.0,"Towhee, Eastern",58,2000
-1462,0.0,"Towhee, Eastern",58,2001
-1463,0.0,"Towhee, Eastern",58,2002
-1464,0.0,"Towhee, Eastern",58,2003
-1465,0.0,"Towhee, Eastern",58,2004
-1466,0.0,"Towhee, Eastern",58,2005
-1467,0.0,"Towhee, Eastern",58,2006
-1468,0.0,"Towhee, Eastern",58,2007
-1469,1.0,"Towhee, Eastern",58,2008
-1470,0.0,"Towhee, Eastern",58,2009
-1471,0.0,"Towhee, Eastern",58,2010
-1472,1.0,"Towhee, Eastern",58,2011
-1473,0.0,"Towhee, Eastern",58,2012
-1474,0.0,"Towhee, Eastern",58,2013
-1475,80.0,"Sparrow, American Tree ",59,1989
-1476,37.0,"Sparrow, American Tree ",59,1990
-1477,25.0,"Sparrow, American Tree ",59,1991
-1478,24.0,"Sparrow, American Tree ",59,1992
-1479,9.0,"Sparrow, American Tree ",59,1993
-1480,53.0,"Sparrow, American Tree ",59,1994
-1481,6.0,"Sparrow, American Tree ",59,1995
-1482,19.0,"Sparrow, American Tree ",59,1996
-1483,39.0,"Sparrow, American Tree ",59,1997
-1484,12.0,"Sparrow, American Tree ",59,1998
-1485,31.0,"Sparrow, American Tree ",59,1999
-1486,32.0,"Sparrow, American Tree ",59,2000
-1487,13.0,"Sparrow, American Tree ",59,2001
-1488,56.0,"Sparrow, American Tree ",59,2002
-1489,44.0,"Sparrow, American Tree ",59,2003
-1490,36.0,"Sparrow, American Tree ",59,2004
-1491,44.0,"Sparrow, American Tree ",59,2005
-1492,65.0,"Sparrow, American Tree ",59,2006
-1493,4.0,"Sparrow, American Tree ",59,2007
-1494,18.0,"Sparrow, American Tree ",59,2008
-1495,70.0,"Sparrow, American Tree ",59,2009
-1496,42.0,"Sparrow, American Tree ",59,2010
-1497,47.0,"Sparrow, American Tree ",59,2011
-1498,13.0,"Sparrow, American Tree ",59,2012
-1499,19.0,"Sparrow, American Tree ",59,2013
-1500,0.0,"Sparrow, White-throated ",60,1989
-1501,0.0,"Sparrow, White-throated ",60,1990
-1502,0.0,"Sparrow, White-throated ",60,1991
-1503,2.0,"Sparrow, White-throated ",60,1992
-1504,0.0,"Sparrow, White-throated ",60,1993
-1505,0.0,"Sparrow, White-throated ",60,1994
-1506,0.0,"Sparrow, White-throated ",60,1995
-1507,0.0,"Sparrow, White-throated ",60,1996
-1508,0.0,"Sparrow, White-throated ",60,1997
-1509,0.0,"Sparrow, White-throated ",60,1998
-1510,1.0,"Sparrow, White-throated ",60,1999
-1511,2.0,"Sparrow, White-throated ",60,2000
-1512,0.0,"Sparrow, White-throated ",60,2001
-1513,5.0,"Sparrow, White-throated ",60,2002
-1514,0.0,"Sparrow, White-throated ",60,2003
-1515,2.0,"Sparrow, White-throated ",60,2004
-1516,0.0,"Sparrow, White-throated ",60,2005
-1517,1.0,"Sparrow, White-throated ",60,2006
-1518,0.0,"Sparrow, White-throated ",60,2007
-1519,1.0,"Sparrow, White-throated ",60,2008
-1520,2.0,"Sparrow, White-throated ",60,2009
-1521,1.0,"Sparrow, White-throated ",60,2010
-1522,0.0,"Sparrow, White-throated ",60,2011
-1523,0.0,"Sparrow, White-throated ",60,2012
-1524,0.0,"Sparrow, White-throated ",60,2013
-1525,0.0,"Sparrow, Fox",61,1989
-1526,0.0,"Sparrow, Fox",61,1990
-1527,0.0,"Sparrow, Fox",61,1991
-1528,0.0,"Sparrow, Fox",61,1992
-1529,0.0,"Sparrow, Fox",61,1993
-1530,0.0,"Sparrow, Fox",61,1994
-1531,0.0,"Sparrow, Fox",61,1995
-1532,0.0,"Sparrow, Fox",61,1996
-1533,0.0,"Sparrow, Fox",61,1997
-1534,0.0,"Sparrow, Fox",61,1998
-1535,0.0,"Sparrow, Fox",61,1999
-1536,0.0,"Sparrow, Fox",61,2000
-1537,0.0,"Sparrow, Fox",61,2001
-1538,1.0,"Sparrow, Fox",61,2002
-1539,0.0,"Sparrow, Fox",61,2003
-1540,0.0,"Sparrow, Fox",61,2004
-1541,0.0,"Sparrow, Fox",61,2005
-1542,0.0,"Sparrow, Fox",61,2006
-1543,0.0,"Sparrow, Fox",61,2007
-1544,0.0,"Sparrow, Fox",61,2008
-1545,0.0,"Sparrow, Fox",61,2009
-1546,0.0,"Sparrow, Fox",61,2010
-1547,0.0,"Sparrow, Fox",61,2011
-1548,0.0,"Sparrow, Fox",61,2012
-1549,0.0,"Sparrow, Fox",61,2013
-1550,2.0,"Sparrow, Song ",62,1989
-1551,0.0,"Sparrow, Song ",62,1990
-1552,0.0,"Sparrow, Song ",62,1991
-1553,0.0,"Sparrow, Song ",62,1992
-1554,1.0,"Sparrow, Song ",62,1993
-1555,0.0,"Sparrow, Song ",62,1994
-1556,0.0,"Sparrow, Song ",62,1995
-1557,0.0,"Sparrow, Song ",62,1996
-1558,0.0,"Sparrow, Song ",62,1997
-1559,1.0,"Sparrow, Song ",62,1998
-1560,0.0,"Sparrow, Song ",62,1999
-1561,0.0,"Sparrow, Song ",62,2000
-1562,0.0,"Sparrow, Song ",62,2001
-1563,0.0,"Sparrow, Song ",62,2002
-1564,0.0,"Sparrow, Song ",62,2003
-1565,0.0,"Sparrow, Song ",62,2004
-1566,2.0,"Sparrow, Song ",62,2005
-1567,0.0,"Sparrow, Song ",62,2006
-1568,0.0,"Sparrow, Song ",62,2007
-1569,0.0,"Sparrow, Song ",62,2008
-1570,0.0,"Sparrow, Song ",62,2009
-1571,1.0,"Sparrow, Song ",62,2010
-1572,0.0,"Sparrow, Song ",62,2011
-1573,0.0,"Sparrow, Song ",62,2012
-1574,4.0,"Sparrow, Song ",62,2013
-1575,0.0,"Sparrow, Swamp",63,1989
-1576,0.0,"Sparrow, Swamp",63,1990
-1577,0.0,"Sparrow, Swamp",63,1991
-1578,0.0,"Sparrow, Swamp",63,1992
-1579,0.0,"Sparrow, Swamp",63,1993
-1580,0.0,"Sparrow, Swamp",63,1994
-1581,0.0,"Sparrow, Swamp",63,1995
-1582,0.0,"Sparrow, Swamp",63,1996
-1583,0.0,"Sparrow, Swamp",63,1997
-1584,0.0,"Sparrow, Swamp",63,1998
-1585,0.0,"Sparrow, Swamp",63,1999
-1586,0.0,"Sparrow, Swamp",63,2000
-1587,0.0,"Sparrow, Swamp",63,2001
-1588,1.0,"Sparrow, Swamp",63,2002
-1589,0.0,"Sparrow, Swamp",63,2003
-1590,0.0,"Sparrow, Swamp",63,2004
-1591,0.0,"Sparrow, Swamp",63,2005
-1592,0.0,"Sparrow, Swamp",63,2006
-1593,0.0,"Sparrow, Swamp",63,2007
-1594,0.0,"Sparrow, Swamp",63,2008
-1595,0.0,"Sparrow, Swamp",63,2009
-1596,0.0,"Sparrow, Swamp",63,2010
-1597,0.0,"Sparrow, Swamp",63,2011
-1598,0.0,"Sparrow, Swamp",63,2012
-1599,0.0,"Sparrow, Swamp",63,2013
-1600,16.0,"Junco, Dark-eyed ",64,1989
-1601,4.0,"Junco, Dark-eyed ",64,1990
-1602,93.0,"Junco, Dark-eyed ",64,1991
-1603,2.0,"Junco, Dark-eyed ",64,1992
-1604,5.0,"Junco, Dark-eyed ",64,1993
-1605,52.0,"Junco, Dark-eyed ",64,1994
-1606,3.0,"Junco, Dark-eyed ",64,1995
-1607,29.0,"Junco, Dark-eyed ",64,1996
-1608,62.0,"Junco, Dark-eyed ",64,1997
-1609,21.0,"Junco, Dark-eyed ",64,1998
-1610,19.0,"Junco, Dark-eyed ",64,1999
-1611,177.0,"Junco, Dark-eyed ",64,2000
-1612,9.0,"Junco, Dark-eyed ",64,2001
-1613,67.0,"Junco, Dark-eyed ",64,2002
-1614,12.0,"Junco, Dark-eyed ",64,2003
-1615,28.0,"Junco, Dark-eyed ",64,2004
-1616,8.0,"Junco, Dark-eyed ",64,2005
-1617,230.0,"Junco, Dark-eyed ",64,2006
-1618,5.0,"Junco, Dark-eyed ",64,2007
-1619,19.0,"Junco, Dark-eyed ",64,2008
-1620,31.0,"Junco, Dark-eyed ",64,2009
-1621,24.0,"Junco, Dark-eyed ",64,2010
-1622,207.0,"Junco, Dark-eyed ",64,2011
-1623,17.0,"Junco, Dark-eyed ",64,2012
-1624,40.0,"Junco, Dark-eyed ",64,2013
-1625,,"Junco, Oregon",65,1989
-1626,0.0,"Junco, Oregon",65,1990
-1627,0.0,"Junco, Oregon",65,1991
-1628,0.0,"Junco, Oregon",65,1992
-1629,0.0,"Junco, Oregon",65,1993
-1630,0.0,"Junco, Oregon",65,1994
-1631,0.0,"Junco, Oregon",65,1995
-1632,0.0,"Junco, Oregon",65,1996
-1633,0.0,"Junco, Oregon",65,1997
-1634,0.0,"Junco, Oregon",65,1998
-1635,0.0,"Junco, Oregon",65,1999
-1636,0.0,"Junco, Oregon",65,2000
-1637,0.0,"Junco, Oregon",65,2001
-1638,0.0,"Junco, Oregon",65,2002
-1639,0.0,"Junco, Oregon",65,2003
-1640,0.0,"Junco, Oregon",65,2004
-1641,0.0,"Junco, Oregon",65,2005
-1642,0.0,"Junco, Oregon",65,2006
-1643,0.0,"Junco, Oregon",65,2007
-1644,0.0,"Junco, Oregon",65,2008
-1645,0.0,"Junco, Oregon",65,2009
-1646,0.0,"Junco, Oregon",65,2010
-1647,0.0,"Junco, Oregon",65,2011
-1648,0.0,"Junco, Oregon",65,2012
-1649,0.0,"Junco, Oregon",65,2013
-1650,4.0,Lapland Longspur,66,1989
-1651,0.0,Lapland Longspur,66,1990
-1652,0.0,Lapland Longspur,66,1991
-1653,0.0,Lapland Longspur,66,1992
-1654,0.0,Lapland Longspur,66,1993
-1655,0.0,Lapland Longspur,66,1994
-1656,0.0,Lapland Longspur,66,1995
-1657,0.0,Lapland Longspur,66,1996
-1658,0.0,Lapland Longspur,66,1997
-1659,0.0,Lapland Longspur,66,1998
-1660,0.0,Lapland Longspur,66,1999
-1661,0.0,Lapland Longspur,66,2000
-1662,0.0,Lapland Longspur,66,2001
-1663,0.0,Lapland Longspur,66,2002
-1664,0.0,Lapland Longspur,66,2003
-1665,0.0,Lapland Longspur,66,2004
-1666,0.0,Lapland Longspur,66,2005
-1667,0.0,Lapland Longspur,66,2006
-1668,0.0,Lapland Longspur,66,2007
-1669,0.0,Lapland Longspur,66,2008
-1670,0.0,Lapland Longspur,66,2009
-1671,0.0,Lapland Longspur,66,2010
-1672,0.0,Lapland Longspur,66,2011
-1673,0.0,Lapland Longspur,66,2012
-1674,0.0,Lapland Longspur,66,2013
-1675,165.0,Snow Bunting,67,1989
-1676,0.0,Snow Bunting,67,1990
-1677,0.0,Snow Bunting,67,1991
-1678,0.0,Snow Bunting,67,1992
-1679,0.0,Snow Bunting,67,1993
-1680,0.0,Snow Bunting,67,1994
-1681,10.0,Snow Bunting,67,1995
-1682,2.0,Snow Bunting,67,1996
-1683,8.0,Snow Bunting,67,1997
-1684,0.0,Snow Bunting,67,1998
-1685,0.0,Snow Bunting,67,1999
-1686,0.0,Snow Bunting,67,2000
-1687,0.0,Snow Bunting,67,2001
-1688,20.0,Snow Bunting,67,2002
-1689,0.0,Snow Bunting,67,2003
-1690,0.0,Snow Bunting,67,2004
-1691,5.0,Snow Bunting,67,2005
-1692,0.0,Snow Bunting,67,2006
-1693,86.0,Snow Bunting,67,2007
-1694,109.0,Snow Bunting,67,2008
-1695,0.0,Snow Bunting,67,2009
-1696,300.0,Snow Bunting,67,2010
-1697,0.0,Snow Bunting,67,2011
-1698,2.0,Snow Bunting,67,2012
-1699,2.0,Snow Bunting,67,2013
-1700,0.0,Sparrow species (US),68,1989
-1701,0.0,Sparrow species (US),68,1990
-1702,0.0,Sparrow species (US),68,1991
-1703,0.0,Sparrow species (US),68,1992
-1704,0.0,Sparrow species (US),68,1993
-1705,0.0,Sparrow species (US),68,1994
-1706,0.0,Sparrow species (US),68,1995
-1707,0.0,Sparrow species (US),68,1996
-1708,0.0,Sparrow species (US),68,1997
-1709,0.0,Sparrow species (US),68,1998
-1710,0.0,Sparrow species (US),68,1999
-1711,0.0,Sparrow species (US),68,2000
-1712,0.0,Sparrow species (US),68,2001
-1713,25.0,Sparrow species (US),68,2002
-1714,0.0,Sparrow species (US),68,2003
-1715,3.0,Sparrow species (US),68,2004
-1716,0.0,Sparrow species (US),68,2005
-1717,1.0,Sparrow species (US),68,2006
-1718,1.0,Sparrow species (US),68,2007
-1719,0.0,Sparrow species (US),68,2008
-1720,0.0,Sparrow species (US),68,2009
-1721,8.0,Sparrow species (US),68,2010
-1722,0.0,Sparrow species (US),68,2011
-1723,20.0,Sparrow species (US),68,2012
-1724,0.0,Sparrow species (US),68,2013
-1725,0.0,"Cowbird, Brown-headed ",69,1989
-1726,1.0,"Cowbird, Brown-headed ",69,1990
-1727,0.0,"Cowbird, Brown-headed ",69,1991
-1728,0.0,"Cowbird, Brown-headed ",69,1992
-1729,1.0,"Cowbird, Brown-headed ",69,1993
-1730,0.0,"Cowbird, Brown-headed ",69,1994
-1731,0.0,"Cowbird, Brown-headed ",69,1995
-1732,0.0,"Cowbird, Brown-headed ",69,1996
-1733,0.0,"Cowbird, Brown-headed ",69,1997
-1734,0.0,"Cowbird, Brown-headed ",69,1998
-1735,0.0,"Cowbird, Brown-headed ",69,1999
-1736,0.0,"Cowbird, Brown-headed ",69,2000
-1737,0.0,"Cowbird, Brown-headed ",69,2001
-1738,0.0,"Cowbird, Brown-headed ",69,2002
-1739,0.0,"Cowbird, Brown-headed ",69,2003
-1740,0.0,"Cowbird, Brown-headed ",69,2004
-1741,0.0,"Cowbird, Brown-headed ",69,2005
-1742,100.0,"Cowbird, Brown-headed ",69,2006
-1743,0.0,"Cowbird, Brown-headed ",69,2007
-1744,5.0,"Cowbird, Brown-headed ",69,2008
-1745,0.0,"Cowbird, Brown-headed ",69,2009
-1746,0.0,"Cowbird, Brown-headed ",69,2010
-1747,0.0,"Cowbird, Brown-headed ",69,2011
-1748,0.0,"Cowbird, Brown-headed ",69,2012
-1749,0.0,"Cowbird, Brown-headed ",69,2013
-1750,0.0,"Blackbird, Red-winged",70,1989
-1751,0.0,"Blackbird, Red-winged",70,1990
-1752,0.0,"Blackbird, Red-winged",70,1991
-1753,0.0,"Blackbird, Red-winged",70,1992
-1754,0.0,"Blackbird, Red-winged",70,1993
-1755,0.0,"Blackbird, Red-winged",70,1994
-1756,0.0,"Blackbird, Red-winged",70,1995
-1757,0.0,"Blackbird, Red-winged",70,1996
-1758,0.0,"Blackbird, Red-winged",70,1997
-1759,1.0,"Blackbird, Red-winged",70,1998
-1760,0.0,"Blackbird, Red-winged",70,1999
-1761,0.0,"Blackbird, Red-winged",70,2000
-1762,0.0,"Blackbird, Red-winged",70,2001
-1763,0.0,"Blackbird, Red-winged",70,2002
-1764,0.0,"Blackbird, Red-winged",70,2003
-1765,1.0,"Blackbird, Red-winged",70,2004
-1766,0.0,"Blackbird, Red-winged",70,2005
-1767,18.0,"Blackbird, Red-winged",70,2006
-1768,0.0,"Blackbird, Red-winged",70,2007
-1769,0.0,"Blackbird, Red-winged",70,2008
-1770,1.0,"Blackbird, Red-winged",70,2009
-1771,0.0,"Blackbird, Red-winged",70,2010
-1772,0.0,"Blackbird, Red-winged",70,2011
-1773,0.0,"Blackbird, Red-winged",70,2012
-1774,0.0,"Blackbird, Red-winged",70,2013
-1775,0.0,"Grackle, Common",71,1989
-1776,0.0,"Grackle, Common",71,1990
-1777,0.0,"Grackle, Common",71,1991
-1778,0.0,"Grackle, Common",71,1992
-1779,0.0,"Grackle, Common",71,1993
-1780,0.0,"Grackle, Common",71,1994
-1781,0.0,"Grackle, Common",71,1995
-1782,0.0,"Grackle, Common",71,1996
-1783,0.0,"Grackle, Common",71,1997
-1784,0.0,"Grackle, Common",71,1998
-1785,0.0,"Grackle, Common",71,1999
-1786,0.0,"Grackle, Common",71,2000
-1787,0.0,"Grackle, Common",71,2001
-1788,0.0,"Grackle, Common",71,2002
-1789,0.0,"Grackle, Common",71,2003
-1790,1.0,"Grackle, Common",71,2004
-1791,0.0,"Grackle, Common",71,2005
-1792,0.0,"Grackle, Common",71,2006
-1793,8.0,"Grackle, Common",71,2007
-1794,0.0,"Grackle, Common",71,2008
-1795,0.0,"Grackle, Common",71,2009
-1796,0.0,"Grackle, Common",71,2010
-1797,0.0,"Grackle, Common",71,2011
-1798,0.0,"Grackle, Common",71,2012
-1799,0.0,"Grackle, Common",71,2013
-1800,236.0,"Grosbeak, Evening ",72,1989
-1801,28.0,"Grosbeak, Evening ",72,1990
-1802,505.0,"Grosbeak, Evening ",72,1991
-1803,7.0,"Grosbeak, Evening ",72,1992
-1804,0.0,"Grosbeak, Evening ",72,1993
-1805,6.0,"Grosbeak, Evening ",72,1994
-1806,73.0,"Grosbeak, Evening ",72,1995
-1807,46.0,"Grosbeak, Evening ",72,1996
-1808,103.0,"Grosbeak, Evening ",72,1997
-1809,0.0,"Grosbeak, Evening ",72,1998
-1810,77.0,"Grosbeak, Evening ",72,1999
-1811,0.0,"Grosbeak, Evening ",72,2000
-1812,0.0,"Grosbeak, Evening ",72,2001
-1813,0.0,"Grosbeak, Evening ",72,2002
-1814,11.0,"Grosbeak, Evening ",72,2003
-1815,11.0,"Grosbeak, Evening ",72,2004
-1816,0.0,"Grosbeak, Evening ",72,2005
-1817,0.0,"Grosbeak, Evening ",72,2006
-1818,0.0,"Grosbeak, Evening ",72,2007
-1819,32.0,"Grosbeak, Evening ",72,2008
-1820,0.0,"Grosbeak, Evening ",72,2009
-1821,17.0,"Grosbeak, Evening ",72,2010
-1822,0.0,"Grosbeak, Evening ",72,2011
-1823,0.0,"Grosbeak, Evening ",72,2012
-1824,10.0,"Grosbeak, Evening ",72,2013
-1825,9.0,"Grosbeak, Pine ",73,1989
-1826,0.0,"Grosbeak, Pine ",73,1990
-1827,0.0,"Grosbeak, Pine ",73,1991
-1828,0.0,"Grosbeak, Pine ",73,1992
-1829,8.0,"Grosbeak, Pine ",73,1993
-1830,0.0,"Grosbeak, Pine ",73,1994
-1831,4.0,"Grosbeak, Pine ",73,1995
-1832,0.0,"Grosbeak, Pine ",73,1996
-1833,22.0,"Grosbeak, Pine ",73,1997
-1834,0.0,"Grosbeak, Pine ",73,1998
-1835,35.0,"Grosbeak, Pine ",73,1999
-1836,0.0,"Grosbeak, Pine ",73,2000
-1837,35.0,"Grosbeak, Pine ",73,2001
-1838,0.0,"Grosbeak, Pine ",73,2002
-1839,0.0,"Grosbeak, Pine ",73,2003
-1840,0.0,"Grosbeak, Pine ",73,2004
-1841,12.0,"Grosbeak, Pine ",73,2005
-1842,0.0,"Grosbeak, Pine ",73,2006
-1843,47.0,"Grosbeak, Pine ",73,2007
-1844,16.0,"Grosbeak, Pine ",73,2008
-1845,0.0,"Grosbeak, Pine ",73,2009
-1846,0.0,"Grosbeak, Pine ",73,2010
-1847,0.0,"Grosbeak, Pine ",73,2011
-1848,2.0,"Grosbeak, Pine ",73,2012
-1849,0.0,"Grosbeak, Pine ",73,2013
-1850,43.0,"Finch, Purple ",74,1989
-1851,11.0,"Finch, Purple ",74,1990
-1852,7.0,"Finch, Purple ",74,1991
-1853,10.0,"Finch, Purple ",74,1992
-1854,16.0,"Finch, Purple ",74,1993
-1855,0.0,"Finch, Purple ",74,1994
-1856,0.0,"Finch, Purple ",74,1995
-1857,0.0,"Finch, Purple ",74,1996
-1858,2.0,"Finch, Purple ",74,1997
-1859,0.0,"Finch, Purple ",74,1998
-1860,0.0,"Finch, Purple ",74,1999
-1861,45.0,"Finch, Purple ",74,2000
-1862,1.0,"Finch, Purple ",74,2001
-1863,4.0,"Finch, Purple ",74,2002
-1864,0.0,"Finch, Purple ",74,2003
-1865,38.0,"Finch, Purple ",74,2004
-1866,8.0,"Finch, Purple ",74,2005
-1867,2.0,"Finch, Purple ",74,2006
-1868,0.0,"Finch, Purple ",74,2007
-1869,3.0,"Finch, Purple ",74,2008
-1870,0.0,"Finch, Purple ",74,2009
-1871,0.0,"Finch, Purple ",74,2010
-1872,1.0,"Finch, Purple ",74,2011
-1873,0.0,"Finch, Purple ",74,2012
-1874,9.0,"Finch, Purple ",74,2013
-1875,1.0,"Finch, House ",75,1989
-1876,42.0,"Finch, House ",75,1990
-1877,33.0,"Finch, House ",75,1991
-1878,21.0,"Finch, House ",75,1992
-1879,7.0,"Finch, House ",75,1993
-1880,43.0,"Finch, House ",75,1994
-1881,8.0,"Finch, House ",75,1995
-1882,5.0,"Finch, House ",75,1996
-1883,30.0,"Finch, House ",75,1997
-1884,0.0,"Finch, House ",75,1998
-1885,3.0,"Finch, House ",75,1999
-1886,8.0,"Finch, House ",75,2000
-1887,20.0,"Finch, House ",75,2001
-1888,3.0,"Finch, House ",75,2002
-1889,0.0,"Finch, House ",75,2003
-1890,2.0,"Finch, House ",75,2004
-1891,4.0,"Finch, House ",75,2005
-1892,0.0,"Finch, House ",75,2006
-1893,21.0,"Finch, House ",75,2007
-1894,10.0,"Finch, House ",75,2008
-1895,10.0,"Finch, House ",75,2009
-1896,0.0,"Finch, House ",75,2010
-1897,9.0,"Finch, House ",75,2011
-1898,2.0,"Finch, House ",75,2012
-1899,3.0,"Finch, House ",75,2013
-1900,0.0,"Crossbill, Red",76,1989
-1901,0.0,"Crossbill, Red",76,1990
-1902,0.0,"Crossbill, Red",76,1991
-1903,0.0,"Crossbill, Red",76,1992
-1904,0.0,"Crossbill, Red",76,1993
-1905,16.0,"Crossbill, Red",76,1994
-1906,0.0,"Crossbill, Red",76,1995
-1907,65.0,"Crossbill, Red",76,1996
-1908,53.0,"Crossbill, Red",76,1997
-1909,0.0,"Crossbill, Red",76,1998
-1910,0.0,"Crossbill, Red",76,1999
-1911,0.0,"Crossbill, Red",76,2000
-1912,0.0,"Crossbill, Red",76,2001
-1913,0.0,"Crossbill, Red",76,2002
-1914,0.0,"Crossbill, Red",76,2003
-1915,0.0,"Crossbill, Red",76,2004
-1916,0.0,"Crossbill, Red",76,2005
-1917,0.0,"Crossbill, Red",76,2006
-1918,0.0,"Crossbill, Red",76,2007
-1919,3.0,"Crossbill, Red",76,2008
-1920,0.0,"Crossbill, Red",76,2009
-1921,0.0,"Crossbill, Red",76,2010
-1922,2.0,"Crossbill, Red",76,2011
-1923,0.0,"Crossbill, Red",76,2012
-1924,0.0,"Crossbill, Red",76,2013
-1925,12.0,"Crossbill, White-winged ",77,1989
-1926,0.0,"Crossbill, White-winged ",77,1990
-1927,0.0,"Crossbill, White-winged ",77,1991
-1928,0.0,"Crossbill, White-winged ",77,1992
-1929,0.0,"Crossbill, White-winged ",77,1993
-1930,31.0,"Crossbill, White-winged ",77,1994
-1931,0.0,"Crossbill, White-winged ",77,1995
-1932,15.0,"Crossbill, White-winged ",77,1996
-1933,23.0,"Crossbill, White-winged ",77,1997
-1934,0.0,"Crossbill, White-winged ",77,1998
-1935,0.0,"Crossbill, White-winged ",77,1999
-1936,14.0,"Crossbill, White-winged ",77,2000
-1937,2.0,"Crossbill, White-winged ",77,2001
-1938,4.0,"Crossbill, White-winged ",77,2002
-1939,4.0,"Crossbill, White-winged ",77,2003
-1940,2.0,"Crossbill, White-winged ",77,2004
-1941,0.0,"Crossbill, White-winged ",77,2005
-1942,0.0,"Crossbill, White-winged ",77,2006
-1943,9.0,"Crossbill, White-winged ",77,2007
-1944,15.0,"Crossbill, White-winged ",77,2008
-1945,6.0,"Crossbill, White-winged ",77,2009
-1946,0.0,"Crossbill, White-winged ",77,2010
-1947,0.0,"Crossbill, White-winged ",77,2011
-1948,0.0,"Crossbill, White-winged ",77,2012
-1949,0.0,"Crossbill, White-winged ",77,2013
-1950,5.0,"Redpoll, Common",78,1989
-1951,0.0,"Redpoll, Common",78,1990
-1952,40.0,"Redpoll, Common",78,1991
-1953,0.0,"Redpoll, Common",78,1992
-1954,151.0,"Redpoll, Common",78,1993
-1955,0.0,"Redpoll, Common",78,1994
-1956,61.0,"Redpoll, Common",78,1995
-1957,0.0,"Redpoll, Common",78,1996
-1958,142.0,"Redpoll, Common",78,1997
-1959,0.0,"Redpoll, Common",78,1998
-1960,95.0,"Redpoll, Common",78,1999
-1961,0.0,"Redpoll, Common",78,2000
-1962,47.0,"Redpoll, Common",78,2001
-1963,0.0,"Redpoll, Common",78,2002
-1964,332.0,"Redpoll, Common",78,2003
-1965,0.0,"Redpoll, Common",78,2004
-1966,15.0,"Redpoll, Common",78,2005
-1967,14.0,"Redpoll, Common",78,2006
-1968,59.0,"Redpoll, Common",78,2007
-1969,52.0,"Redpoll, Common",78,2008
-1970,4.0,"Redpoll, Common",78,2009
-1971,233.0,"Redpoll, Common",78,2010
-1972,0.0,"Redpoll, Common",78,2011
-1973,188.0,"Redpoll, Common",78,2012
-1974,0.0,"Redpoll, Common",78,2013
-1975,0.0,Pine Siskin,79,1989
-1976,0.0,Pine Siskin,79,1990
-1977,16.0,Pine Siskin,79,1991
-1978,10.0,Pine Siskin,79,1992
-1979,45.0,Pine Siskin,79,1993
-1980,19.0,Pine Siskin,79,1994
-1981,1.0,Pine Siskin,79,1995
-1982,2.0,Pine Siskin,79,1996
-1983,2.0,Pine Siskin,79,1997
-1984,1.0,Pine Siskin,79,1998
-1985,7.0,Pine Siskin,79,1999
-1986,270.0,Pine Siskin,79,2000
-1987,6.0,Pine Siskin,79,2001
-1988,0.0,Pine Siskin,79,2002
-1989,6.0,Pine Siskin,79,2003
-1990,77.0,Pine Siskin,79,2004
-1991,0.0,Pine Siskin,79,2005
-1992,0.0,Pine Siskin,79,2006
-1993,0.0,Pine Siskin,79,2007
-1994,395.0,Pine Siskin,79,2008
-1995,0.0,Pine Siskin,79,2009
-1996,10.0,Pine Siskin,79,2010
-1997,278.0,Pine Siskin,79,2011
-1998,13.0,Pine Siskin,79,2012
-1999,8.0,Pine Siskin,79,2013
-2000,99.0,"Goldfinch, American ",80,1989
-2001,64.0,"Goldfinch, American ",80,1990
-2002,167.0,"Goldfinch, American ",80,1991
-2003,120.0,"Goldfinch, American ",80,1992
-2004,130.0,"Goldfinch, American ",80,1993
-2005,290.0,"Goldfinch, American ",80,1994
-2006,3.0,"Goldfinch, American ",80,1995
-2007,480.0,"Goldfinch, American ",80,1996
-2008,28.0,"Goldfinch, American ",80,1997
-2009,237.0,"Goldfinch, American ",80,1998
-2010,5.0,"Goldfinch, American ",80,1999
-2011,282.0,"Goldfinch, American ",80,2000
-2012,39.0,"Goldfinch, American ",80,2001
-2013,176.0,"Goldfinch, American ",80,2002
-2014,10.0,"Goldfinch, American ",80,2003
-2015,427.0,"Goldfinch, American ",80,2004
-2016,48.0,"Goldfinch, American ",80,2005
-2017,381.0,"Goldfinch, American ",80,2006
-2018,16.0,"Goldfinch, American ",80,2007
-2019,233.0,"Goldfinch, American ",80,2008
-2020,143.0,"Goldfinch, American ",80,2009
-2021,53.0,"Goldfinch, American ",80,2010
-2022,427.0,"Goldfinch, American ",80,2011
-2023,7.0,"Goldfinch, American ",80,2012
-2024,248.0,"Goldfinch, American ",80,2013
-2025,80.0,"Sparrow, House ",81,1989
-2026,153.0,"Sparrow, House ",81,1990
-2027,92.0,"Sparrow, House ",81,1991
-2028,40.0,"Sparrow, House ",81,1992
-2029,74.0,"Sparrow, House ",81,1993
-2030,151.0,"Sparrow, House ",81,1994
-2031,7.0,"Sparrow, House ",81,1995
-2032,62.0,"Sparrow, House ",81,1996
-2033,104.0,"Sparrow, House ",81,1997
-2034,101.0,"Sparrow, House ",81,1998
-2035,121.0,"Sparrow, House ",81,1999
-2036,50.0,"Sparrow, House ",81,2000
-2037,76.0,"Sparrow, House ",81,2001
-2038,71.0,"Sparrow, House ",81,2002
-2039,51.0,"Sparrow, House ",81,2003
-2040,43.0,"Sparrow, House ",81,2004
-2041,15.0,"Sparrow, House ",81,2005
-2042,18.0,"Sparrow, House ",81,2006
-2043,4.0,"Sparrow, House ",81,2007
-2044,19.0,"Sparrow, House ",81,2008
-2045,36.0,"Sparrow, House ",81,2009
-2046,65.0,"Sparrow, House ",81,2010
-2047,28.0,"Sparrow, House ",81,2011
-2048,37.0,"Sparrow, House ",81,2012
-2049,13.0,"Sparrow, House ",81,2013
-2050,0.0,Yellow bellied sapsucker,82,1989
-2051,0.0,Yellow bellied sapsucker,82,1990
-2052,0.0,Yellow bellied sapsucker,82,1991
-2053,0.0,Yellow bellied sapsucker,82,1992
-2054,0.0,Yellow bellied sapsucker,82,1993
-2055,0.0,Yellow bellied sapsucker,82,1994
-2056,0.0,Yellow bellied sapsucker,82,1995
-2057,0.0,Yellow bellied sapsucker,82,1996
-2058,0.0,Yellow bellied sapsucker,82,1997
-2059,0.0,Yellow bellied sapsucker,82,1998
-2060,0.0,Yellow bellied sapsucker,82,1999
-2061,0.0,Yellow bellied sapsucker,82,2000
-2062,0.0,Yellow bellied sapsucker,82,2001
-2063,0.0,Yellow bellied sapsucker,82,2002
-2064,0.0,Yellow bellied sapsucker,82,2003
-2065,0.0,Yellow bellied sapsucker,82,2004
-2066,0.0,Yellow bellied sapsucker,82,2005
-2067,0.0,Yellow bellied sapsucker,82,2006
-2068,0.0,Yellow bellied sapsucker,82,2007
-2069,0.0,Yellow bellied sapsucker,82,2008
-2070,0.0,Yellow bellied sapsucker,82,2009
-2071,0.0,Yellow bellied sapsucker,82,2010
-2072,2.0,Yellow bellied sapsucker,82,2011
-2073,1.0,Yellow bellied sapsucker,82,2012
-2074,0.0,Yellow bellied sapsucker,82,2013
-2075,0.0,Northern Flicker,83,1989
-2076,0.0,Northern Flicker,83,1990
-2077,0.0,Northern Flicker,83,1991
-2078,0.0,Northern Flicker,83,1992
-2079,0.0,Northern Flicker,83,1993
-2080,0.0,Northern Flicker,83,1994
-2081,0.0,Northern Flicker,83,1995
-2082,0.0,Northern Flicker,83,1996
-2083,0.0,Northern Flicker,83,1997
-2084,0.0,Northern Flicker,83,1998
-2085,0.0,Northern Flicker,83,1999
-2086,0.0,Northern Flicker,83,2000
-2087,0.0,Northern Flicker,83,2001
-2088,0.0,Northern Flicker,83,2002
-2089,0.0,Northern Flicker,83,2003
-2090,0.0,Northern Flicker,83,2004
-2091,0.0,Northern Flicker,83,2005
-2092,0.0,Northern Flicker,83,2006
-2093,0.0,Northern Flicker,83,2007
-2094,0.0,Northern Flicker,83,2008
-2095,0.0,Northern Flicker,83,2009
-2096,0.0,Northern Flicker,83,2010
-2097,1.0,Northern Flicker,83,2011
-2098,0.0,Northern Flicker,83,2012
-2099,0.0,Northern Flicker,83,2013
-2100,0.0,Common Merganser,84,1989
-2101,0.0,Common Merganser,84,1990
-2102,0.0,Common Merganser,84,1991
-2103,0.0,Common Merganser,84,1992
-2104,0.0,Common Merganser,84,1993
-2105,0.0,Common Merganser,84,1994
-2106,0.0,Common Merganser,84,1995
-2107,0.0,Common Merganser,84,1996
-2108,0.0,Common Merganser,84,1997
-2109,0.0,Common Merganser,84,1998
-2110,0.0,Common Merganser,84,1999
-2111,0.0,Common Merganser,84,2000
-2112,0.0,Common Merganser,84,2001
-2113,0.0,Common Merganser,84,2002
-2114,0.0,Common Merganser,84,2003
-2115,0.0,Common Merganser,84,2004
-2116,0.0,Common Merganser,84,2005
-2117,0.0,Common Merganser,84,2006
-2118,0.0,Common Merganser,84,2007
-2119,0.0,Common Merganser,84,2008
-2120,0.0,Common Merganser,84,2009
-2121,0.0,Common Merganser,84,2010
-2122,0.0,Common Merganser,84,2011
-2123,1.0,Common Merganser,84,2012
-2124,0.0,Common Merganser,84,2013
-2125,0.0,Rough-legged Hawk,85,1989
-2126,0.0,Rough-legged Hawk,85,1990
-2127,0.0,Rough-legged Hawk,85,1991
-2128,0.0,Rough-legged Hawk,85,1992
-2129,0.0,Rough-legged Hawk,85,1993
-2130,0.0,Rough-legged Hawk,85,1994
-2131,0.0,Rough-legged Hawk,85,1995
-2132,0.0,Rough-legged Hawk,85,1996
-2133,0.0,Rough-legged Hawk,85,1997
-2134,0.0,Rough-legged Hawk,85,1998
-2135,0.0,Rough-legged Hawk,85,1999
-2136,0.0,Rough-legged Hawk,85,2000
-2137,0.0,Rough-legged Hawk,85,2001
-2138,0.0,Rough-legged Hawk,85,2002
-2139,0.0,Rough-legged Hawk,85,2003
-2140,0.0,Rough-legged Hawk,85,2004
-2141,0.0,Rough-legged Hawk,85,2005
-2142,0.0,Rough-legged Hawk,85,2006
-2143,0.0,Rough-legged Hawk,85,2007
-2144,0.0,Rough-legged Hawk,85,2008
-2145,0.0,Rough-legged Hawk,85,2009
-2146,0.0,Rough-legged Hawk,85,2010
-2147,0.0,Rough-legged Hawk,85,2011
-2148,1.0,Rough-legged Hawk,85,2012
-2149,0.0,Rough-legged Hawk,85,2013
+,Count,Species,Species_Index,Year
+0,0.0,"Heron, Great Blue",0,89
+1,0.0,"Heron, Great Blue",0,90
+2,0.0,"Heron, Great Blue",0,91
+3,0.0,"Heron, Great Blue",0,92
+4,1.0,"Heron, Great Blue",0,93
+5,0.0,"Heron, Great Blue",0,94
+6,0.0,"Heron, Great Blue",0,95
+7,0.0,"Heron, Great Blue",0,96
+8,0.0,"Heron, Great Blue",0,97
+9,0.0,"Heron, Great Blue",0,98
+10,0.0,"Heron, Great Blue",0,99
+11,0.0,"Heron, Great Blue",0,00
+12,0.0,"Heron, Great Blue",0,01
+13,1.0,"Heron, Great Blue",0,02
+14,0.0,"Heron, Great Blue",0,03
+15,0.0,"Heron, Great Blue",0,04
+16,0.0,"Heron, Great Blue",0,05
+17,0.0,"Heron, Great Blue",0,06
+18,0.0,"Heron, Great Blue",0,07
+19,0.0,"Heron, Great Blue",0,08
+20,0.0,"Heron, Great Blue",0,09
+21,0.0,"Heron, Great Blue",0,10
+22,0.0,"Heron, Great Blue",0,11
+23,0.0,"Heron, Great Blue",0,12
+24,0.0,"Heron, Great Blue",0,13
+25,0.0,"Goose, Canada",1,89
+26,1.0,"Goose, Canada",1,90
+27,3.0,"Goose, Canada",1,91
+28,0.0,"Goose, Canada",1,92
+29,0.0,"Goose, Canada",1,93
+30,0.0,"Goose, Canada",1,94
+31,0.0,"Goose, Canada",1,95
+32,0.0,"Goose, Canada",1,96
+33,0.0,"Goose, Canada",1,97
+34,3.0,"Goose, Canada",1,98
+35,0.0,"Goose, Canada",1,99
+36,0.0,"Goose, Canada",1,00
+37,0.0,"Goose, Canada",1,01
+38,0.0,"Goose, Canada",1,02
+39,11.0,"Goose, Canada",1,03
+40,0.0,"Goose, Canada",1,04
+41,0.0,"Goose, Canada",1,05
+42,0.0,"Goose, Canada",1,06
+43,0.0,"Goose, Canada",1,07
+44,0.0,"Goose, Canada",1,08
+45,0.0,"Goose, Canada",1,09
+46,1.0,"Goose, Canada",1,10
+47,0.0,"Goose, Canada",1,11
+48,0.0,"Goose, Canada",1,12
+49,0.0,"Goose, Canada",1,13
+50,0.0,"Goose, Snow",2,89
+51,0.0,"Goose, Snow",2,90
+52,0.0,"Goose, Snow",2,91
+53,0.0,"Goose, Snow",2,92
+54,0.0,"Goose, Snow",2,93
+55,0.0,"Goose, Snow",2,94
+56,0.0,"Goose, Snow",2,95
+57,0.0,"Goose, Snow",2,96
+58,0.0,"Goose, Snow",2,97
+59,0.0,"Goose, Snow",2,98
+60,0.0,"Goose, Snow",2,99
+61,0.0,"Goose, Snow",2,00
+62,0.0,"Goose, Snow",2,01
+63,0.0,"Goose, Snow",2,02
+64,0.0,"Goose, Snow",2,03
+65,0.0,"Goose, Snow",2,04
+66,0.0,"Goose, Snow",2,05
+67,0.0,"Goose, Snow",2,06
+68,0.0,"Goose, Snow",2,07
+69,5.0,"Goose, Snow",2,08
+70,0.0,"Goose, Snow",2,09
+71,0.0,"Goose, Snow",2,10
+72,0.0,"Goose, Snow",2,11
+73,0.0,"Goose, Snow",2,12
+74,0.0,"Goose, Snow",2,13
+75,0.0,"Duck,Wood",3,89
+76,0.0,"Duck,Wood",3,90
+77,0.0,"Duck,Wood",3,91
+78,1.0,"Duck,Wood",3,92
+79,0.0,"Duck,Wood",3,93
+80,0.0,"Duck,Wood",3,94
+81,0.0,"Duck,Wood",3,95
+82,0.0,"Duck,Wood",3,96
+83,0.0,"Duck,Wood",3,97
+84,0.0,"Duck,Wood",3,98
+85,0.0,"Duck,Wood",3,99
+86,0.0,"Duck,Wood",3,00
+87,0.0,"Duck,Wood",3,01
+88,0.0,"Duck,Wood",3,02
+89,0.0,"Duck,Wood",3,03
+90,0.0,"Duck,Wood",3,04
+91,0.0,"Duck,Wood",3,05
+92,0.0,"Duck,Wood",3,06
+93,0.0,"Duck,Wood",3,07
+94,0.0,"Duck,Wood",3,08
+95,0.0,"Duck,Wood",3,09
+96,0.0,"Duck,Wood",3,10
+97,0.0,"Duck,Wood",3,11
+98,0.0,"Duck,Wood",3,12
+99,0.0,"Duck,Wood",3,13
+100,6.0,"Duck, Mallard",4,89
+101,4.0,"Duck, Mallard",4,90
+102,40.0,"Duck, Mallard",4,91
+103,72.0,"Duck, Mallard",4,92
+104,49.0,"Duck, Mallard",4,93
+105,85.0,"Duck, Mallard",4,94
+106,53.0,"Duck, Mallard",4,95
+107,32.0,"Duck, Mallard",4,96
+108,63.0,"Duck, Mallard",4,97
+109,0.0,"Duck, Mallard",4,98
+110,0.0,"Duck, Mallard",4,99
+111,14.0,"Duck, Mallard",4,00
+112,125.0,"Duck, Mallard",4,01
+113,150.0,"Duck, Mallard",4,02
+114,19.0,"Duck, Mallard",4,03
+115,180.0,"Duck, Mallard",4,04
+116,57.0,"Duck, Mallard",4,05
+117,22.0,"Duck, Mallard",4,06
+118,67.0,"Duck, Mallard",4,07
+119,137.0,"Duck, Mallard",4,08
+120,29.0,"Duck, Mallard",4,09
+121,75.0,"Duck, Mallard",4,10
+122,25.0,"Duck, Mallard",4,11
+123,18.0,"Duck, Mallard",4,12
+124,51.0,"Duck, Mallard",4,13
+125,58.0,"Duck, American Black",5,89
+126,24.0,"Duck, American Black",5,90
+127,0.0,"Duck, American Black",5,91
+128,2.0,"Duck, American Black",5,92
+129,15.0,"Duck, American Black",5,93
+130,53.0,"Duck, American Black",5,94
+131,5.0,"Duck, American Black",5,95
+132,4.0,"Duck, American Black",5,96
+133,6.0,"Duck, American Black",5,97
+134,0.0,"Duck, American Black",5,98
+135,2.0,"Duck, American Black",5,99
+136,0.0,"Duck, American Black",5,00
+137,0.0,"Duck, American Black",5,01
+138,0.0,"Duck, American Black",5,02
+139,0.0,"Duck, American Black",5,03
+140,0.0,"Duck, American Black",5,04
+141,5.0,"Duck, American Black",5,05
+142,1.0,"Duck, American Black",5,06
+143,5.0,"Duck, American Black",5,07
+144,10.0,"Duck, American Black",5,08
+145,0.0,"Duck, American Black",5,09
+146,1.0,"Duck, American Black",5,10
+147,0.0,"Duck, American Black",5,11
+148,0.0,"Duck, American Black",5,12
+149,2.0,"Duck, American Black",5,13
+150,2.0,"Merganser, Hooded",6,89
+151,0.0,"Merganser, Hooded",6,90
+152,0.0,"Merganser, Hooded",6,91
+153,0.0,"Merganser, Hooded",6,92
+154,0.0,"Merganser, Hooded",6,93
+155,0.0,"Merganser, Hooded",6,94
+156,0.0,"Merganser, Hooded",6,95
+157,0.0,"Merganser, Hooded",6,96
+158,0.0,"Merganser, Hooded",6,97
+159,0.0,"Merganser, Hooded",6,98
+160,0.0,"Merganser, Hooded",6,99
+161,0.0,"Merganser, Hooded",6,00
+162,2.0,"Merganser, Hooded",6,01
+163,0.0,"Merganser, Hooded",6,02
+164,0.0,"Merganser, Hooded",6,03
+165,0.0,"Merganser, Hooded",6,04
+166,0.0,"Merganser, Hooded",6,05
+167,0.0,"Merganser, Hooded",6,06
+168,0.0,"Merganser, Hooded",6,07
+169,0.0,"Merganser, Hooded",6,08
+170,0.0,"Merganser, Hooded",6,09
+171,0.0,"Merganser, Hooded",6,10
+172,0.0,"Merganser, Hooded",6,11
+173,1.0,"Merganser, Hooded",6,12
+174,3.0,"Merganser, Hooded",6,13
+175,0.0,"Vulture, Turkey",7,89
+176,0.0,"Vulture, Turkey",7,90
+177,0.0,"Vulture, Turkey",7,91
+178,0.0,"Vulture, Turkey",7,92
+179,0.0,"Vulture, Turkey",7,93
+180,0.0,"Vulture, Turkey",7,94
+181,0.0,"Vulture, Turkey",7,95
+182,0.0,"Vulture, Turkey",7,96
+183,0.0,"Vulture, Turkey",7,97
+184,0.0,"Vulture, Turkey",7,98
+185,0.0,"Vulture, Turkey",7,99
+186,0.0,"Vulture, Turkey",7,00
+187,0.0,"Vulture, Turkey",7,01
+188,0.0,"Vulture, Turkey",7,02
+189,1.0,"Vulture, Turkey",7,03
+190,0.0,"Vulture, Turkey",7,04
+191,0.0,"Vulture, Turkey",7,05
+192,0.0,"Vulture, Turkey",7,06
+193,0.0,"Vulture, Turkey",7,07
+194,0.0,"Vulture, Turkey",7,08
+195,0.0,"Vulture, Turkey",7,09
+196,0.0,"Vulture, Turkey",7,10
+197,0.0,"Vulture, Turkey",7,11
+198,0.0,"Vulture, Turkey",7,12
+199,0.0,"Vulture, Turkey",7,13
+200,0.0,"Eagle, Golden",8,89
+201,0.0,"Eagle, Golden",8,90
+202,0.0,"Eagle, Golden",8,91
+203,0.0,"Eagle, Golden",8,92
+204,0.0,"Eagle, Golden",8,93
+205,0.0,"Eagle, Golden",8,94
+206,0.0,"Eagle, Golden",8,95
+207,0.0,"Eagle, Golden",8,96
+208,0.0,"Eagle, Golden",8,97
+209,0.0,"Eagle, Golden",8,98
+210,0.0,"Eagle, Golden",8,99
+211,0.0,"Eagle, Golden",8,00
+212,0.0,"Eagle, Golden",8,01
+213,0.0,"Eagle, Golden",8,02
+214,0.0,"Eagle, Golden",8,03
+215,0.0,"Eagle, Golden",8,04
+216,0.0,"Eagle, Golden",8,05
+217,0.0,"Eagle, Golden",8,06
+218,0.0,"Eagle, Golden",8,07
+219,2.0,"Eagle, Golden",8,08
+220,0.0,"Eagle, Golden",8,09
+221,0.0,"Eagle, Golden",8,10
+222,0.0,"Eagle, Golden",8,11
+223,0.0,"Eagle, Golden",8,12
+224,0.0,"Eagle, Golden",8,13
+225,0.0,"Eagle, Bald",9,89
+226,0.0,"Eagle, Bald",9,90
+227,0.0,"Eagle, Bald",9,91
+228,0.0,"Eagle, Bald",9,92
+229,0.0,"Eagle, Bald",9,93
+230,0.0,"Eagle, Bald",9,94
+231,0.0,"Eagle, Bald",9,95
+232,0.0,"Eagle, Bald",9,96
+233,0.0,"Eagle, Bald",9,97
+234,0.0,"Eagle, Bald",9,98
+235,0.0,"Eagle, Bald",9,99
+236,0.0,"Eagle, Bald",9,00
+237,0.0,"Eagle, Bald",9,01
+238,0.0,"Eagle, Bald",9,02
+239,2.0,"Eagle, Bald",9,03
+240,0.0,"Eagle, Bald",9,04
+241,2.0,"Eagle, Bald",9,05
+242,1.0,"Eagle, Bald",9,06
+243,1.0,"Eagle, Bald",9,07
+244,3.0,"Eagle, Bald",9,08
+245,1.0,"Eagle, Bald",9,09
+246,0.0,"Eagle, Bald",9,10
+247,1.0,"Eagle, Bald",9,11
+248,1.0,"Eagle, Bald",9,12
+249,0.0,"Eagle, Bald",9,13
+250,0.0,"Harrier, Northern",10,89
+251,0.0,"Harrier, Northern",10,90
+252,0.0,"Harrier, Northern",10,91
+253,0.0,"Harrier, Northern",10,92
+254,1.0,"Harrier, Northern",10,93
+255,1.0,"Harrier, Northern",10,94
+256,0.0,"Harrier, Northern",10,95
+257,0.0,"Harrier, Northern",10,96
+258,0.0,"Harrier, Northern",10,97
+259,0.0,"Harrier, Northern",10,98
+260,0.0,"Harrier, Northern",10,99
+261,0.0,"Harrier, Northern",10,00
+262,0.0,"Harrier, Northern",10,01
+263,0.0,"Harrier, Northern",10,02
+264,1.0,"Harrier, Northern",10,03
+265,0.0,"Harrier, Northern",10,04
+266,0.0,"Harrier, Northern",10,05
+267,1.0,"Harrier, Northern",10,06
+268,0.0,"Harrier, Northern",10,07
+269,0.0,"Harrier, Northern",10,08
+270,0.0,"Harrier, Northern",10,09
+271,0.0,"Harrier, Northern",10,10
+272,0.0,"Harrier, Northern",10,11
+273,0.0,"Harrier, Northern",10,12
+274,0.0,"Harrier, Northern",10,13
+275,0.0,"Hawk, Sharp-shinned",11,89
+276,0.0,"Hawk, Sharp-shinned",11,90
+277,1.0,"Hawk, Sharp-shinned",11,91
+278,2.0,"Hawk, Sharp-shinned",11,92
+279,0.0,"Hawk, Sharp-shinned",11,93
+280,0.0,"Hawk, Sharp-shinned",11,94
+281,0.0,"Hawk, Sharp-shinned",11,95
+282,0.0,"Hawk, Sharp-shinned",11,96
+283,2.0,"Hawk, Sharp-shinned",11,97
+284,0.0,"Hawk, Sharp-shinned",11,98
+285,3.0,"Hawk, Sharp-shinned",11,99
+286,0.0,"Hawk, Sharp-shinned",11,00
+287,0.0,"Hawk, Sharp-shinned",11,01
+288,0.0,"Hawk, Sharp-shinned",11,02
+289,0.0,"Hawk, Sharp-shinned",11,03
+290,2.0,"Hawk, Sharp-shinned",11,04
+291,2.0,"Hawk, Sharp-shinned",11,05
+292,0.0,"Hawk, Sharp-shinned",11,06
+293,2.0,"Hawk, Sharp-shinned",11,07
+294,1.0,"Hawk, Sharp-shinned",11,08
+295,0.0,"Hawk, Sharp-shinned",11,09
+296,1.0,"Hawk, Sharp-shinned",11,10
+297,1.0,"Hawk, Sharp-shinned",11,11
+298,0.0,"Hawk, Sharp-shinned",11,12
+299,0.0,"Hawk, Sharp-shinned",11,13
+300,0.0,"Hawk, Cooper's",12,89
+301,0.0,"Hawk, Cooper's",12,90
+302,0.0,"Hawk, Cooper's",12,91
+303,0.0,"Hawk, Cooper's",12,92
+304,0.0,"Hawk, Cooper's",12,93
+305,0.0,"Hawk, Cooper's",12,94
+306,0.0,"Hawk, Cooper's",12,95
+307,0.0,"Hawk, Cooper's",12,96
+308,0.0,"Hawk, Cooper's",12,97
+309,0.0,"Hawk, Cooper's",12,98
+310,0.0,"Hawk, Cooper's",12,99
+311,0.0,"Hawk, Cooper's",12,00
+312,0.0,"Hawk, Cooper's",12,01
+313,0.0,"Hawk, Cooper's",12,02
+314,0.0,"Hawk, Cooper's",12,03
+315,0.0,"Hawk, Cooper's",12,04
+316,0.0,"Hawk, Cooper's",12,05
+317,1.0,"Hawk, Cooper's",12,06
+318,0.0,"Hawk, Cooper's",12,07
+319,0.0,"Hawk, Cooper's",12,08
+320,0.0,"Hawk, Cooper's",12,09
+321,0.0,"Hawk, Cooper's",12,10
+322,0.0,"Hawk, Cooper's",12,11
+323,1.0,"Hawk, Cooper's",12,12
+324,1.0,"Hawk, Cooper's",12,13
+325,0.0,"Goshawk, Northern",13,89
+326,0.0,"Goshawk, Northern",13,90
+327,1.0,"Goshawk, Northern",13,91
+328,0.0,"Goshawk, Northern",13,92
+329,0.0,"Goshawk, Northern",13,93
+330,0.0,"Goshawk, Northern",13,94
+331,1.0,"Goshawk, Northern",13,95
+332,0.0,"Goshawk, Northern",13,96
+333,1.0,"Goshawk, Northern",13,97
+334,0.0,"Goshawk, Northern",13,98
+335,1.0,"Goshawk, Northern",13,99
+336,0.0,"Goshawk, Northern",13,00
+337,0.0,"Goshawk, Northern",13,01
+338,0.0,"Goshawk, Northern",13,02
+339,0.0,"Goshawk, Northern",13,03
+340,0.0,"Goshawk, Northern",13,04
+341,0.0,"Goshawk, Northern",13,05
+342,0.0,"Goshawk, Northern",13,06
+343,1.0,"Goshawk, Northern",13,07
+344,0.0,"Goshawk, Northern",13,08
+345,0.0,"Goshawk, Northern",13,09
+346,0.0,"Goshawk, Northern",13,10
+347,1.0,"Goshawk, Northern",13,11
+348,1.0,"Goshawk, Northern",13,12
+349,0.0,"Goshawk, Northern",13,13
+350,0.0,"Hawk, Red-tailed",14,89
+351,0.0,"Hawk, Red-tailed",14,90
+352,0.0,"Hawk, Red-tailed",14,91
+353,0.0,"Hawk, Red-tailed",14,92
+354,1.0,"Hawk, Red-tailed",14,93
+355,0.0,"Hawk, Red-tailed",14,94
+356,0.0,"Hawk, Red-tailed",14,95
+357,1.0,"Hawk, Red-tailed",14,96
+358,0.0,"Hawk, Red-tailed",14,97
+359,0.0,"Hawk, Red-tailed",14,98
+360,1.0,"Hawk, Red-tailed",14,99
+361,2.0,"Hawk, Red-tailed",14,00
+362,1.0,"Hawk, Red-tailed",14,01
+363,0.0,"Hawk, Red-tailed",14,02
+364,3.0,"Hawk, Red-tailed",14,03
+365,5.0,"Hawk, Red-tailed",14,04
+366,3.0,"Hawk, Red-tailed",14,05
+367,4.0,"Hawk, Red-tailed",14,06
+368,1.0,"Hawk, Red-tailed",14,07
+369,3.0,"Hawk, Red-tailed",14,08
+370,3.0,"Hawk, Red-tailed",14,09
+371,0.0,"Hawk, Red-tailed",14,10
+372,1.0,"Hawk, Red-tailed",14,11
+373,2.0,"Hawk, Red-tailed",14,12
+374,2.0,"Hawk, Red-tailed",14,13
+375,1.0,Hawk Species (UH),15,89
+376,0.0,Hawk Species (UH),15,90
+377,0.0,Hawk Species (UH),15,91
+378,0.0,Hawk Species (UH),15,92
+379,0.0,Hawk Species (UH),15,93
+380,0.0,Hawk Species (UH),15,94
+381,0.0,Hawk Species (UH),15,95
+382,1.0,Hawk Species (UH),15,96
+383,0.0,Hawk Species (UH),15,97
+384,0.0,Hawk Species (UH),15,98
+385,0.0,Hawk Species (UH),15,99
+386,0.0,Hawk Species (UH),15,00
+387,3.0,Hawk Species (UH),15,01
+388,1.0,Hawk Species (UH),15,02
+389,0.0,Hawk Species (UH),15,03
+390,0.0,Hawk Species (UH),15,04
+391,1.0,Hawk Species (UH),15,05
+392,0.0,Hawk Species (UH),15,06
+393,0.0,Hawk Species (UH),15,07
+394,2.0,Hawk Species (UH),15,08
+395,1.0,Hawk Species (UH),15,09
+396,0.0,Hawk Species (UH),15,10
+397,1.0,Hawk Species (UH),15,11
+398,0.0,Hawk Species (UH),15,12
+399,0.0,Hawk Species (UH),15,13
+400,0.0,"Pheasant, Ring-necked",16,89
+401,7.0,"Pheasant, Ring-necked",16,90
+402,0.0,"Pheasant, Ring-necked",16,91
+403,1.0,"Pheasant, Ring-necked",16,92
+404,0.0,"Pheasant, Ring-necked",16,93
+405,0.0,"Pheasant, Ring-necked",16,94
+406,0.0,"Pheasant, Ring-necked",16,95
+407,0.0,"Pheasant, Ring-necked",16,96
+408,0.0,"Pheasant, Ring-necked",16,97
+409,0.0,"Pheasant, Ring-necked",16,98
+410,0.0,"Pheasant, Ring-necked",16,99
+411,0.0,"Pheasant, Ring-necked",16,00
+412,0.0,"Pheasant, Ring-necked",16,01
+413,0.0,"Pheasant, Ring-necked",16,02
+414,0.0,"Pheasant, Ring-necked",16,03
+415,0.0,"Pheasant, Ring-necked",16,04
+416,0.0,"Pheasant, Ring-necked",16,05
+417,1.0,"Pheasant, Ring-necked",16,06
+418,0.0,"Pheasant, Ring-necked",16,07
+419,0.0,"Pheasant, Ring-necked",16,08
+420,0.0,"Pheasant, Ring-necked",16,09
+421,0.0,"Pheasant, Ring-necked",16,10
+422,2.0,"Pheasant, Ring-necked",16,11
+423,0.0,"Pheasant, Ring-necked",16,12
+424,0.0,"Pheasant, Ring-necked",16,13
+425,0.0,"Grouse, Spruce",17,89
+426,0.0,"Grouse, Spruce",17,90
+427,0.0,"Grouse, Spruce",17,91
+428,0.0,"Grouse, Spruce",17,92
+429,0.0,"Grouse, Spruce",17,93
+430,1.0,"Grouse, Spruce",17,94
+431,0.0,"Grouse, Spruce",17,95
+432,1.0,"Grouse, Spruce",17,96
+433,0.0,"Grouse, Spruce",17,97
+434,0.0,"Grouse, Spruce",17,98
+435,0.0,"Grouse, Spruce",17,99
+436,0.0,"Grouse, Spruce",17,00
+437,0.0,"Grouse, Spruce",17,01
+438,2.0,"Grouse, Spruce",17,02
+439,0.0,"Grouse, Spruce",17,03
+440,0.0,"Grouse, Spruce",17,04
+441,0.0,"Grouse, Spruce",17,05
+442,0.0,"Grouse, Spruce",17,06
+443,0.0,"Grouse, Spruce",17,07
+444,0.0,"Grouse, Spruce",17,08
+445,0.0,"Grouse, Spruce",17,09
+446,1.0,"Grouse, Spruce",17,10
+447,0.0,"Grouse, Spruce",17,11
+448,0.0,"Grouse, Spruce",17,12
+449,0.0,"Grouse, Spruce",17,13
+450,8.0,"Grouse, Ruffed",18,89
+451,4.0,"Grouse, Ruffed",18,90
+452,2.0,"Grouse, Ruffed",18,91
+453,5.0,"Grouse, Ruffed",18,92
+454,3.0,"Grouse, Ruffed",18,93
+455,5.0,"Grouse, Ruffed",18,94
+456,4.0,"Grouse, Ruffed",18,95
+457,5.0,"Grouse, Ruffed",18,96
+458,2.0,"Grouse, Ruffed",18,97
+459,3.0,"Grouse, Ruffed",18,98
+460,11.0,"Grouse, Ruffed",18,99
+461,3.0,"Grouse, Ruffed",18,00
+462,9.0,"Grouse, Ruffed",18,01
+463,2.0,"Grouse, Ruffed",18,02
+464,13.0,"Grouse, Ruffed",18,03
+465,9.0,"Grouse, Ruffed",18,04
+466,7.0,"Grouse, Ruffed",18,05
+467,3.0,"Grouse, Ruffed",18,06
+468,1.0,"Grouse, Ruffed",18,07
+469,2.0,"Grouse, Ruffed",18,08
+470,1.0,"Grouse, Ruffed",18,09
+471,1.0,"Grouse, Ruffed",18,10
+472,5.0,"Grouse, Ruffed",18,11
+473,0.0,"Grouse, Ruffed",18,12
+474,3.0,"Grouse, Ruffed",18,13
+475,0.0,"Turkey, Wild",19,89
+476,0.0,"Turkey, Wild",19,90
+477,0.0,"Turkey, Wild",19,91
+478,0.0,"Turkey, Wild",19,92
+479,0.0,"Turkey, Wild",19,93
+480,0.0,"Turkey, Wild",19,94
+481,0.0,"Turkey, Wild",19,95
+482,0.0,"Turkey, Wild",19,96
+483,1.0,"Turkey, Wild",19,97
+484,0.0,"Turkey, Wild",19,98
+485,19.0,"Turkey, Wild",19,99
+486,0.0,"Turkey, Wild",19,00
+487,0.0,"Turkey, Wild",19,01
+488,30.0,"Turkey, Wild",19,02
+489,185.0,"Turkey, Wild",19,03
+490,181.0,"Turkey, Wild",19,04
+491,75.0,"Turkey, Wild",19,05
+492,6.0,"Turkey, Wild",19,06
+493,72.0,"Turkey, Wild",19,07
+494,65.0,"Turkey, Wild",19,08
+495,116.0,"Turkey, Wild",19,09
+496,64.0,"Turkey, Wild",19,10
+497,0.0,"Turkey, Wild",19,11
+498,75.0,"Turkey, Wild",19,12
+499,75.0,"Turkey, Wild",19,13
+500,0.0,"Gull, Ring-billed",20,89
+501,0.0,"Gull, Ring-billed",20,90
+502,0.0,"Gull, Ring-billed",20,91
+503,0.0,"Gull, Ring-billed",20,92
+504,0.0,"Gull, Ring-billed",20,93
+505,0.0,"Gull, Ring-billed",20,94
+506,0.0,"Gull, Ring-billed",20,95
+507,0.0,"Gull, Ring-billed",20,96
+508,0.0,"Gull, Ring-billed",20,97
+509,0.0,"Gull, Ring-billed",20,98
+510,0.0,"Gull, Ring-billed",20,99
+511,0.0,"Gull, Ring-billed",20,00
+512,0.0,"Gull, Ring-billed",20,01
+513,2.0,"Gull, Ring-billed",20,02
+514,0.0,"Gull, Ring-billed",20,03
+515,0.0,"Gull, Ring-billed",20,04
+516,0.0,"Gull, Ring-billed",20,05
+517,0.0,"Gull, Ring-billed",20,06
+518,3.0,"Gull, Ring-billed",20,07
+519,0.0,"Gull, Ring-billed",20,08
+520,0.0,"Gull, Ring-billed",20,09
+521,0.0,"Gull, Ring-billed",20,10
+522,0.0,"Gull, Ring-billed",20,11
+523,0.0,"Gull, Ring-billed",20,12
+524,0.0,"Gull, Ring-billed",20,13
+525,4.0,"Gull, Herring",21,89
+526,1.0,"Gull, Herring",21,90
+527,3.0,"Gull, Herring",21,91
+528,1.0,"Gull, Herring",21,92
+529,24.0,"Gull, Herring",21,93
+530,0.0,"Gull, Herring",21,94
+531,0.0,"Gull, Herring",21,95
+532,4.0,"Gull, Herring",21,96
+533,0.0,"Gull, Herring",21,97
+534,0.0,"Gull, Herring",21,98
+535,0.0,"Gull, Herring",21,99
+536,0.0,"Gull, Herring",21,00
+537,22.0,"Gull, Herring",21,01
+538,5.0,"Gull, Herring",21,02
+539,2.0,"Gull, Herring",21,03
+540,0.0,"Gull, Herring",21,04
+541,1.0,"Gull, Herring",21,05
+542,0.0,"Gull, Herring",21,06
+543,0.0,"Gull, Herring",21,07
+544,0.0,"Gull, Herring",21,08
+545,0.0,"Gull, Herring",21,09
+546,0.0,"Gull, Herring",21,10
+547,0.0,"Gull, Herring",21,11
+548,0.0,"Gull, Herring",21,12
+549,0.0,"Gull, Herring",21,13
+550,1.0,"Gull, Great Black-backed",22,89
+551,0.0,"Gull, Great Black-backed",22,90
+552,2.0,"Gull, Great Black-backed",22,91
+553,0.0,"Gull, Great Black-backed",22,92
+554,0.0,"Gull, Great Black-backed",22,93
+555,0.0,"Gull, Great Black-backed",22,94
+556,0.0,"Gull, Great Black-backed",22,95
+557,0.0,"Gull, Great Black-backed",22,96
+558,0.0,"Gull, Great Black-backed",22,97
+559,0.0,"Gull, Great Black-backed",22,98
+560,0.0,"Gull, Great Black-backed",22,99
+561,6.0,"Gull, Great Black-backed",22,00
+562,0.0,"Gull, Great Black-backed",22,01
+563,0.0,"Gull, Great Black-backed",22,02
+564,1.0,"Gull, Great Black-backed",22,03
+565,0.0,"Gull, Great Black-backed",22,04
+566,0.0,"Gull, Great Black-backed",22,05
+567,1.0,"Gull, Great Black-backed",22,06
+568,0.0,"Gull, Great Black-backed",22,07
+569,1.0,"Gull, Great Black-backed",22,08
+570,0.0,"Gull, Great Black-backed",22,09
+571,0.0,"Gull, Great Black-backed",22,10
+572,0.0,"Gull, Great Black-backed",22,11
+573,0.0,"Gull, Great Black-backed",22,12
+574,0.0,"Gull, Great Black-backed",22,13
+575,0.0,Gull Species (UG),23,89
+576,0.0,Gull Species (UG),23,90
+577,0.0,Gull Species (UG),23,91
+578,0.0,Gull Species (UG),23,92
+579,0.0,Gull Species (UG),23,93
+580,1.0,Gull Species (UG),23,94
+581,0.0,Gull Species (UG),23,95
+582,0.0,Gull Species (UG),23,96
+583,0.0,Gull Species (UG),23,97
+584,3.0,Gull Species (UG),23,98
+585,1.0,Gull Species (UG),23,99
+586,0.0,Gull Species (UG),23,00
+587,0.0,Gull Species (UG),23,01
+588,0.0,Gull Species (UG),23,02
+589,0.0,Gull Species (UG),23,03
+590,0.0,Gull Species (UG),23,04
+591,0.0,Gull Species (UG),23,05
+592,1.0,Gull Species (UG),23,06
+593,1.0,Gull Species (UG),23,07
+594,0.0,Gull Species (UG),23,08
+595,0.0,Gull Species (UG),23,09
+596,1.0,Gull Species (UG),23,10
+597,0.0,Gull Species (UG),23,11
+598,0.0,Gull Species (UG),23,12
+599,0.0,Gull Species (UG),23,13
+600,179.0,"Dove, Mourning",24,89
+601,146.0,"Dove, Mourning",24,90
+602,198.0,"Dove, Mourning",24,91
+603,250.0,"Dove, Mourning",24,92
+604,95.0,"Dove, Mourning",24,93
+605,104.0,"Dove, Mourning",24,94
+606,171.0,"Dove, Mourning",24,95
+607,189.0,"Dove, Mourning",24,96
+608,313.0,"Dove, Mourning",24,97
+609,146.0,"Dove, Mourning",24,98
+610,204.0,"Dove, Mourning",24,99
+611,111.0,"Dove, Mourning",24,00
+612,101.0,"Dove, Mourning",24,01
+613,177.0,"Dove, Mourning",24,02
+614,131.0,"Dove, Mourning",24,03
+615,95.0,"Dove, Mourning",24,04
+616,199.0,"Dove, Mourning",24,05
+617,218.0,"Dove, Mourning",24,06
+618,236.0,"Dove, Mourning",24,07
+619,181.0,"Dove, Mourning",24,08
+620,129.0,"Dove, Mourning",24,09
+621,74.0,"Dove, Mourning",24,10
+622,123.0,"Dove, Mourning",24,11
+623,100.0,"Dove, Mourning",24,12
+624,183.0,"Dove, Mourning",24,13
+625,160.0,"Pigeon, Rock",25,89
+626,71.0,"Pigeon, Rock",25,90
+627,104.0,"Pigeon, Rock",25,91
+628,136.0,"Pigeon, Rock",25,92
+629,60.0,"Pigeon, Rock",25,93
+630,187.0,"Pigeon, Rock",25,94
+631,67.0,"Pigeon, Rock",25,95
+632,80.0,"Pigeon, Rock",25,96
+633,40.0,"Pigeon, Rock",25,97
+634,47.0,"Pigeon, Rock",25,98
+635,33.0,"Pigeon, Rock",25,99
+636,24.0,"Pigeon, Rock",25,00
+637,148.0,"Pigeon, Rock",25,01
+638,94.0,"Pigeon, Rock",25,02
+639,140.0,"Pigeon, Rock",25,03
+640,122.0,"Pigeon, Rock",25,04
+641,64.0,"Pigeon, Rock",25,05
+642,37.0,"Pigeon, Rock",25,06
+643,87.0,"Pigeon, Rock",25,07
+644,32.0,"Pigeon, Rock",25,08
+645,73.0,"Pigeon, Rock",25,09
+646,20.0,"Pigeon, Rock",25,10
+647,182.0,"Pigeon, Rock",25,11
+648,120.0,"Pigeon, Rock",25,12
+649,111.0,"Pigeon, Rock",25,13
+650,0.0,"Owl, Great Horned",26,89
+651,0.0,"Owl, Great Horned",26,90
+652,0.0,"Owl, Great Horned",26,91
+653,0.0,"Owl, Great Horned",26,92
+654,0.0,"Owl, Great Horned",26,93
+655,0.0,"Owl, Great Horned",26,94
+656,0.0,"Owl, Great Horned",26,95
+657,0.0,"Owl, Great Horned",26,96
+658,0.0,"Owl, Great Horned",26,97
+659,1.0,"Owl, Great Horned",26,98
+660,0.0,"Owl, Great Horned",26,99
+661,0.0,"Owl, Great Horned",26,00
+662,0.0,"Owl, Great Horned",26,01
+663,0.0,"Owl, Great Horned",26,02
+664,0.0,"Owl, Great Horned",26,03
+665,2.0,"Owl, Great Horned",26,04
+666,0.0,"Owl, Great Horned",26,05
+667,0.0,"Owl, Great Horned",26,06
+668,0.0,"Owl, Great Horned",26,07
+669,0.0,"Owl, Great Horned",26,08
+670,0.0,"Owl, Great Horned",26,09
+671,0.0,"Owl, Great Horned",26,10
+672,0.0,"Owl, Great Horned",26,11
+673,0.0,"Owl, Great Horned",26,12
+674,0.0,"Owl, Great Horned",26,13
+675,0.0,"Owl, Barred",27,89
+676,0.0,"Owl, Barred",27,90
+677,1.0,"Owl, Barred",27,91
+678,0.0,"Owl, Barred",27,92
+679,0.0,"Owl, Barred",27,93
+680,0.0,"Owl, Barred",27,94
+681,0.0,"Owl, Barred",27,95
+682,1.0,"Owl, Barred",27,96
+683,3.0,"Owl, Barred",27,97
+684,0.0,"Owl, Barred",27,98
+685,2.0,"Owl, Barred",27,99
+686,0.0,"Owl, Barred",27,00
+687,1.0,"Owl, Barred",27,01
+688,1.0,"Owl, Barred",27,02
+689,0.0,"Owl, Barred",27,03
+690,4.0,"Owl, Barred",27,04
+691,2.0,"Owl, Barred",27,05
+692,0.0,"Owl, Barred",27,06
+693,3.0,"Owl, Barred",27,07
+694,1.0,"Owl, Barred",27,08
+695,1.0,"Owl, Barred",27,09
+696,0.0,"Owl, Barred",27,10
+697,2.0,"Owl, Barred",27,11
+698,1.0,"Owl, Barred",27,12
+699,0.0,"Owl, Barred",27,13
+700,0.0,"Woodpecker, Red-headed",28,89
+701,0.0,"Woodpecker, Red-headed",28,90
+702,0.0,"Woodpecker, Red-headed",28,91
+703,0.0,"Woodpecker, Red-headed",28,92
+704,0.0,"Woodpecker, Red-headed",28,93
+705,0.0,"Woodpecker, Red-headed",28,94
+706,0.0,"Woodpecker, Red-headed",28,95
+707,0.0,"Woodpecker, Red-headed",28,96
+708,0.0,"Woodpecker, Red-headed",28,97
+709,0.0,"Woodpecker, Red-headed",28,98
+710,0.0,"Woodpecker, Red-headed",28,99
+711,0.0,"Woodpecker, Red-headed",28,00
+712,0.0,"Woodpecker, Red-headed",28,01
+713,0.0,"Woodpecker, Red-headed",28,02
+714,0.0,"Woodpecker, Red-headed",28,03
+715,0.0,"Woodpecker, Red-headed",28,04
+716,0.0,"Woodpecker, Red-headed",28,05
+717,0.0,"Woodpecker, Red-headed",28,06
+718,0.0,"Woodpecker, Red-headed",28,07
+719,1.0,"Woodpecker, Red-headed",28,08
+720,0.0,"Woodpecker, Red-headed",28,09
+721,0.0,"Woodpecker, Red-headed",28,10
+722,0.0,"Woodpecker, Red-headed",28,11
+723,0.0,"Woodpecker, Red-headed",28,12
+724,0.0,"Woodpecker, Red-headed",28,13
+725,0.0,"Woodpecker, Red Bellied",29,89
+726,0.0,"Woodpecker, Red Bellied",29,90
+727,0.0,"Woodpecker, Red Bellied",29,91
+728,0.0,"Woodpecker, Red Bellied",29,92
+729,0.0,"Woodpecker, Red Bellied",29,93
+730,0.0,"Woodpecker, Red Bellied",29,94
+731,0.0,"Woodpecker, Red Bellied",29,95
+732,0.0,"Woodpecker, Red Bellied",29,96
+733,0.0,"Woodpecker, Red Bellied",29,97
+734,0.0,"Woodpecker, Red Bellied",29,98
+735,0.0,"Woodpecker, Red Bellied",29,99
+736,0.0,"Woodpecker, Red Bellied",29,00
+737,0.0,"Woodpecker, Red Bellied",29,01
+738,0.0,"Woodpecker, Red Bellied",29,02
+739,0.0,"Woodpecker, Red Bellied",29,03
+740,0.0,"Woodpecker, Red Bellied",29,04
+741,0.0,"Woodpecker, Red Bellied",29,05
+742,0.0,"Woodpecker, Red Bellied",29,06
+743,0.0,"Woodpecker, Red Bellied",29,07
+744,0.0,"Woodpecker, Red Bellied",29,08
+745,1.0,"Woodpecker, Red Bellied",29,09
+746,0.0,"Woodpecker, Red Bellied",29,10
+747,1.0,"Woodpecker, Red Bellied",29,11
+748,0.0,"Woodpecker, Red Bellied",29,12
+749,1.0,"Woodpecker, Red Bellied",29,13
+750,62.0,"Woodpecker, Downy",30,89
+751,16.0,"Woodpecker, Downy",30,90
+752,19.0,"Woodpecker, Downy",30,91
+753,28.0,"Woodpecker, Downy",30,92
+754,20.0,"Woodpecker, Downy",30,93
+755,45.0,"Woodpecker, Downy",30,94
+756,41.0,"Woodpecker, Downy",30,95
+757,25.0,"Woodpecker, Downy",30,96
+758,34.0,"Woodpecker, Downy",30,97
+759,14.0,"Woodpecker, Downy",30,98
+760,46.0,"Woodpecker, Downy",30,99
+761,28.0,"Woodpecker, Downy",30,00
+762,12.0,"Woodpecker, Downy",30,01
+763,24.0,"Woodpecker, Downy",30,02
+764,44.0,"Woodpecker, Downy",30,03
+765,71.0,"Woodpecker, Downy",30,04
+766,43.0,"Woodpecker, Downy",30,05
+767,60.0,"Woodpecker, Downy",30,06
+768,43.0,"Woodpecker, Downy",30,07
+769,35.0,"Woodpecker, Downy",30,08
+770,39.0,"Woodpecker, Downy",30,09
+771,23.0,"Woodpecker, Downy",30,10
+772,28.0,"Woodpecker, Downy",30,11
+773,23.0,"Woodpecker, Downy",30,12
+774,44.0,"Woodpecker, Downy",30,13
+775,39.0,"Woodpecker, Hairy",31,89
+776,21.0,"Woodpecker, Hairy",31,90
+777,26.0,"Woodpecker, Hairy",31,91
+778,20.0,"Woodpecker, Hairy",31,92
+779,30.0,"Woodpecker, Hairy",31,93
+780,22.0,"Woodpecker, Hairy",31,94
+781,26.0,"Woodpecker, Hairy",31,95
+782,14.0,"Woodpecker, Hairy",31,96
+783,30.0,"Woodpecker, Hairy",31,97
+784,15.0,"Woodpecker, Hairy",31,98
+785,24.0,"Woodpecker, Hairy",31,99
+786,11.0,"Woodpecker, Hairy",31,00
+787,23.0,"Woodpecker, Hairy",31,01
+788,29.0,"Woodpecker, Hairy",31,02
+789,47.0,"Woodpecker, Hairy",31,03
+790,22.0,"Woodpecker, Hairy",31,04
+791,34.0,"Woodpecker, Hairy",31,05
+792,38.0,"Woodpecker, Hairy",31,06
+793,40.0,"Woodpecker, Hairy",31,07
+794,39.0,"Woodpecker, Hairy",31,08
+795,43.0,"Woodpecker, Hairy",31,09
+796,38.0,"Woodpecker, Hairy",31,10
+797,40.0,"Woodpecker, Hairy",31,11
+798,25.0,"Woodpecker, Hairy",31,12
+799,40.0,"Woodpecker, Hairy",31,13
+800,6.0,"Woodpecker, Pileated",32,89
+801,2.0,"Woodpecker, Pileated",32,90
+802,5.0,"Woodpecker, Pileated",32,91
+803,3.0,"Woodpecker, Pileated",32,92
+804,4.0,"Woodpecker, Pileated",32,93
+805,1.0,"Woodpecker, Pileated",32,94
+806,0.0,"Woodpecker, Pileated",32,95
+807,2.0,"Woodpecker, Pileated",32,96
+808,4.0,"Woodpecker, Pileated",32,97
+809,0.0,"Woodpecker, Pileated",32,98
+810,3.0,"Woodpecker, Pileated",32,99
+811,3.0,"Woodpecker, Pileated",32,00
+812,7.0,"Woodpecker, Pileated",32,01
+813,4.0,"Woodpecker, Pileated",32,02
+814,5.0,"Woodpecker, Pileated",32,03
+815,7.0,"Woodpecker, Pileated",32,04
+816,4.0,"Woodpecker, Pileated",32,05
+817,4.0,"Woodpecker, Pileated",32,06
+818,4.0,"Woodpecker, Pileated",32,07
+819,7.0,"Woodpecker, Pileated",32,08
+820,5.0,"Woodpecker, Pileated",32,09
+821,4.0,"Woodpecker, Pileated",32,10
+822,3.0,"Woodpecker, Pileated",32,11
+823,3.0,"Woodpecker, Pileated",32,12
+824,10.0,"Woodpecker, Pileated",32,13
+825,1.0,"Shrike, Northern",33,89
+826,0.0,"Shrike, Northern",33,90
+827,0.0,"Shrike, Northern",33,91
+828,0.0,"Shrike, Northern",33,92
+829,0.0,"Shrike, Northern",33,93
+830,0.0,"Shrike, Northern",33,94
+831,0.0,"Shrike, Northern",33,95
+832,0.0,"Shrike, Northern",33,96
+833,3.0,"Shrike, Northern",33,97
+834,0.0,"Shrike, Northern",33,98
+835,0.0,"Shrike, Northern",33,99
+836,0.0,"Shrike, Northern",33,00
+837,0.0,"Shrike, Northern",33,01
+838,0.0,"Shrike, Northern",33,02
+839,0.0,"Shrike, Northern",33,03
+840,1.0,"Shrike, Northern",33,04
+841,0.0,"Shrike, Northern",33,05
+842,2.0,"Shrike, Northern",33,06
+843,0.0,"Shrike, Northern",33,07
+844,0.0,"Shrike, Northern",33,08
+845,0.0,"Shrike, Northern",33,09
+846,1.0,"Shrike, Northern",33,10
+847,0.0,"Shrike, Northern",33,11
+848,0.0,"Shrike, Northern",33,12
+849,1.0,"Shrike, Northern",33,13
+850,631.0,"Jay, Blue",34,89
+851,191.0,"Jay, Blue",34,90
+852,190.0,"Jay, Blue",34,91
+853,171.0,"Jay, Blue",34,92
+854,154.0,"Jay, Blue",34,93
+855,100.0,"Jay, Blue",34,94
+856,60.0,"Jay, Blue",34,95
+857,176.0,"Jay, Blue",34,96
+858,302.0,"Jay, Blue",34,97
+859,46.0,"Jay, Blue",34,98
+860,137.0,"Jay, Blue",34,99
+861,140.0,"Jay, Blue",34,00
+862,165.0,"Jay, Blue",34,01
+863,143.0,"Jay, Blue",34,02
+864,112.0,"Jay, Blue",34,03
+865,152.0,"Jay, Blue",34,04
+866,284.0,"Jay, Blue",34,05
+867,116.0,"Jay, Blue",34,06
+868,47.0,"Jay, Blue",34,07
+869,537.0,"Jay, Blue",34,08
+870,344.0,"Jay, Blue",34,09
+871,70.0,"Jay, Blue",34,10
+872,173.0,"Jay, Blue",34,11
+873,96.0,"Jay, Blue",34,12
+874,288.0,"Jay, Blue",34,13
+875,0.0,"Jay, Gray",35,89
+876,0.0,"Jay, Gray",35,90
+877,0.0,"Jay, Gray",35,91
+878,0.0,"Jay, Gray",35,92
+879,0.0,"Jay, Gray",35,93
+880,0.0,"Jay, Gray",35,94
+881,0.0,"Jay, Gray",35,95
+882,0.0,"Jay, Gray",35,96
+883,0.0,"Jay, Gray",35,97
+884,0.0,"Jay, Gray",35,98
+885,0.0,"Jay, Gray",35,99
+886,0.0,"Jay, Gray",35,00
+887,2.0,"Jay, Gray",35,01
+888,1.0,"Jay, Gray",35,02
+889,0.0,"Jay, Gray",35,03
+890,0.0,"Jay, Gray",35,04
+891,0.0,"Jay, Gray",35,05
+892,0.0,"Jay, Gray",35,06
+893,0.0,"Jay, Gray",35,07
+894,0.0,"Jay, Gray",35,08
+895,0.0,"Jay, Gray",35,09
+896,2.0,"Jay, Gray",35,10
+897,0.0,"Jay, Gray",35,11
+898,0.0,"Jay, Gray",35,12
+899,0.0,"Jay, Gray",35,13
+900,36.0,"Raven, Common",36,89
+901,11.0,"Raven, Common",36,90
+902,11.0,"Raven, Common",36,91
+903,12.0,"Raven, Common",36,92
+904,11.0,"Raven, Common",36,93
+905,9.0,"Raven, Common",36,94
+906,17.0,"Raven, Common",36,95
+907,18.0,"Raven, Common",36,96
+908,9.0,"Raven, Common",36,97
+909,14.0,"Raven, Common",36,98
+910,3.0,"Raven, Common",36,99
+911,10.0,"Raven, Common",36,00
+912,65.0,"Raven, Common",36,01
+913,12.0,"Raven, Common",36,02
+914,81.0,"Raven, Common",36,03
+915,24.0,"Raven, Common",36,04
+916,101.0,"Raven, Common",36,05
+917,25.0,"Raven, Common",36,06
+918,55.0,"Raven, Common",36,07
+919,50.0,"Raven, Common",36,08
+920,34.0,"Raven, Common",36,09
+921,114.0,"Raven, Common",36,10
+922,20.0,"Raven, Common",36,11
+923,34.0,"Raven, Common",36,12
+924,34.0,"Raven, Common",36,13
+925,347.0,"Crow, American",37,89
+926,133.0,"Crow, American",37,90
+927,239.0,"Crow, American",37,91
+928,302.0,"Crow, American",37,92
+929,179.0,"Crow, American",37,93
+930,303.0,"Crow, American",37,94
+931,64.0,"Crow, American",37,95
+932,151.0,"Crow, American",37,96
+933,112.0,"Crow, American",37,97
+934,214.0,"Crow, American",37,98
+935,72.0,"Crow, American",37,99
+936,191.0,"Crow, American",37,00
+937,140.0,"Crow, American",37,01
+938,148.0,"Crow, American",37,02
+939,90.0,"Crow, American",37,03
+940,80.0,"Crow, American",37,04
+941,234.0,"Crow, American",37,05
+942,167.0,"Crow, American",37,06
+943,41.0,"Crow, American",37,07
+944,178.0,"Crow, American",37,08
+945,111.0,"Crow, American",37,09
+946,66.0,"Crow, American",37,10
+947,135.0,"Crow, American",37,11
+948,111.0,"Crow, American",37,12
+949,153.0,"Crow, American",37,13
+950,25.0,"Lark, Horned",38,89
+951,0.0,"Lark, Horned",38,90
+952,0.0,"Lark, Horned",38,91
+953,0.0,"Lark, Horned",38,92
+954,0.0,"Lark, Horned",38,93
+955,0.0,"Lark, Horned",38,94
+956,0.0,"Lark, Horned",38,95
+957,0.0,"Lark, Horned",38,96
+958,1.0,"Lark, Horned",38,97
+959,1.0,"Lark, Horned",38,98
+960,0.0,"Lark, Horned",38,99
+961,0.0,"Lark, Horned",38,00
+962,0.0,"Lark, Horned",38,01
+963,0.0,"Lark, Horned",38,02
+964,0.0,"Lark, Horned",38,03
+965,0.0,"Lark, Horned",38,04
+966,0.0,"Lark, Horned",38,05
+967,0.0,"Lark, Horned",38,06
+968,0.0,"Lark, Horned",38,07
+969,0.0,"Lark, Horned",38,08
+970,0.0,"Lark, Horned",38,09
+971,0.0,"Lark, Horned",38,10
+972,0.0,"Lark, Horned",38,11
+973,0.0,"Lark, Horned",38,12
+974,1.0,"Lark, Horned",38,13
+975,10.0,Tufted Titmouse,39,89
+976,7.0,Tufted Titmouse,39,90
+977,2.0,Tufted Titmouse,39,91
+978,8.0,Tufted Titmouse,39,92
+979,16.0,Tufted Titmouse,39,93
+980,21.0,Tufted Titmouse,39,94
+981,28.0,Tufted Titmouse,39,95
+982,2.0,Tufted Titmouse,39,96
+983,28.0,Tufted Titmouse,39,97
+984,3.0,Tufted Titmouse,39,98
+985,32.0,Tufted Titmouse,39,99
+986,5.0,Tufted Titmouse,39,00
+987,22.0,Tufted Titmouse,39,01
+988,0.0,Tufted Titmouse,39,02
+989,11.0,Tufted Titmouse,39,03
+990,54.0,Tufted Titmouse,39,04
+991,55.0,Tufted Titmouse,39,05
+992,53.0,Tufted Titmouse,39,06
+993,18.0,Tufted Titmouse,39,07
+994,31.0,Tufted Titmouse,39,08
+995,32.0,Tufted Titmouse,39,09
+996,23.0,Tufted Titmouse,39,10
+997,18.0,Tufted Titmouse,39,11
+998,28.0,Tufted Titmouse,39,12
+999,36.0,Tufted Titmouse,39,13
+1000,875.0,"Chickadee, Black-capped",40,89
+1001,600.0,"Chickadee, Black-capped",40,90
+1002,454.0,"Chickadee, Black-capped",40,91
+1003,669.0,"Chickadee, Black-capped",40,92
+1004,355.0,"Chickadee, Black-capped",40,93
+1005,506.0,"Chickadee, Black-capped",40,94
+1006,555.0,"Chickadee, Black-capped",40,95
+1007,593.0,"Chickadee, Black-capped",40,96
+1008,998.0,"Chickadee, Black-capped",40,97
+1009,363.0,"Chickadee, Black-capped",40,98
+1010,762.0,"Chickadee, Black-capped",40,99
+1011,375.0,"Chickadee, Black-capped",40,00
+1012,623.0,"Chickadee, Black-capped",40,01
+1013,528.0,"Chickadee, Black-capped",40,02
+1014,692.0,"Chickadee, Black-capped",40,03
+1015,985.0,"Chickadee, Black-capped",40,04
+1016,843.0,"Chickadee, Black-capped",40,05
+1017,731.0,"Chickadee, Black-capped",40,06
+1018,656.0,"Chickadee, Black-capped",40,07
+1019,735.0,"Chickadee, Black-capped",40,08
+1020,488.0,"Chickadee, Black-capped",40,09
+1021,424.0,"Chickadee, Black-capped",40,10
+1022,409.0,"Chickadee, Black-capped",40,11
+1023,362.0,"Chickadee, Black-capped",40,12
+1024,623.0,"Chickadee, Black-capped",40,13
+1025,0.0,"Chickadee, Boreal",41,89
+1026,0.0,"Chickadee, Boreal",41,90
+1027,0.0,"Chickadee, Boreal",41,91
+1028,0.0,"Chickadee, Boreal",41,92
+1029,0.0,"Chickadee, Boreal",41,93
+1030,0.0,"Chickadee, Boreal",41,94
+1031,3.0,"Chickadee, Boreal",41,95
+1032,2.0,"Chickadee, Boreal",41,96
+1033,0.0,"Chickadee, Boreal",41,97
+1034,0.0,"Chickadee, Boreal",41,98
+1035,1.0,"Chickadee, Boreal",41,99
+1036,2.0,"Chickadee, Boreal",41,00
+1037,2.0,"Chickadee, Boreal",41,01
+1038,0.0,"Chickadee, Boreal",41,02
+1039,0.0,"Chickadee, Boreal",41,03
+1040,0.0,"Chickadee, Boreal",41,04
+1041,0.0,"Chickadee, Boreal",41,05
+1042,0.0,"Chickadee, Boreal",41,06
+1043,0.0,"Chickadee, Boreal",41,07
+1044,0.0,"Chickadee, Boreal",41,08
+1045,0.0,"Chickadee, Boreal",41,09
+1046,0.0,"Chickadee, Boreal",41,10
+1047,0.0,"Chickadee, Boreal",41,11
+1048,0.0,"Chickadee, Boreal",41,12
+1049,0.0,"Chickadee, Boreal",41,13
+1050,55.0,"Nuthatch, Red-breasted",42,89
+1051,31.0,"Nuthatch, Red-breasted",42,90
+1052,19.0,"Nuthatch, Red-breasted",42,91
+1053,78.0,"Nuthatch, Red-breasted",42,92
+1054,47.0,"Nuthatch, Red-breasted",42,93
+1055,77.0,"Nuthatch, Red-breasted",42,94
+1056,51.0,"Nuthatch, Red-breasted",42,95
+1057,53.0,"Nuthatch, Red-breasted",42,96
+1058,107.0,"Nuthatch, Red-breasted",42,97
+1059,39.0,"Nuthatch, Red-breasted",42,98
+1060,31.0,"Nuthatch, Red-breasted",42,99
+1061,21.0,"Nuthatch, Red-breasted",42,00
+1062,53.0,"Nuthatch, Red-breasted",42,01
+1063,64.0,"Nuthatch, Red-breasted",42,02
+1064,39.0,"Nuthatch, Red-breasted",42,03
+1065,152.0,"Nuthatch, Red-breasted",42,04
+1066,27.0,"Nuthatch, Red-breasted",42,05
+1067,30.0,"Nuthatch, Red-breasted",42,06
+1068,16.0,"Nuthatch, Red-breasted",42,07
+1069,40.0,"Nuthatch, Red-breasted",42,08
+1070,43.0,"Nuthatch, Red-breasted",42,09
+1071,24.0,"Nuthatch, Red-breasted",42,10
+1072,20.0,"Nuthatch, Red-breasted",42,11
+1073,33.0,"Nuthatch, Red-breasted",42,12
+1074,36.0,"Nuthatch, Red-breasted",42,13
+1075,80.0,"Nuthatch, White-breasted",43,89
+1076,47.0,"Nuthatch, White-breasted",43,90
+1077,8.0,"Nuthatch, White-breasted",43,91
+1078,40.0,"Nuthatch, White-breasted",43,92
+1079,45.0,"Nuthatch, White-breasted",43,93
+1080,48.0,"Nuthatch, White-breasted",43,94
+1081,36.0,"Nuthatch, White-breasted",43,95
+1082,54.0,"Nuthatch, White-breasted",43,96
+1083,125.0,"Nuthatch, White-breasted",43,97
+1084,30.0,"Nuthatch, White-breasted",43,98
+1085,67.0,"Nuthatch, White-breasted",43,99
+1086,57.0,"Nuthatch, White-breasted",43,00
+1087,38.0,"Nuthatch, White-breasted",43,01
+1088,47.0,"Nuthatch, White-breasted",43,02
+1089,65.0,"Nuthatch, White-breasted",43,03
+1090,159.0,"Nuthatch, White-breasted",43,04
+1091,63.0,"Nuthatch, White-breasted",43,05
+1092,73.0,"Nuthatch, White-breasted",43,06
+1093,57.0,"Nuthatch, White-breasted",43,07
+1094,59.0,"Nuthatch, White-breasted",43,08
+1095,94.0,"Nuthatch, White-breasted",43,09
+1096,56.0,"Nuthatch, White-breasted",43,10
+1097,38.0,"Nuthatch, White-breasted",43,11
+1098,48.0,"Nuthatch, White-breasted",43,12
+1099,74.0,"Nuthatch, White-breasted",43,13
+1100,3.0,Brown Creeper,44,89
+1101,0.0,Brown Creeper,44,90
+1102,2.0,Brown Creeper,44,91
+1103,2.0,Brown Creeper,44,92
+1104,4.0,Brown Creeper,44,93
+1105,6.0,Brown Creeper,44,94
+1106,7.0,Brown Creeper,44,95
+1107,9.0,Brown Creeper,44,96
+1108,5.0,Brown Creeper,44,97
+1109,0.0,Brown Creeper,44,98
+1110,16.0,Brown Creeper,44,99
+1111,3.0,Brown Creeper,44,00
+1112,2.0,Brown Creeper,44,01
+1113,6.0,Brown Creeper,44,02
+1114,2.0,Brown Creeper,44,03
+1115,17.0,Brown Creeper,44,04
+1116,7.0,Brown Creeper,44,05
+1117,9.0,Brown Creeper,44,06
+1118,6.0,Brown Creeper,44,07
+1119,8.0,Brown Creeper,44,08
+1120,5.0,Brown Creeper,44,09
+1121,4.0,Brown Creeper,44,10
+1122,6.0,Brown Creeper,44,11
+1123,1.0,Brown Creeper,44,12
+1124,14.0,Brown Creeper,44,13
+1125,0.0,"Wren, Carolina",45,89
+1126,0.0,"Wren, Carolina",45,90
+1127,0.0,"Wren, Carolina",45,91
+1128,0.0,"Wren, Carolina",45,92
+1129,0.0,"Wren, Carolina",45,93
+1130,0.0,"Wren, Carolina",45,94
+1131,0.0,"Wren, Carolina",45,95
+1132,0.0,"Wren, Carolina",45,96
+1133,0.0,"Wren, Carolina",45,97
+1134,0.0,"Wren, Carolina",45,98
+1135,0.0,"Wren, Carolina",45,99
+1136,0.0,"Wren, Carolina",45,00
+1137,0.0,"Wren, Carolina",45,01
+1138,0.0,"Wren, Carolina",45,02
+1139,0.0,"Wren, Carolina",45,03
+1140,0.0,"Wren, Carolina",45,04
+1141,0.0,"Wren, Carolina",45,05
+1142,0.0,"Wren, Carolina",45,06
+1143,0.0,"Wren, Carolina",45,07
+1144,1.0,"Wren, Carolina",45,08
+1145,0.0,"Wren, Carolina",45,09
+1146,0.0,"Wren, Carolina",45,10
+1147,0.0,"Wren, Carolina",45,11
+1148,0.0,"Wren, Carolina",45,12
+1149,0.0,"Wren, Carolina",45,13
+1150,0.0,"Wren, Winter",46,89
+1151,0.0,"Wren, Winter",46,90
+1152,0.0,"Wren, Winter",46,91
+1153,0.0,"Wren, Winter",46,92
+1154,0.0,"Wren, Winter",46,93
+1155,0.0,"Wren, Winter",46,94
+1156,0.0,"Wren, Winter",46,95
+1157,0.0,"Wren, Winter",46,96
+1158,0.0,"Wren, Winter",46,97
+1159,0.0,"Wren, Winter",46,98
+1160,1.0,"Wren, Winter",46,99
+1161,0.0,"Wren, Winter",46,00
+1162,0.0,"Wren, Winter",46,01
+1163,0.0,"Wren, Winter",46,02
+1164,0.0,"Wren, Winter",46,03
+1165,0.0,"Wren, Winter",46,04
+1166,0.0,"Wren, Winter",46,05
+1167,0.0,"Wren, Winter",46,06
+1168,0.0,"Wren, Winter",46,07
+1169,0.0,"Wren, Winter",46,08
+1170,0.0,"Wren, Winter",46,09
+1171,0.0,"Wren, Winter",46,10
+1172,0.0,"Wren, Winter",46,11
+1173,0.0,"Wren, Winter",46,12
+1174,2.0,"Wren, Winter",46,13
+1175,10.0,"Kinglet, Golden-crowned",47,89
+1176,0.0,"Kinglet, Golden-crowned",47,90
+1177,1.0,"Kinglet, Golden-crowned",47,91
+1178,1.0,"Kinglet, Golden-crowned",47,92
+1179,2.0,"Kinglet, Golden-crowned",47,93
+1180,36.0,"Kinglet, Golden-crowned",47,94
+1181,2.0,"Kinglet, Golden-crowned",47,95
+1182,5.0,"Kinglet, Golden-crowned",47,96
+1183,1.0,"Kinglet, Golden-crowned",47,97
+1184,16.0,"Kinglet, Golden-crowned",47,98
+1185,0.0,"Kinglet, Golden-crowned",47,99
+1186,27.0,"Kinglet, Golden-crowned",47,00
+1187,4.0,"Kinglet, Golden-crowned",47,01
+1188,21.0,"Kinglet, Golden-crowned",47,02
+1189,17.0,"Kinglet, Golden-crowned",47,03
+1190,53.0,"Kinglet, Golden-crowned",47,04
+1191,9.0,"Kinglet, Golden-crowned",47,05
+1192,15.0,"Kinglet, Golden-crowned",47,06
+1193,2.0,"Kinglet, Golden-crowned",47,07
+1194,8.0,"Kinglet, Golden-crowned",47,08
+1195,9.0,"Kinglet, Golden-crowned",47,09
+1196,2.0,"Kinglet, Golden-crowned",47,10
+1197,42.0,"Kinglet, Golden-crowned",47,11
+1198,6.0,"Kinglet, Golden-crowned",47,12
+1199,12.0,"Kinglet, Golden-crowned",47,13
+1200,0.0,"Bluebird, Eastern",48,89
+1201,0.0,"Bluebird, Eastern",48,90
+1202,0.0,"Bluebird, Eastern",48,91
+1203,0.0,"Bluebird, Eastern",48,92
+1204,0.0,"Bluebird, Eastern",48,93
+1205,0.0,"Bluebird, Eastern",48,94
+1206,0.0,"Bluebird, Eastern",48,95
+1207,0.0,"Bluebird, Eastern",48,96
+1208,0.0,"Bluebird, Eastern",48,97
+1209,0.0,"Bluebird, Eastern",48,98
+1210,0.0,"Bluebird, Eastern",48,99
+1211,0.0,"Bluebird, Eastern",48,00
+1212,0.0,"Bluebird, Eastern",48,01
+1213,0.0,"Bluebird, Eastern",48,02
+1214,0.0,"Bluebird, Eastern",48,03
+1215,0.0,"Bluebird, Eastern",48,04
+1216,0.0,"Bluebird, Eastern",48,05
+1217,0.0,"Bluebird, Eastern",48,06
+1218,0.0,"Bluebird, Eastern",48,07
+1219,8.0,"Bluebird, Eastern",48,08
+1220,0.0,"Bluebird, Eastern",48,09
+1221,0.0,"Bluebird, Eastern",48,10
+1222,8.0,"Bluebird, Eastern",48,11
+1223,0.0,"Bluebird, Eastern",48,12
+1224,4.0,"Bluebird, Eastern",48,13
+1225,0.0,"Robin, American",49,89
+1226,0.0,"Robin, American",49,90
+1227,5.0,"Robin, American",49,91
+1228,0.0,"Robin, American",49,92
+1229,0.0,"Robin, American",49,93
+1230,0.0,"Robin, American",49,94
+1231,0.0,"Robin, American",49,95
+1232,0.0,"Robin, American",49,96
+1233,0.0,"Robin, American",49,97
+1234,6.0,"Robin, American",49,98
+1235,0.0,"Robin, American",49,99
+1236,0.0,"Robin, American",49,00
+1237,0.0,"Robin, American",49,01
+1238,0.0,"Robin, American",49,02
+1239,0.0,"Robin, American",49,03
+1240,2.0,"Robin, American",49,04
+1241,8.0,"Robin, American",49,05
+1242,4.0,"Robin, American",49,06
+1243,0.0,"Robin, American",49,07
+1244,7.0,"Robin, American",49,08
+1245,1.0,"Robin, American",49,09
+1246,0.0,"Robin, American",49,10
+1247,28.0,"Robin, American",49,11
+1248,1.0,"Robin, American",49,12
+1249,14.0,"Robin, American",49,13
+1250,0.0,"Thursh, Hermit",50,89
+1251,0.0,"Thursh, Hermit",50,90
+1252,0.0,"Thursh, Hermit",50,91
+1253,0.0,"Thursh, Hermit",50,92
+1254,0.0,"Thursh, Hermit",50,93
+1255,0.0,"Thursh, Hermit",50,94
+1256,0.0,"Thursh, Hermit",50,95
+1257,0.0,"Thursh, Hermit",50,96
+1258,0.0,"Thursh, Hermit",50,97
+1259,0.0,"Thursh, Hermit",50,98
+1260,0.0,"Thursh, Hermit",50,99
+1261,0.0,"Thursh, Hermit",50,00
+1262,1.0,"Thursh, Hermit",50,01
+1263,0.0,"Thursh, Hermit",50,02
+1264,0.0,"Thursh, Hermit",50,03
+1265,0.0,"Thursh, Hermit",50,04
+1266,0.0,"Thursh, Hermit",50,05
+1267,0.0,"Thursh, Hermit",50,06
+1268,0.0,"Thursh, Hermit",50,07
+1269,0.0,"Thursh, Hermit",50,08
+1270,0.0,"Thursh, Hermit",50,09
+1271,0.0,"Thursh, Hermit",50,10
+1272,0.0,"Thursh, Hermit",50,11
+1273,0.0,"Thursh, Hermit",50,12
+1274,0.0,"Thursh, Hermit",50,13
+1275,0.0,"Mockingbird, Northern",51,89
+1276,0.0,"Mockingbird, Northern",51,90
+1277,1.0,"Mockingbird, Northern",51,91
+1278,0.0,"Mockingbird, Northern",51,92
+1279,2.0,"Mockingbird, Northern",51,93
+1280,0.0,"Mockingbird, Northern",51,94
+1281,0.0,"Mockingbird, Northern",51,95
+1282,1.0,"Mockingbird, Northern",51,96
+1283,1.0,"Mockingbird, Northern",51,97
+1284,1.0,"Mockingbird, Northern",51,98
+1285,3.0,"Mockingbird, Northern",51,99
+1286,1.0,"Mockingbird, Northern",51,00
+1287,2.0,"Mockingbird, Northern",51,01
+1288,1.0,"Mockingbird, Northern",51,02
+1289,1.0,"Mockingbird, Northern",51,03
+1290,0.0,"Mockingbird, Northern",51,04
+1291,0.0,"Mockingbird, Northern",51,05
+1292,0.0,"Mockingbird, Northern",51,06
+1293,0.0,"Mockingbird, Northern",51,07
+1294,0.0,"Mockingbird, Northern",51,08
+1295,0.0,"Mockingbird, Northern",51,09
+1296,0.0,"Mockingbird, Northern",51,10
+1297,0.0,"Mockingbird, Northern",51,11
+1298,0.0,"Mockingbird, Northern",51,12
+1299,0.0,"Mockingbird, Northern",51,13
+1300,213.0,"Starling, European",52,89
+1301,134.0,"Starling, European",52,90
+1302,112.0,"Starling, European",52,91
+1303,230.0,"Starling, European",52,92
+1304,82.0,"Starling, European",52,93
+1305,131.0,"Starling, European",52,94
+1306,77.0,"Starling, European",52,95
+1307,77.0,"Starling, European",52,96
+1308,140.0,"Starling, European",52,97
+1309,185.0,"Starling, European",52,98
+1310,98.0,"Starling, European",52,99
+1311,180.0,"Starling, European",52,00
+1312,102.0,"Starling, European",52,01
+1313,175.0,"Starling, European",52,02
+1314,196.0,"Starling, European",52,03
+1315,241.0,"Starling, European",52,04
+1316,19.0,"Starling, European",52,05
+1317,70.0,"Starling, European",52,06
+1318,96.0,"Starling, European",52,07
+1319,62.0,"Starling, European",52,08
+1320,74.0,"Starling, European",52,09
+1321,63.0,"Starling, European",52,10
+1322,412.0,"Starling, European",52,11
+1323,114.0,"Starling, European",52,12
+1324,173.0,"Starling, European",52,13
+1325,37.0,"Waxwing, Bohemian",53,89
+1326,0.0,"Waxwing, Bohemian",53,90
+1327,0.0,"Waxwing, Bohemian",53,91
+1328,0.0,"Waxwing, Bohemian",53,92
+1329,0.0,"Waxwing, Bohemian",53,93
+1330,0.0,"Waxwing, Bohemian",53,94
+1331,0.0,"Waxwing, Bohemian",53,95
+1332,0.0,"Waxwing, Bohemian",53,96
+1333,0.0,"Waxwing, Bohemian",53,97
+1334,0.0,"Waxwing, Bohemian",53,98
+1335,0.0,"Waxwing, Bohemian",53,99
+1336,0.0,"Waxwing, Bohemian",53,00
+1337,50.0,"Waxwing, Bohemian",53,01
+1338,0.0,"Waxwing, Bohemian",53,02
+1339,0.0,"Waxwing, Bohemian",53,03
+1340,0.0,"Waxwing, Bohemian",53,04
+1341,13.0,"Waxwing, Bohemian",53,05
+1342,0.0,"Waxwing, Bohemian",53,06
+1343,41.0,"Waxwing, Bohemian",53,07
+1344,78.0,"Waxwing, Bohemian",53,08
+1345,0.0,"Waxwing, Bohemian",53,09
+1346,49.0,"Waxwing, Bohemian",53,10
+1347,9.0,"Waxwing, Bohemian",53,11
+1348,0.0,"Waxwing, Bohemian",53,12
+1349,0.0,"Waxwing, Bohemian",53,13
+1350,0.0,"Waxwing, Cedar",54,89
+1351,0.0,"Waxwing, Cedar",54,90
+1352,0.0,"Waxwing, Cedar",54,91
+1353,0.0,"Waxwing, Cedar",54,92
+1354,0.0,"Waxwing, Cedar",54,93
+1355,0.0,"Waxwing, Cedar",54,94
+1356,0.0,"Waxwing, Cedar",54,95
+1357,7.0,"Waxwing, Cedar",54,96
+1358,6.0,"Waxwing, Cedar",54,97
+1359,32.0,"Waxwing, Cedar",54,98
+1360,16.0,"Waxwing, Cedar",54,99
+1361,25.0,"Waxwing, Cedar",54,00
+1362,51.0,"Waxwing, Cedar",54,01
+1363,78.0,"Waxwing, Cedar",54,02
+1364,20.0,"Waxwing, Cedar",54,03
+1365,46.0,"Waxwing, Cedar",54,04
+1366,7.0,"Waxwing, Cedar",54,05
+1367,26.0,"Waxwing, Cedar",54,06
+1368,2.0,"Waxwing, Cedar",54,07
+1369,89.0,"Waxwing, Cedar",54,08
+1370,31.0,"Waxwing, Cedar",54,09
+1371,26.0,"Waxwing, Cedar",54,10
+1372,4.0,"Waxwing, Cedar",54,11
+1373,0.0,"Waxwing, Cedar",54,12
+1374,184.0,"Waxwing, Cedar",54,13
+1375,0.0,"Warbler, Yellow-rumped",55,89
+1376,0.0,"Warbler, Yellow-rumped",55,90
+1377,0.0,"Warbler, Yellow-rumped",55,91
+1378,0.0,"Warbler, Yellow-rumped",55,92
+1379,0.0,"Warbler, Yellow-rumped",55,93
+1380,0.0,"Warbler, Yellow-rumped",55,94
+1381,0.0,"Warbler, Yellow-rumped",55,95
+1382,0.0,"Warbler, Yellow-rumped",55,96
+1383,0.0,"Warbler, Yellow-rumped",55,97
+1384,0.0,"Warbler, Yellow-rumped",55,98
+1385,3.0,"Warbler, Yellow-rumped",55,99
+1386,0.0,"Warbler, Yellow-rumped",55,00
+1387,0.0,"Warbler, Yellow-rumped",55,01
+1388,0.0,"Warbler, Yellow-rumped",55,02
+1389,0.0,"Warbler, Yellow-rumped",55,03
+1390,0.0,"Warbler, Yellow-rumped",55,04
+1391,0.0,"Warbler, Yellow-rumped",55,05
+1392,0.0,"Warbler, Yellow-rumped",55,06
+1393,0.0,"Warbler, Yellow-rumped",55,07
+1394,0.0,"Warbler, Yellow-rumped",55,08
+1395,0.0,"Warbler, Yellow-rumped",55,09
+1396,0.0,"Warbler, Yellow-rumped",55,10
+1397,0.0,"Warbler, Yellow-rumped",55,11
+1398,0.0,"Warbler, Yellow-rumped",55,12
+1399,0.0,"Warbler, Yellow-rumped",55,13
+1400,7.0,"Cardinal, Northern",56,89
+1401,5.0,"Cardinal, Northern",56,90
+1402,10.0,"Cardinal, Northern",56,91
+1403,3.0,"Cardinal, Northern",56,92
+1404,2.0,"Cardinal, Northern",56,93
+1405,11.0,"Cardinal, Northern",56,94
+1406,8.0,"Cardinal, Northern",56,95
+1407,4.0,"Cardinal, Northern",56,96
+1408,15.0,"Cardinal, Northern",56,97
+1409,10.0,"Cardinal, Northern",56,98
+1410,8.0,"Cardinal, Northern",56,99
+1411,5.0,"Cardinal, Northern",56,00
+1412,4.0,"Cardinal, Northern",56,01
+1413,5.0,"Cardinal, Northern",56,02
+1414,5.0,"Cardinal, Northern",56,03
+1415,13.0,"Cardinal, Northern",56,04
+1416,6.0,"Cardinal, Northern",56,05
+1417,36.0,"Cardinal, Northern",56,06
+1418,3.0,"Cardinal, Northern",56,07
+1419,18.0,"Cardinal, Northern",56,08
+1420,10.0,"Cardinal, Northern",56,09
+1421,5.0,"Cardinal, Northern",56,10
+1422,4.0,"Cardinal, Northern",56,11
+1423,6.0,"Cardinal, Northern",56,12
+1424,15.0,"Cardinal, Northern",56,13
+1425,0.0,"Grosbeak, Rose-breasted",57,89
+1426,0.0,"Grosbeak, Rose-breasted",57,90
+1427,0.0,"Grosbeak, Rose-breasted",57,91
+1428,0.0,"Grosbeak, Rose-breasted",57,92
+1429,0.0,"Grosbeak, Rose-breasted",57,93
+1430,0.0,"Grosbeak, Rose-breasted",57,94
+1431,0.0,"Grosbeak, Rose-breasted",57,95
+1432,0.0,"Grosbeak, Rose-breasted",57,96
+1433,0.0,"Grosbeak, Rose-breasted",57,97
+1434,0.0,"Grosbeak, Rose-breasted",57,98
+1435,0.0,"Grosbeak, Rose-breasted",57,99
+1436,0.0,"Grosbeak, Rose-breasted",57,00
+1437,0.0,"Grosbeak, Rose-breasted",57,01
+1438,0.0,"Grosbeak, Rose-breasted",57,02
+1439,0.0,"Grosbeak, Rose-breasted",57,03
+1440,0.0,"Grosbeak, Rose-breasted",57,04
+1441,0.0,"Grosbeak, Rose-breasted",57,05
+1442,0.0,"Grosbeak, Rose-breasted",57,06
+1443,0.0,"Grosbeak, Rose-breasted",57,07
+1444,1.0,"Grosbeak, Rose-breasted",57,08
+1445,0.0,"Grosbeak, Rose-breasted",57,09
+1446,0.0,"Grosbeak, Rose-breasted",57,10
+1447,0.0,"Grosbeak, Rose-breasted",57,11
+1448,0.0,"Grosbeak, Rose-breasted",57,12
+1449,0.0,"Grosbeak, Rose-breasted",57,13
+1450,0.0,"Towhee, Eastern",58,89
+1451,0.0,"Towhee, Eastern",58,90
+1452,0.0,"Towhee, Eastern",58,91
+1453,0.0,"Towhee, Eastern",58,92
+1454,0.0,"Towhee, Eastern",58,93
+1455,0.0,"Towhee, Eastern",58,94
+1456,0.0,"Towhee, Eastern",58,95
+1457,0.0,"Towhee, Eastern",58,96
+1458,0.0,"Towhee, Eastern",58,97
+1459,0.0,"Towhee, Eastern",58,98
+1460,0.0,"Towhee, Eastern",58,99
+1461,0.0,"Towhee, Eastern",58,00
+1462,0.0,"Towhee, Eastern",58,01
+1463,0.0,"Towhee, Eastern",58,02
+1464,0.0,"Towhee, Eastern",58,03
+1465,0.0,"Towhee, Eastern",58,04
+1466,0.0,"Towhee, Eastern",58,05
+1467,0.0,"Towhee, Eastern",58,06
+1468,0.0,"Towhee, Eastern",58,07
+1469,1.0,"Towhee, Eastern",58,08
+1470,0.0,"Towhee, Eastern",58,09
+1471,0.0,"Towhee, Eastern",58,10
+1472,1.0,"Towhee, Eastern",58,11
+1473,0.0,"Towhee, Eastern",58,12
+1474,0.0,"Towhee, Eastern",58,13
+1475,80.0,"Sparrow, American Tree",59,89
+1476,37.0,"Sparrow, American Tree",59,90
+1477,25.0,"Sparrow, American Tree",59,91
+1478,24.0,"Sparrow, American Tree",59,92
+1479,9.0,"Sparrow, American Tree",59,93
+1480,53.0,"Sparrow, American Tree",59,94
+1481,6.0,"Sparrow, American Tree",59,95
+1482,19.0,"Sparrow, American Tree",59,96
+1483,39.0,"Sparrow, American Tree",59,97
+1484,12.0,"Sparrow, American Tree",59,98
+1485,31.0,"Sparrow, American Tree",59,99
+1486,32.0,"Sparrow, American Tree",59,00
+1487,13.0,"Sparrow, American Tree",59,01
+1488,56.0,"Sparrow, American Tree",59,02
+1489,44.0,"Sparrow, American Tree",59,03
+1490,36.0,"Sparrow, American Tree",59,04
+1491,44.0,"Sparrow, American Tree",59,05
+1492,65.0,"Sparrow, American Tree",59,06
+1493,4.0,"Sparrow, American Tree",59,07
+1494,18.0,"Sparrow, American Tree",59,08
+1495,70.0,"Sparrow, American Tree",59,09
+1496,42.0,"Sparrow, American Tree",59,10
+1497,47.0,"Sparrow, American Tree",59,11
+1498,13.0,"Sparrow, American Tree",59,12
+1499,19.0,"Sparrow, American Tree",59,13
+1500,0.0,"Sparrow, White-throated",60,89
+1501,0.0,"Sparrow, White-throated",60,90
+1502,0.0,"Sparrow, White-throated",60,91
+1503,2.0,"Sparrow, White-throated",60,92
+1504,0.0,"Sparrow, White-throated",60,93
+1505,0.0,"Sparrow, White-throated",60,94
+1506,0.0,"Sparrow, White-throated",60,95
+1507,0.0,"Sparrow, White-throated",60,96
+1508,0.0,"Sparrow, White-throated",60,97
+1509,0.0,"Sparrow, White-throated",60,98
+1510,1.0,"Sparrow, White-throated",60,99
+1511,2.0,"Sparrow, White-throated",60,00
+1512,0.0,"Sparrow, White-throated",60,01
+1513,5.0,"Sparrow, White-throated",60,02
+1514,0.0,"Sparrow, White-throated",60,03
+1515,2.0,"Sparrow, White-throated",60,04
+1516,0.0,"Sparrow, White-throated",60,05
+1517,1.0,"Sparrow, White-throated",60,06
+1518,0.0,"Sparrow, White-throated",60,07
+1519,1.0,"Sparrow, White-throated",60,08
+1520,2.0,"Sparrow, White-throated",60,09
+1521,1.0,"Sparrow, White-throated",60,10
+1522,0.0,"Sparrow, White-throated",60,11
+1523,0.0,"Sparrow, White-throated",60,12
+1524,0.0,"Sparrow, White-throated",60,13
+1525,0.0,"Sparrow, Fox",61,89
+1526,0.0,"Sparrow, Fox",61,90
+1527,0.0,"Sparrow, Fox",61,91
+1528,0.0,"Sparrow, Fox",61,92
+1529,0.0,"Sparrow, Fox",61,93
+1530,0.0,"Sparrow, Fox",61,94
+1531,0.0,"Sparrow, Fox",61,95
+1532,0.0,"Sparrow, Fox",61,96
+1533,0.0,"Sparrow, Fox",61,97
+1534,0.0,"Sparrow, Fox",61,98
+1535,0.0,"Sparrow, Fox",61,99
+1536,0.0,"Sparrow, Fox",61,00
+1537,0.0,"Sparrow, Fox",61,01
+1538,1.0,"Sparrow, Fox",61,02
+1539,0.0,"Sparrow, Fox",61,03
+1540,0.0,"Sparrow, Fox",61,04
+1541,0.0,"Sparrow, Fox",61,05
+1542,0.0,"Sparrow, Fox",61,06
+1543,0.0,"Sparrow, Fox",61,07
+1544,0.0,"Sparrow, Fox",61,08
+1545,0.0,"Sparrow, Fox",61,09
+1546,0.0,"Sparrow, Fox",61,10
+1547,0.0,"Sparrow, Fox",61,11
+1548,0.0,"Sparrow, Fox",61,12
+1549,0.0,"Sparrow, Fox",61,13
+1550,2.0,"Sparrow, Song",62,89
+1551,0.0,"Sparrow, Song",62,90
+1552,0.0,"Sparrow, Song",62,91
+1553,0.0,"Sparrow, Song",62,92
+1554,1.0,"Sparrow, Song",62,93
+1555,0.0,"Sparrow, Song",62,94
+1556,0.0,"Sparrow, Song",62,95
+1557,0.0,"Sparrow, Song",62,96
+1558,0.0,"Sparrow, Song",62,97
+1559,1.0,"Sparrow, Song",62,98
+1560,0.0,"Sparrow, Song",62,99
+1561,0.0,"Sparrow, Song",62,00
+1562,0.0,"Sparrow, Song",62,01
+1563,0.0,"Sparrow, Song",62,02
+1564,0.0,"Sparrow, Song",62,03
+1565,0.0,"Sparrow, Song",62,04
+1566,2.0,"Sparrow, Song",62,05
+1567,0.0,"Sparrow, Song",62,06
+1568,0.0,"Sparrow, Song",62,07
+1569,0.0,"Sparrow, Song",62,08
+1570,0.0,"Sparrow, Song",62,09
+1571,1.0,"Sparrow, Song",62,10
+1572,0.0,"Sparrow, Song",62,11
+1573,0.0,"Sparrow, Song",62,12
+1574,4.0,"Sparrow, Song",62,13
+1575,0.0,"Sparrow, Swamp",63,89
+1576,0.0,"Sparrow, Swamp",63,90
+1577,0.0,"Sparrow, Swamp",63,91
+1578,0.0,"Sparrow, Swamp",63,92
+1579,0.0,"Sparrow, Swamp",63,93
+1580,0.0,"Sparrow, Swamp",63,94
+1581,0.0,"Sparrow, Swamp",63,95
+1582,0.0,"Sparrow, Swamp",63,96
+1583,0.0,"Sparrow, Swamp",63,97
+1584,0.0,"Sparrow, Swamp",63,98
+1585,0.0,"Sparrow, Swamp",63,99
+1586,0.0,"Sparrow, Swamp",63,00
+1587,0.0,"Sparrow, Swamp",63,01
+1588,1.0,"Sparrow, Swamp",63,02
+1589,0.0,"Sparrow, Swamp",63,03
+1590,0.0,"Sparrow, Swamp",63,04
+1591,0.0,"Sparrow, Swamp",63,05
+1592,0.0,"Sparrow, Swamp",63,06
+1593,0.0,"Sparrow, Swamp",63,07
+1594,0.0,"Sparrow, Swamp",63,08
+1595,0.0,"Sparrow, Swamp",63,09
+1596,0.0,"Sparrow, Swamp",63,10
+1597,0.0,"Sparrow, Swamp",63,11
+1598,0.0,"Sparrow, Swamp",63,12
+1599,0.0,"Sparrow, Swamp",63,13
+1600,16.0,"Junco, Dark-eyed",64,89
+1601,4.0,"Junco, Dark-eyed",64,90
+1602,93.0,"Junco, Dark-eyed",64,91
+1603,2.0,"Junco, Dark-eyed",64,92
+1604,5.0,"Junco, Dark-eyed",64,93
+1605,52.0,"Junco, Dark-eyed",64,94
+1606,3.0,"Junco, Dark-eyed",64,95
+1607,29.0,"Junco, Dark-eyed",64,96
+1608,62.0,"Junco, Dark-eyed",64,97
+1609,21.0,"Junco, Dark-eyed",64,98
+1610,19.0,"Junco, Dark-eyed",64,99
+1611,177.0,"Junco, Dark-eyed",64,00
+1612,9.0,"Junco, Dark-eyed",64,01
+1613,67.0,"Junco, Dark-eyed",64,02
+1614,12.0,"Junco, Dark-eyed",64,03
+1615,28.0,"Junco, Dark-eyed",64,04
+1616,8.0,"Junco, Dark-eyed",64,05
+1617,230.0,"Junco, Dark-eyed",64,06
+1618,5.0,"Junco, Dark-eyed",64,07
+1619,19.0,"Junco, Dark-eyed",64,08
+1620,31.0,"Junco, Dark-eyed",64,09
+1621,24.0,"Junco, Dark-eyed",64,10
+1622,207.0,"Junco, Dark-eyed",64,11
+1623,17.0,"Junco, Dark-eyed",64,12
+1624,40.0,"Junco, Dark-eyed",64,13
+1625,0.0,"Junco, Oregon",65,89
+1626,0.0,"Junco, Oregon",65,90
+1627,0.0,"Junco, Oregon",65,91
+1628,0.0,"Junco, Oregon",65,92
+1629,0.0,"Junco, Oregon",65,93
+1630,0.0,"Junco, Oregon",65,94
+1631,0.0,"Junco, Oregon",65,95
+1632,0.0,"Junco, Oregon",65,96
+1633,0.0,"Junco, Oregon",65,97
+1634,0.0,"Junco, Oregon",65,98
+1635,0.0,"Junco, Oregon",65,99
+1636,0.0,"Junco, Oregon",65,00
+1637,0.0,"Junco, Oregon",65,01
+1638,0.0,"Junco, Oregon",65,02
+1639,0.0,"Junco, Oregon",65,03
+1640,0.0,"Junco, Oregon",65,04
+1641,0.0,"Junco, Oregon",65,05
+1642,0.0,"Junco, Oregon",65,06
+1643,0.0,"Junco, Oregon",65,07
+1644,0.0,"Junco, Oregon",65,08
+1645,0.0,"Junco, Oregon",65,09
+1646,0.0,"Junco, Oregon",65,10
+1647,0.0,"Junco, Oregon",65,11
+1648,0.0,"Junco, Oregon",65,12
+1649,0.0,"Junco, Oregon",65,13
+1650,4.0,Lapland Longspur,66,89
+1651,0.0,Lapland Longspur,66,90
+1652,0.0,Lapland Longspur,66,91
+1653,0.0,Lapland Longspur,66,92
+1654,0.0,Lapland Longspur,66,93
+1655,0.0,Lapland Longspur,66,94
+1656,0.0,Lapland Longspur,66,95
+1657,0.0,Lapland Longspur,66,96
+1658,0.0,Lapland Longspur,66,97
+1659,0.0,Lapland Longspur,66,98
+1660,0.0,Lapland Longspur,66,99
+1661,0.0,Lapland Longspur,66,00
+1662,0.0,Lapland Longspur,66,01
+1663,0.0,Lapland Longspur,66,02
+1664,0.0,Lapland Longspur,66,03
+1665,0.0,Lapland Longspur,66,04
+1666,0.0,Lapland Longspur,66,05
+1667,0.0,Lapland Longspur,66,06
+1668,0.0,Lapland Longspur,66,07
+1669,0.0,Lapland Longspur,66,08
+1670,0.0,Lapland Longspur,66,09
+1671,0.0,Lapland Longspur,66,10
+1672,0.0,Lapland Longspur,66,11
+1673,0.0,Lapland Longspur,66,12
+1674,0.0,Lapland Longspur,66,13
+1675,165.0,Snow Bunting,67,89
+1676,0.0,Snow Bunting,67,90
+1677,0.0,Snow Bunting,67,91
+1678,0.0,Snow Bunting,67,92
+1679,0.0,Snow Bunting,67,93
+1680,0.0,Snow Bunting,67,94
+1681,10.0,Snow Bunting,67,95
+1682,2.0,Snow Bunting,67,96
+1683,8.0,Snow Bunting,67,97
+1684,0.0,Snow Bunting,67,98
+1685,0.0,Snow Bunting,67,99
+1686,0.0,Snow Bunting,67,00
+1687,0.0,Snow Bunting,67,01
+1688,20.0,Snow Bunting,67,02
+1689,0.0,Snow Bunting,67,03
+1690,0.0,Snow Bunting,67,04
+1691,5.0,Snow Bunting,67,05
+1692,0.0,Snow Bunting,67,06
+1693,86.0,Snow Bunting,67,07
+1694,109.0,Snow Bunting,67,08
+1695,0.0,Snow Bunting,67,09
+1696,300.0,Snow Bunting,67,10
+1697,0.0,Snow Bunting,67,11
+1698,2.0,Snow Bunting,67,12
+1699,2.0,Snow Bunting,67,13
+1700,0.0,Sparrow species (US),68,89
+1701,0.0,Sparrow species (US),68,90
+1702,0.0,Sparrow species (US),68,91
+1703,0.0,Sparrow species (US),68,92
+1704,0.0,Sparrow species (US),68,93
+1705,0.0,Sparrow species (US),68,94
+1706,0.0,Sparrow species (US),68,95
+1707,0.0,Sparrow species (US),68,96
+1708,0.0,Sparrow species (US),68,97
+1709,0.0,Sparrow species (US),68,98
+1710,0.0,Sparrow species (US),68,99
+1711,0.0,Sparrow species (US),68,00
+1712,0.0,Sparrow species (US),68,01
+1713,25.0,Sparrow species (US),68,02
+1714,0.0,Sparrow species (US),68,03
+1715,3.0,Sparrow species (US),68,04
+1716,0.0,Sparrow species (US),68,05
+1717,1.0,Sparrow species (US),68,06
+1718,1.0,Sparrow species (US),68,07
+1719,0.0,Sparrow species (US),68,08
+1720,0.0,Sparrow species (US),68,09
+1721,8.0,Sparrow species (US),68,10
+1722,0.0,Sparrow species (US),68,11
+1723,20.0,Sparrow species (US),68,12
+1724,0.0,Sparrow species (US),68,13
+1725,0.0,"Cowbird, Brown-headed",69,89
+1726,1.0,"Cowbird, Brown-headed",69,90
+1727,0.0,"Cowbird, Brown-headed",69,91
+1728,0.0,"Cowbird, Brown-headed",69,92
+1729,1.0,"Cowbird, Brown-headed",69,93
+1730,0.0,"Cowbird, Brown-headed",69,94
+1731,0.0,"Cowbird, Brown-headed",69,95
+1732,0.0,"Cowbird, Brown-headed",69,96
+1733,0.0,"Cowbird, Brown-headed",69,97
+1734,0.0,"Cowbird, Brown-headed",69,98
+1735,0.0,"Cowbird, Brown-headed",69,99
+1736,0.0,"Cowbird, Brown-headed",69,00
+1737,0.0,"Cowbird, Brown-headed",69,01
+1738,0.0,"Cowbird, Brown-headed",69,02
+1739,0.0,"Cowbird, Brown-headed",69,03
+1740,0.0,"Cowbird, Brown-headed",69,04
+1741,0.0,"Cowbird, Brown-headed",69,05
+1742,100.0,"Cowbird, Brown-headed",69,06
+1743,0.0,"Cowbird, Brown-headed",69,07
+1744,5.0,"Cowbird, Brown-headed",69,08
+1745,0.0,"Cowbird, Brown-headed",69,09
+1746,0.0,"Cowbird, Brown-headed",69,10
+1747,0.0,"Cowbird, Brown-headed",69,11
+1748,0.0,"Cowbird, Brown-headed",69,12
+1749,0.0,"Cowbird, Brown-headed",69,13
+1750,0.0,"Blackbird, Red-winged",70,89
+1751,0.0,"Blackbird, Red-winged",70,90
+1752,0.0,"Blackbird, Red-winged",70,91
+1753,0.0,"Blackbird, Red-winged",70,92
+1754,0.0,"Blackbird, Red-winged",70,93
+1755,0.0,"Blackbird, Red-winged",70,94
+1756,0.0,"Blackbird, Red-winged",70,95
+1757,0.0,"Blackbird, Red-winged",70,96
+1758,0.0,"Blackbird, Red-winged",70,97
+1759,1.0,"Blackbird, Red-winged",70,98
+1760,0.0,"Blackbird, Red-winged",70,99
+1761,0.0,"Blackbird, Red-winged",70,00
+1762,0.0,"Blackbird, Red-winged",70,01
+1763,0.0,"Blackbird, Red-winged",70,02
+1764,0.0,"Blackbird, Red-winged",70,03
+1765,1.0,"Blackbird, Red-winged",70,04
+1766,0.0,"Blackbird, Red-winged",70,05
+1767,18.0,"Blackbird, Red-winged",70,06
+1768,0.0,"Blackbird, Red-winged",70,07
+1769,0.0,"Blackbird, Red-winged",70,08
+1770,1.0,"Blackbird, Red-winged",70,09
+1771,0.0,"Blackbird, Red-winged",70,10
+1772,0.0,"Blackbird, Red-winged",70,11
+1773,0.0,"Blackbird, Red-winged",70,12
+1774,0.0,"Blackbird, Red-winged",70,13
+1775,0.0,"Grackle, Common",71,89
+1776,0.0,"Grackle, Common",71,90
+1777,0.0,"Grackle, Common",71,91
+1778,0.0,"Grackle, Common",71,92
+1779,0.0,"Grackle, Common",71,93
+1780,0.0,"Grackle, Common",71,94
+1781,0.0,"Grackle, Common",71,95
+1782,0.0,"Grackle, Common",71,96
+1783,0.0,"Grackle, Common",71,97
+1784,0.0,"Grackle, Common",71,98
+1785,0.0,"Grackle, Common",71,99
+1786,0.0,"Grackle, Common",71,00
+1787,0.0,"Grackle, Common",71,01
+1788,0.0,"Grackle, Common",71,02
+1789,0.0,"Grackle, Common",71,03
+1790,1.0,"Grackle, Common",71,04
+1791,0.0,"Grackle, Common",71,05
+1792,0.0,"Grackle, Common",71,06
+1793,8.0,"Grackle, Common",71,07
+1794,0.0,"Grackle, Common",71,08
+1795,0.0,"Grackle, Common",71,09
+1796,0.0,"Grackle, Common",71,10
+1797,0.0,"Grackle, Common",71,11
+1798,0.0,"Grackle, Common",71,12
+1799,0.0,"Grackle, Common",71,13
+1800,236.0,"Grosbeak, Evening",72,89
+1801,28.0,"Grosbeak, Evening",72,90
+1802,505.0,"Grosbeak, Evening",72,91
+1803,7.0,"Grosbeak, Evening",72,92
+1804,0.0,"Grosbeak, Evening",72,93
+1805,6.0,"Grosbeak, Evening",72,94
+1806,73.0,"Grosbeak, Evening",72,95
+1807,46.0,"Grosbeak, Evening",72,96
+1808,103.0,"Grosbeak, Evening",72,97
+1809,0.0,"Grosbeak, Evening",72,98
+1810,77.0,"Grosbeak, Evening",72,99
+1811,0.0,"Grosbeak, Evening",72,00
+1812,0.0,"Grosbeak, Evening",72,01
+1813,0.0,"Grosbeak, Evening",72,02
+1814,11.0,"Grosbeak, Evening",72,03
+1815,11.0,"Grosbeak, Evening",72,04
+1816,0.0,"Grosbeak, Evening",72,05
+1817,0.0,"Grosbeak, Evening",72,06
+1818,0.0,"Grosbeak, Evening",72,07
+1819,32.0,"Grosbeak, Evening",72,08
+1820,0.0,"Grosbeak, Evening",72,09
+1821,17.0,"Grosbeak, Evening",72,10
+1822,0.0,"Grosbeak, Evening",72,11
+1823,0.0,"Grosbeak, Evening",72,12
+1824,10.0,"Grosbeak, Evening",72,13
+1825,9.0,"Grosbeak, Pine",73,89
+1826,0.0,"Grosbeak, Pine",73,90
+1827,0.0,"Grosbeak, Pine",73,91
+1828,0.0,"Grosbeak, Pine",73,92
+1829,8.0,"Grosbeak, Pine",73,93
+1830,0.0,"Grosbeak, Pine",73,94
+1831,4.0,"Grosbeak, Pine",73,95
+1832,0.0,"Grosbeak, Pine",73,96
+1833,22.0,"Grosbeak, Pine",73,97
+1834,0.0,"Grosbeak, Pine",73,98
+1835,35.0,"Grosbeak, Pine",73,99
+1836,0.0,"Grosbeak, Pine",73,00
+1837,35.0,"Grosbeak, Pine",73,01
+1838,0.0,"Grosbeak, Pine",73,02
+1839,0.0,"Grosbeak, Pine",73,03
+1840,0.0,"Grosbeak, Pine",73,04
+1841,12.0,"Grosbeak, Pine",73,05
+1842,0.0,"Grosbeak, Pine",73,06
+1843,47.0,"Grosbeak, Pine",73,07
+1844,16.0,"Grosbeak, Pine",73,08
+1845,0.0,"Grosbeak, Pine",73,09
+1846,0.0,"Grosbeak, Pine",73,10
+1847,0.0,"Grosbeak, Pine",73,11
+1848,2.0,"Grosbeak, Pine",73,12
+1849,0.0,"Grosbeak, Pine",73,13
+1850,43.0,"Finch, Purple",74,89
+1851,11.0,"Finch, Purple",74,90
+1852,7.0,"Finch, Purple",74,91
+1853,10.0,"Finch, Purple",74,92
+1854,16.0,"Finch, Purple",74,93
+1855,0.0,"Finch, Purple",74,94
+1856,0.0,"Finch, Purple",74,95
+1857,0.0,"Finch, Purple",74,96
+1858,2.0,"Finch, Purple",74,97
+1859,0.0,"Finch, Purple",74,98
+1860,0.0,"Finch, Purple",74,99
+1861,45.0,"Finch, Purple",74,00
+1862,1.0,"Finch, Purple",74,01
+1863,4.0,"Finch, Purple",74,02
+1864,0.0,"Finch, Purple",74,03
+1865,38.0,"Finch, Purple",74,04
+1866,8.0,"Finch, Purple",74,05
+1867,2.0,"Finch, Purple",74,06
+1868,0.0,"Finch, Purple",74,07
+1869,3.0,"Finch, Purple",74,08
+1870,0.0,"Finch, Purple",74,09
+1871,0.0,"Finch, Purple",74,10
+1872,1.0,"Finch, Purple",74,11
+1873,0.0,"Finch, Purple",74,12
+1874,9.0,"Finch, Purple",74,13
+1875,1.0,"Finch, House",75,89
+1876,42.0,"Finch, House",75,90
+1877,33.0,"Finch, House",75,91
+1878,21.0,"Finch, House",75,92
+1879,7.0,"Finch, House",75,93
+1880,43.0,"Finch, House",75,94
+1881,8.0,"Finch, House",75,95
+1882,5.0,"Finch, House",75,96
+1883,30.0,"Finch, House",75,97
+1884,0.0,"Finch, House",75,98
+1885,3.0,"Finch, House",75,99
+1886,8.0,"Finch, House",75,00
+1887,20.0,"Finch, House",75,01
+1888,3.0,"Finch, House",75,02
+1889,0.0,"Finch, House",75,03
+1890,2.0,"Finch, House",75,04
+1891,4.0,"Finch, House",75,05
+1892,0.0,"Finch, House",75,06
+1893,21.0,"Finch, House",75,07
+1894,10.0,"Finch, House",75,08
+1895,10.0,"Finch, House",75,09
+1896,0.0,"Finch, House",75,10
+1897,9.0,"Finch, House",75,11
+1898,2.0,"Finch, House",75,12
+1899,3.0,"Finch, House",75,13
+1900,0.0,"Crossbill, Red",76,89
+1901,0.0,"Crossbill, Red",76,90
+1902,0.0,"Crossbill, Red",76,91
+1903,0.0,"Crossbill, Red",76,92
+1904,0.0,"Crossbill, Red",76,93
+1905,16.0,"Crossbill, Red",76,94
+1906,0.0,"Crossbill, Red",76,95
+1907,65.0,"Crossbill, Red",76,96
+1908,53.0,"Crossbill, Red",76,97
+1909,0.0,"Crossbill, Red",76,98
+1910,0.0,"Crossbill, Red",76,99
+1911,0.0,"Crossbill, Red",76,00
+1912,0.0,"Crossbill, Red",76,01
+1913,0.0,"Crossbill, Red",76,02
+1914,0.0,"Crossbill, Red",76,03
+1915,0.0,"Crossbill, Red",76,04
+1916,0.0,"Crossbill, Red",76,05
+1917,0.0,"Crossbill, Red",76,06
+1918,0.0,"Crossbill, Red",76,07
+1919,3.0,"Crossbill, Red",76,08
+1920,0.0,"Crossbill, Red",76,09
+1921,0.0,"Crossbill, Red",76,10
+1922,2.0,"Crossbill, Red",76,11
+1923,0.0,"Crossbill, Red",76,12
+1924,0.0,"Crossbill, Red",76,13
+1925,12.0,"Crossbill, White-winged",77,89
+1926,0.0,"Crossbill, White-winged",77,90
+1927,0.0,"Crossbill, White-winged",77,91
+1928,0.0,"Crossbill, White-winged",77,92
+1929,0.0,"Crossbill, White-winged",77,93
+1930,31.0,"Crossbill, White-winged",77,94
+1931,0.0,"Crossbill, White-winged",77,95
+1932,15.0,"Crossbill, White-winged",77,96
+1933,23.0,"Crossbill, White-winged",77,97
+1934,0.0,"Crossbill, White-winged",77,98
+1935,0.0,"Crossbill, White-winged",77,99
+1936,14.0,"Crossbill, White-winged",77,00
+1937,2.0,"Crossbill, White-winged",77,01
+1938,4.0,"Crossbill, White-winged",77,02
+1939,4.0,"Crossbill, White-winged",77,03
+1940,2.0,"Crossbill, White-winged",77,04
+1941,0.0,"Crossbill, White-winged",77,05
+1942,0.0,"Crossbill, White-winged",77,06
+1943,9.0,"Crossbill, White-winged",77,07
+1944,15.0,"Crossbill, White-winged",77,08
+1945,6.0,"Crossbill, White-winged",77,09
+1946,0.0,"Crossbill, White-winged",77,10
+1947,0.0,"Crossbill, White-winged",77,11
+1948,0.0,"Crossbill, White-winged",77,12
+1949,0.0,"Crossbill, White-winged",77,13
+1950,5.0,"Redpoll, Common",78,89
+1951,0.0,"Redpoll, Common",78,90
+1952,40.0,"Redpoll, Common",78,91
+1953,0.0,"Redpoll, Common",78,92
+1954,151.0,"Redpoll, Common",78,93
+1955,0.0,"Redpoll, Common",78,94
+1956,61.0,"Redpoll, Common",78,95
+1957,0.0,"Redpoll, Common",78,96
+1958,142.0,"Redpoll, Common",78,97
+1959,0.0,"Redpoll, Common",78,98
+1960,95.0,"Redpoll, Common",78,99
+1961,0.0,"Redpoll, Common",78,00
+1962,47.0,"Redpoll, Common",78,01
+1963,0.0,"Redpoll, Common",78,02
+1964,332.0,"Redpoll, Common",78,03
+1965,0.0,"Redpoll, Common",78,04
+1966,15.0,"Redpoll, Common",78,05
+1967,14.0,"Redpoll, Common",78,06
+1968,59.0,"Redpoll, Common",78,07
+1969,52.0,"Redpoll, Common",78,08
+1970,4.0,"Redpoll, Common",78,09
+1971,233.0,"Redpoll, Common",78,10
+1972,0.0,"Redpoll, Common",78,11
+1973,188.0,"Redpoll, Common",78,12
+1974,0.0,"Redpoll, Common",78,13
+1975,0.0,Pine Siskin,79,89
+1976,0.0,Pine Siskin,79,90
+1977,16.0,Pine Siskin,79,91
+1978,10.0,Pine Siskin,79,92
+1979,45.0,Pine Siskin,79,93
+1980,19.0,Pine Siskin,79,94
+1981,1.0,Pine Siskin,79,95
+1982,2.0,Pine Siskin,79,96
+1983,2.0,Pine Siskin,79,97
+1984,1.0,Pine Siskin,79,98
+1985,7.0,Pine Siskin,79,99
+1986,270.0,Pine Siskin,79,00
+1987,6.0,Pine Siskin,79,01
+1988,0.0,Pine Siskin,79,02
+1989,6.0,Pine Siskin,79,03
+1990,77.0,Pine Siskin,79,04
+1991,0.0,Pine Siskin,79,05
+1992,0.0,Pine Siskin,79,06
+1993,0.0,Pine Siskin,79,07
+1994,395.0,Pine Siskin,79,08
+1995,0.0,Pine Siskin,79,09
+1996,10.0,Pine Siskin,79,10
+1997,278.0,Pine Siskin,79,11
+1998,13.0,Pine Siskin,79,12
+1999,8.0,Pine Siskin,79,13
+2000,99.0,"Goldfinch, American",80,89
+2001,64.0,"Goldfinch, American",80,90
+2002,167.0,"Goldfinch, American",80,91
+2003,120.0,"Goldfinch, American",80,92
+2004,130.0,"Goldfinch, American",80,93
+2005,290.0,"Goldfinch, American",80,94
+2006,3.0,"Goldfinch, American",80,95
+2007,480.0,"Goldfinch, American",80,96
+2008,28.0,"Goldfinch, American",80,97
+2009,237.0,"Goldfinch, American",80,98
+2010,5.0,"Goldfinch, American",80,99
+2011,282.0,"Goldfinch, American",80,00
+2012,39.0,"Goldfinch, American",80,01
+2013,176.0,"Goldfinch, American",80,02
+2014,10.0,"Goldfinch, American",80,03
+2015,427.0,"Goldfinch, American",80,04
+2016,48.0,"Goldfinch, American",80,05
+2017,381.0,"Goldfinch, American",80,06
+2018,16.0,"Goldfinch, American",80,07
+2019,233.0,"Goldfinch, American",80,08
+2020,143.0,"Goldfinch, American",80,09
+2021,53.0,"Goldfinch, American",80,10
+2022,427.0,"Goldfinch, American",80,11
+2023,7.0,"Goldfinch, American",80,12
+2024,248.0,"Goldfinch, American",80,13
+2025,80.0,"Sparrow, House",81,89
+2026,153.0,"Sparrow, House",81,90
+2027,92.0,"Sparrow, House",81,91
+2028,40.0,"Sparrow, House",81,92
+2029,74.0,"Sparrow, House",81,93
+2030,151.0,"Sparrow, House",81,94
+2031,7.0,"Sparrow, House",81,95
+2032,62.0,"Sparrow, House",81,96
+2033,104.0,"Sparrow, House",81,97
+2034,101.0,"Sparrow, House",81,98
+2035,121.0,"Sparrow, House",81,99
+2036,50.0,"Sparrow, House",81,00
+2037,76.0,"Sparrow, House",81,01
+2038,71.0,"Sparrow, House",81,02
+2039,51.0,"Sparrow, House",81,03
+2040,43.0,"Sparrow, House",81,04
+2041,15.0,"Sparrow, House",81,05
+2042,18.0,"Sparrow, House",81,06
+2043,4.0,"Sparrow, House",81,07
+2044,19.0,"Sparrow, House",81,08
+2045,36.0,"Sparrow, House",81,09
+2046,65.0,"Sparrow, House",81,10
+2047,28.0,"Sparrow, House",81,11
+2048,37.0,"Sparrow, House",81,12
+2049,13.0,"Sparrow, House",81,13
+2050,0.0,Yellow bellied sapsucker,82,89
+2051,0.0,Yellow bellied sapsucker,82,90
+2052,0.0,Yellow bellied sapsucker,82,91
+2053,0.0,Yellow bellied sapsucker,82,92
+2054,0.0,Yellow bellied sapsucker,82,93
+2055,0.0,Yellow bellied sapsucker,82,94
+2056,0.0,Yellow bellied sapsucker,82,95
+2057,0.0,Yellow bellied sapsucker,82,96
+2058,0.0,Yellow bellied sapsucker,82,97
+2059,0.0,Yellow bellied sapsucker,82,98
+2060,0.0,Yellow bellied sapsucker,82,99
+2061,0.0,Yellow bellied sapsucker,82,00
+2062,0.0,Yellow bellied sapsucker,82,01
+2063,0.0,Yellow bellied sapsucker,82,02
+2064,0.0,Yellow bellied sapsucker,82,03
+2065,0.0,Yellow bellied sapsucker,82,04
+2066,0.0,Yellow bellied sapsucker,82,05
+2067,0.0,Yellow bellied sapsucker,82,06
+2068,0.0,Yellow bellied sapsucker,82,07
+2069,0.0,Yellow bellied sapsucker,82,08
+2070,0.0,Yellow bellied sapsucker,82,09
+2071,0.0,Yellow bellied sapsucker,82,10
+2072,2.0,Yellow bellied sapsucker,82,11
+2073,1.0,Yellow bellied sapsucker,82,12
+2074,0.0,Yellow bellied sapsucker,82,13
+2075,0.0,Northern Flicker,83,89
+2076,0.0,Northern Flicker,83,90
+2077,0.0,Northern Flicker,83,91
+2078,0.0,Northern Flicker,83,92
+2079,0.0,Northern Flicker,83,93
+2080,0.0,Northern Flicker,83,94
+2081,0.0,Northern Flicker,83,95
+2082,0.0,Northern Flicker,83,96
+2083,0.0,Northern Flicker,83,97
+2084,0.0,Northern Flicker,83,98
+2085,0.0,Northern Flicker,83,99
+2086,0.0,Northern Flicker,83,00
+2087,0.0,Northern Flicker,83,01
+2088,0.0,Northern Flicker,83,02
+2089,0.0,Northern Flicker,83,03
+2090,0.0,Northern Flicker,83,04
+2091,0.0,Northern Flicker,83,05
+2092,0.0,Northern Flicker,83,06
+2093,0.0,Northern Flicker,83,07
+2094,0.0,Northern Flicker,83,08
+2095,0.0,Northern Flicker,83,09
+2096,0.0,Northern Flicker,83,10
+2097,1.0,Northern Flicker,83,11
+2098,0.0,Northern Flicker,83,12
+2099,0.0,Northern Flicker,83,13
+2100,0.0,Common Merganser,84,89
+2101,0.0,Common Merganser,84,90
+2102,0.0,Common Merganser,84,91
+2103,0.0,Common Merganser,84,92
+2104,0.0,Common Merganser,84,93
+2105,0.0,Common Merganser,84,94
+2106,0.0,Common Merganser,84,95
+2107,0.0,Common Merganser,84,96
+2108,0.0,Common Merganser,84,97
+2109,0.0,Common Merganser,84,98
+2110,0.0,Common Merganser,84,99
+2111,0.0,Common Merganser,84,00
+2112,0.0,Common Merganser,84,01
+2113,0.0,Common Merganser,84,02
+2114,0.0,Common Merganser,84,03
+2115,0.0,Common Merganser,84,04
+2116,0.0,Common Merganser,84,05
+2117,0.0,Common Merganser,84,06
+2118,0.0,Common Merganser,84,07
+2119,0.0,Common Merganser,84,08
+2120,0.0,Common Merganser,84,09
+2121,0.0,Common Merganser,84,10
+2122,0.0,Common Merganser,84,11
+2123,1.0,Common Merganser,84,12
+2124,0.0,Common Merganser,84,13
+2125,0.0,Rough-legged Hawk,85,89
+2126,0.0,Rough-legged Hawk,85,90
+2127,0.0,Rough-legged Hawk,85,91
+2128,0.0,Rough-legged Hawk,85,92
+2129,0.0,Rough-legged Hawk,85,93
+2130,0.0,Rough-legged Hawk,85,94
+2131,0.0,Rough-legged Hawk,85,95
+2132,0.0,Rough-legged Hawk,85,96
+2133,0.0,Rough-legged Hawk,85,97
+2134,0.0,Rough-legged Hawk,85,98
+2135,0.0,Rough-legged Hawk,85,99
+2136,0.0,Rough-legged Hawk,85,00
+2137,0.0,Rough-legged Hawk,85,01
+2138,0.0,Rough-legged Hawk,85,02
+2139,0.0,Rough-legged Hawk,85,03
+2140,0.0,Rough-legged Hawk,85,04
+2141,0.0,Rough-legged Hawk,85,05
+2142,0.0,Rough-legged Hawk,85,06
+2143,0.0,Rough-legged Hawk,85,07
+2144,0.0,Rough-legged Hawk,85,08
+2145,0.0,Rough-legged Hawk,85,09
+2146,0.0,Rough-legged Hawk,85,10
+2147,0.0,Rough-legged Hawk,85,11
+2148,1.0,Rough-legged Hawk,85,12
+2149,0.0,Rough-legged Hawk,85,13
