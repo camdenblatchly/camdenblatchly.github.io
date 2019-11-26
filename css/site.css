@@ -25,3 +25,9 @@ a:hover {
 .intro {
 	padding: 5% 15% 5% 15%;
 }
+
+  @media (max-width: 800px) {
+    .intro {
+      padding: 5px;
+    }
+  }
