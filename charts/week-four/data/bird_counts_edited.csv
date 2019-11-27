@@ -324,31 +324,31 @@
 322,0.0,"Hawk, Cooper's",12,11
 323,1.0,"Hawk, Cooper's",12,12
 324,1.0,"Hawk, Cooper's",12,13
-325,0.0,"Goshawk, Northern",13,89
-326,0.0,"Goshawk, Northern",13,90
-327,1.0,"Goshawk, Northern",13,91
-328,0.0,"Goshawk, Northern",13,92
-329,0.0,"Goshawk, Northern",13,93
-330,0.0,"Goshawk, Northern",13,94
-331,1.0,"Goshawk, Northern",13,95
-332,0.0,"Goshawk, Northern",13,96
-333,1.0,"Goshawk, Northern",13,97
-334,0.0,"Goshawk, Northern",13,98
-335,1.0,"Goshawk, Northern",13,99
-336,0.0,"Goshawk, Northern",13,00
-337,0.0,"Goshawk, Northern",13,01
-338,0.0,"Goshawk, Northern",13,02
-339,0.0,"Goshawk, Northern",13,03
-340,0.0,"Goshawk, Northern",13,04
-341,0.0,"Goshawk, Northern",13,05
-342,0.0,"Goshawk, Northern",13,06
-343,1.0,"Goshawk, Northern",13,07
-344,0.0,"Goshawk, Northern",13,08
-345,0.0,"Goshawk, Northern",13,09
-346,0.0,"Goshawk, Northern",13,10
-347,1.0,"Goshawk, Northern",13,11
-348,1.0,"Goshawk, Northern",13,12
-349,0.0,"Goshawk, Northern",13,13
+325,0.0,"Hawk, Northern Goshawk",13,89
+326,0.0,"Hawk, Northern Goshawk",13,90
+327,1.0,"Hawk, Northern Goshawk",13,91
+328,0.0,"Hawk, Northern Goshawk",13,92
+329,0.0,"Hawk, Northern Goshawk",13,93
+330,0.0,"Hawk, Northern Goshawk",13,94
+331,1.0,"Hawk, Northern Goshawk",13,95
+332,0.0,"Hawk, Northern Goshawk",13,96
+333,1.0,"Hawk, Northern Goshawk",13,97
+334,0.0,"Hawk, Northern Goshawk",13,98
+335,1.0,"Hawk, Northern Goshawk",13,99
+336,0.0,"Hawk, Northern Goshawk",13,00
+337,0.0,"Hawk, Northern Goshawk",13,01
+338,0.0,"Hawk, Northern Goshawk",13,02
+339,0.0,"Hawk, Northern Goshawk",13,03
+340,0.0,"Hawk, Northern Goshawk",13,04
+341,0.0,"Hawk, Northern Goshawk",13,05
+342,0.0,"Hawk, Northern Goshawk",13,06
+343,1.0,"Hawk, Northern Goshawk",13,07
+344,0.0,"Hawk, Northern Goshawk",13,08
+345,0.0,"Hawk, Northern Goshawk",13,09
+346,0.0,"Hawk, Northern Goshawk",13,10
+347,1.0,"Hawk, Northern Goshawk",13,11
+348,1.0,"Hawk, Northern Goshawk",13,12
+349,0.0,"Hawk, Northern Goshawk",13,13
 350,0.0,"Hawk, Red-tailed",14,89
 351,0.0,"Hawk, Red-tailed",14,90
 352,0.0,"Hawk, Red-tailed",14,91
@@ -2124,28 +2124,28 @@
 2122,0.0,Common Merganser,84,11
 2123,1.0,Common Merganser,84,12
 2124,0.0,Common Merganser,84,13
-2125,0.0,Rough-legged Hawk,85,89
-2126,0.0,Rough-legged Hawk,85,90
-2127,0.0,Rough-legged Hawk,85,91
-2128,0.0,Rough-legged Hawk,85,92
-2129,0.0,Rough-legged Hawk,85,93
-2130,0.0,Rough-legged Hawk,85,94
-2131,0.0,Rough-legged Hawk,85,95
-2132,0.0,Rough-legged Hawk,85,96
-2133,0.0,Rough-legged Hawk,85,97
-2134,0.0,Rough-legged Hawk,85,98
-2135,0.0,Rough-legged Hawk,85,99
-2136,0.0,Rough-legged Hawk,85,00
-2137,0.0,Rough-legged Hawk,85,01
-2138,0.0,Rough-legged Hawk,85,02
-2139,0.0,Rough-legged Hawk,85,03
-2140,0.0,Rough-legged Hawk,85,04
-2141,0.0,Rough-legged Hawk,85,05
-2142,0.0,Rough-legged Hawk,85,06
-2143,0.0,Rough-legged Hawk,85,07
-2144,0.0,Rough-legged Hawk,85,08
-2145,0.0,Rough-legged Hawk,85,09
-2146,0.0,Rough-legged Hawk,85,10
-2147,0.0,Rough-legged Hawk,85,11
-2148,1.0,Rough-legged Hawk,85,12
-2149,0.0,Rough-legged Hawk,85,13
+2125,0.0,"Hawk, Rough-legged",85,89
+2126,0.0,"Hawk, Rough-legged",85,90
+2127,0.0,"Hawk, Rough-legged",85,91
+2128,0.0,"Hawk, Rough-legged",85,92
+2129,0.0,"Hawk, Rough-legged",85,93
+2130,0.0,"Hawk, Rough-legged",85,94
+2131,0.0,"Hawk, Rough-legged",85,95
+2132,0.0,"Hawk, Rough-legged",85,96
+2133,0.0,"Hawk, Rough-legged",85,97
+2134,0.0,"Hawk, Rough-legged",85,98
+2135,0.0,"Hawk, Rough-legged",85,99
+2136,0.0,"Hawk, Rough-legged",85,00
+2137,0.0,"Hawk, Rough-legged",85,01
+2138,0.0,"Hawk, Rough-legged",85,02
+2139,0.0,"Hawk, Rough-legged",85,03
+2140,0.0,"Hawk, Rough-legged",85,04
+2141,0.0,"Hawk, Rough-legged",85,05
+2142,0.0,"Hawk, Rough-legged",85,06
+2143,0.0,"Hawk, Rough-legged",85,07
+2144,0.0,"Hawk, Rough-legged",85,08
+2145,0.0,"Hawk, Rough-legged",85,09
+2146,0.0,"Hawk, Rough-legged",85,10
+2147,0.0,"Hawk, Rough-legged",85,11
+2148,1.0,"Hawk, Rough-legged",85,12
+2149,0.0,"Hawk, Rough-legged",85,13
