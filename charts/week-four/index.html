@@ -2,7 +2,7 @@
 <html lang="en">
 	<head>
 		<meta charset="utf-8">
-		<title>Chart-a-Week: Week Two</title>
+		<title>MWV Historic Bird Population</title>
 		<script src="https://d3js.org/d3.v4.min.js"></script>
 
 		<!-- Mobile Specific Metas
@@ -36,13 +36,14 @@
 		    position: absolute;			
 		    text-align: left;			
 		    width: 400px;					
-		    height: 200px;					
+		    height: 260px;					
 		    padding: 2px;				
 		    font: 12px sans-serif;		
 		    background: white;
 		    color: grey;
 		    border-style: solid;	
 		    pointer-events: none;	
+		    border-color: grey;
 
 	    	font-size: .8em; /* currently ems cause chrome bug misinterpreting rems on body element */
 		  	line-height: 1.;
@@ -68,6 +69,19 @@
 		  	stroke-width: 4px;
 		}
 
+		#tooltip-title {
+			margin-bottom: -2.5rem;
+		}
+
+		#tooltip-title span {
+			color: orange;
+		}
+
+		#tooltip-text {
+			padding-left: 5px;
+			padding-right: 5px;
+		}
+
 
 		</style>
 
@@ -85,14 +99,16 @@
 			</div>
 		</div>
 		<div class="tooltip">
+			<h5 id="tooltip-title"></h5>
 			<div id="inner-chart"></div>
+			<div id="tooltip-text"></div>
 		</div>
 	<script type="text/javascript">
 
 	var w = $(window).width() - 250;
 	var h = $(window).height() - 150;
 
-	var radiusSize = 3;
+	var radiusSize = 4.5;
 
   	// set the dimensions and margins of the graph
     var margin = {top: 100, right: 100, bottom: 100, left: 200},
@@ -108,7 +124,7 @@
         .attr("transform",
               "translate(" + margin.left + "," + margin.top + ")");
 
-	var inner_margin = {top: 36, right: 36, bottom: 50, left: 100},
+	var inner_margin = {top: 36, right: 36, bottom: 50, left: 50},
 		inner_width = 400 - inner_margin.left - inner_margin.right,
 		inner_height = 200 - inner_margin.top - inner_margin.bottom;
 
@@ -132,6 +148,7 @@
 
 	var parseYear = d3.timeParse("%y");
 	var displayYear = d3.timeFormat("%y");
+	var displayFullYear = d3.timeFormat("%Y");
 
 	var inner_line = d3.line()
 		.x(function(d) { return inner_x(parseYear(d.year)); })
@@ -260,9 +277,23 @@
 		    	d3.select(this)
 		    		.style("stroke", "orange");
 
-		    console.log("IN HERE");
 
 		    	var bird_name = d.species;
+		    	var bird_cat;
+		    	var bird_type;
+		    	var bird_title;
+
+
+		    	if (bird_name.indexOf(',') > -1) {
+		    		bird_cat = bird_name.split(",")[0];
+		    		bird_type = bird_name.split(",")[1];
+		    		bird_title = bird_type + " " + bird_cat + "s";
+		    	}
+		    	else {
+		    		bird_title = bird_name;
+		    	}
+
+		    	var year = d.year;
 
 		    	tooltip.transition()
                   .duration(500)
@@ -272,27 +303,58 @@
                 	.style("left", (d3.event.pageX + 20) + "px")    
                   	.style("top", (d3.event.pageY - 230) + "px");
 
+                tooltip.select("#tooltip-title")
+                	.html(bird_name + " <span>(" + displayFullYear(parseYear(year)) + ")</span>")
+                	.style("font-weight", "bold");
+
                 inner_data = data.filter(function(d) {
 		            return (
 		                (d.species === bird_name) 
 		            );
 		        });
 
+                var first_year_count = inner_data[0].count;
+                var last_year_count = inner_data[inner_data.length-1].count;
+
+                var change_word;
+
+                if (first_year_count > last_year_count) {
+                	change_word = "declined";
+                }
+                else {
+                	change_word = "increased";
+                }
+
+                var perc_change = d3.format(".0%")(last_year_count/first_year_count);
+
+                if (first_year_count === 0 & last_year_count === 0) {
+                	change_word = "did not change"
+                }
+                else {
+                	change_word = change_word + " " + perc_change;
+                }
+
+               	tooltip.select("#tooltip-text")
+               		.html("<p>In " + displayFullYear(parseYear(year)) + ", volunteers observed " + d.count + " " +
+               			bird_title + " in the Mount Washington Valley. The overall population of " + bird_title +
+               			" " + change_word + " from 1989 to 2013.")
+
 				layer2.append("path")
 					.data([inner_data])
 					.attr("class", "line")
 					.attr("d", inner_line);
 
-				/*
+			
 				layer1.selectAll(".bird_count_dot")
 					.data(inner_data)
 					.enter()
 					.append("circle")
+					.filter(function(d) { return d.year === year })
 					.attr("cx", function(d) { return inner_x(parseYear(d.year)); })
 					.attr("cy", function(d) { return inner_y(d.count); })
 					.attr("r", function(d, i) { return radiusSize; })
 					.style("fill", "orange")
-				*/
+				
 			
 		    })
 		    .on('mouseout', function(d) {
