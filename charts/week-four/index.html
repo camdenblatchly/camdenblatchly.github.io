@@ -28,7 +28,7 @@
 
         body {
           padding: 10px;
-          background-color: black;
+          background-color: white;
         }
 
 
@@ -39,7 +39,7 @@
 		    height: 200px;					
 		    padding: 2px;				
 		    font: 12px sans-serif;		
-		    background: grey;
+		    background: white;
 		    color: grey;
 		    border-style: solid;	
 		    pointer-events: none;	
@@ -175,7 +175,7 @@
 	        .classed("x-axis", true)
 	        .call(d3.axisTop(x)
 	        	.tickSize(4)
-	        	.ticks(5)
+	        	.ticks(4)
 	        	)
 	        .select(".domain").remove();
 
@@ -195,11 +195,12 @@
 
 		inner_svg.append("g")
 			.attr("transform", "translate(0," + inner_height + ")")
-			.call(d3.axisBottom(inner_x).ticks(5));
+			.call(d3.axisBottom(inner_x).ticks(4));
 
 		inner_svg.append("g")
 			.call(d3.axisLeft(inner_y).ticks(4));
 
+			/*
 		inner_svg.append("text")
 		    .attr("transform", "rotate(-90)")
 		    .attr("y", 0 - inner_margin.left + 30)
@@ -214,10 +215,11 @@
 		                         (inner_height + inner_margin.top) + ")")
 		    .style("text-anchor", "middle")
 		    .text("Year (1989-2013)");
+		    */
 
 	             // Build color scale
 	      var otherColor = d3.scaleSqrt()
-		    .range(["black", "green"])
+		    .range(["white", "green"])
 		    .domain([0,250]);
 
 		var x_text = svg.selectAll(".x-axis text")
@@ -263,12 +265,12 @@
 		    	var bird_name = d.species;
 
 		    	tooltip.transition()
-                  .duration(200)
+                  .duration(500)
                   .style("opacity", 1.0);
 
                 tooltip
-                	.style("left", (d3.event.pageX + 15) + "px")    
-                  	.style("top", (d3.event.pageY - 30) + "px");
+                	.style("left", (d3.event.pageX + 20) + "px")    
+                  	.style("top", (d3.event.pageY - 230) + "px");
 
                 inner_data = data.filter(function(d) {
 		            return (
@@ -297,7 +299,7 @@
 		    	d3.select(this)
 		    		.style("stroke", "none");
                 tooltip.transition()
-                  .duration(200)
+                  .duration(500)
                   .style("opacity", 0.0);
 
 
