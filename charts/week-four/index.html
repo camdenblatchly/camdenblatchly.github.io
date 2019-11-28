@@ -32,22 +32,23 @@
         }
 
 
-				div.tooltip {	
-			    position: absolute;			
-			    text-align: left;			
-			    width: 280px;					
-			    height: 30px;					
-			    padding: 2px;				
-			    font: 12px sans-serif;		
-			    background: white;	
-			    border-style: solid;	
-			    pointer-events: none;	
+		div.tooltip {	
+		    position: absolute;			
+		    text-align: left;			
+		    width: 400px;					
+		    height: 200px;					
+		    padding: 2px;				
+		    font: 12px sans-serif;		
+		    background: grey;
+		    color: grey;
+		    border-style: solid;	
+		    pointer-events: none;	
 
-		    	font-size: .8em; /* currently ems cause chrome bug misinterpreting rems on body element */
-			  	line-height: 1.;
-			  	font-weight: 400;
-			  	font-family: "Raleway", "HelveticaNeue", "Helvetica Neue", Helvetica, Arial, sans-serif;		
-				}
+	    	font-size: .8em; /* currently ems cause chrome bug misinterpreting rems on body element */
+		  	line-height: 1.;
+		  	font-weight: bold;
+		  	font-family: "Raleway", "HelveticaNeue", "Helvetica Neue", Helvetica, Arial, sans-serif;		
+		}
 
         g {
           font-family: "Raleway", "HelveticaNeue", "Helvetica Neue", Helvetica, Arial, sans-serif; 
@@ -60,6 +61,12 @@
         .x-axis path, .y-axis path {
         	display: none;
         }
+
+        .line {
+		 	fill: none;
+		  	stroke: steelblue;
+		  	stroke-width: 4px;
+		}
 
 
 		</style>
@@ -77,46 +84,62 @@
 				</div>
 			</div>
 		</div>
-		<script type="text/javascript">
+		<div class="tooltip">
+			<div id="inner-chart"></div>
+		</div>
+	<script type="text/javascript">
 
-		var w = $(window).width() - 250;
-		var h = $(window).height() - 150;
+	var w = $(window).width() - 250;
+	var h = $(window).height() - 150;
 
+	var radiusSize = 3;
 
-		var color_list = ["maroon", "#1f78b4", "#b2df8a", "#33a02c", "#fb9a99", "#9c4f4a", "#fdbf6f",
-							"#ff7f00", "#cab2d6", "#6a3d9a", "teal", "#b15928", "pink", "turquoise", "#1b9e77"]
-
-		var bird_colors = {
-			"Chickadee": 0,
-			"Duck": 1,
-			"Finch": 2,
-			"Grouse": 3,
-			"Gull": 4,
-			"Hawk": 5,
-			"Jay": 6,
-			"Junco": 7,
-			"Nuthatch": 8,
-			"Sparrow": 9,
-			"Waxwing": 10,
-			"Woodpecker": 11,
-			"Wren": 12,
-			"Crossbill": 13,
-			"Owl": 14
-		}
-
-      // set the dimensions and margins of the graph
-      var margin = {top: 100, right: 25, bottom: 100, left: 200},
+  	// set the dimensions and margins of the graph
+    var margin = {top: 100, right: 100, bottom: 100, left: 200},
         width = w - margin.left - margin.right,
         height = 2000 - margin.top - margin.bottom;
 
       // append the svg object to the body of the page
-      var svg = d3.select("#chart")
+    var svg = d3.select("#chart")
       .append("svg")
         .attr("width", width + margin.left + margin.right)
         .attr("height", height + margin.top + margin.bottom)
       .append("g")
         .attr("transform",
               "translate(" + margin.left + "," + margin.top + ")");
+
+	var inner_margin = {top: 36, right: 36, bottom: 50, left: 100},
+		inner_width = 400 - inner_margin.left - inner_margin.right,
+		inner_height = 200 - inner_margin.top - inner_margin.bottom;
+
+	var inner_svg = d3.select("#inner-chart")
+		.append("svg")
+			.attr("width", inner_width + inner_margin.left + inner_margin.right)
+			.attr("height", inner_height + inner_margin.top + inner_margin.bottom)
+		.append("g")
+			.attr("transform",
+						"translate(" + inner_margin.left + "," + inner_margin.top + ")");
+
+	var inner_x = d3.scaleTime()
+		.range([0, inner_width]);
+	var inner_y = d3.scaleLinear()
+		.range([inner_height, 0]);
+
+	// bottom layer
+	var layer2 = inner_svg.append('g');
+	// top layer
+	var layer1 = inner_svg.append('g');
+
+	var parseYear = d3.timeParse("%y");
+	var displayYear = d3.timeFormat("%y");
+
+	var inner_line = d3.line()
+		.x(function(d) { return inner_x(parseYear(d.year)); })
+		.y(function(d) { return inner_y(d.count); });
+
+    var tooltip = d3.selectAll(".tooltip")
+        .attr("class", "tooltip")
+          .style("opacity", 0);
 
 	  var rowConverter = function(d) {
 	    	return {
@@ -131,15 +154,16 @@
       //Read the data
       d3.csv("data/bird_counts_edited.csv", rowConverter, function(data) {
 
-      	 	data.sort(function(x, y){
-			   return d3.descending(x.species, y.species);
-			})
+  	 	data.sort(function(x, y){
+		   		return d3.descending(x.species, y.species);
 
- 		  var species_list = d3.set(data.map(function(d) { 
- 		  	return d.species 
- 		  })).values();
- 		  var year_list = d3.set(data.map(function(d) { return d.year; })).values();
+		})
 
+      	var lag_rank = 0;
+ 		var species_list = d3.set(data.map(function(d) {
+ 			return d.species;
+		})).values();
+		var year_list = d3.set(data.map(function(d) { return '`' + d.year; })).values();
 
       	  // Build X scales and axis:
 	      var x = d3.scaleBand()
@@ -156,6 +180,7 @@
 	        .select(".domain").remove();
 
 
+
 	      var y = d3.scaleBand()
 	        .range([ height, 0 ])
 	        .domain(species_list)
@@ -165,9 +190,34 @@
 	        .call(d3.axisLeft(y).tickSize(0))
 	        .select("domain").remove()
 
+        inner_x.domain(d3.extent(data, function(d) { return parseYear(d.year); }));
+		inner_y.domain(d3.extent(data, function(d) { return d.count; }));
+
+		inner_svg.append("g")
+			.attr("transform", "translate(0," + inner_height + ")")
+			.call(d3.axisBottom(inner_x).ticks(5));
+
+		inner_svg.append("g")
+			.call(d3.axisLeft(inner_y).ticks(4));
+
+		inner_svg.append("text")
+		    .attr("transform", "rotate(-90)")
+		    .attr("y", 0 - inner_margin.left + 30)
+		    .attr("x",0 - (inner_height/2))
+		    .attr("dy", "1em")
+		    .style("text-anchor", "middle")
+		    .text("Estimated Species Population");
+
+		inner_svg.append("text")             
+		    .attr("transform",
+		          "translate(" + (inner_width/2) + " ," + 
+		                         (inner_height + inner_margin.top) + ")")
+		    .style("text-anchor", "middle")
+		    .text("Year (1989-2013)");
+
 	             // Build color scale
 	      var otherColor = d3.scaleSqrt()
-		    .range(["black", "yellow"])
+		    .range(["black", "green"])
 		    .domain([0,250]);
 
 		var x_text = svg.selectAll(".x-axis text")
@@ -177,53 +227,18 @@
 					.style("stroke", "grey");
 
 		var y_text = svg.selectAll(".y-axis text")
-			.style("fill", function(d) {
-			    var bird_name = d.toString();
-	        	var bird_cat = bird_name.split(',')[0];
-	        	var bird_color = color_list[bird_colors[bird_cat]];
+			.style("fill", "grey")
+			.style("font-weight", "bold");			
 
-	        	if (bird_cat in bird_colors) {
-	        		return bird_color;
-	        	}
-	        	else {
-	        		return "grey";
-	        	}
-
-			})
-			.style("font-weight", "bold");
-
-		var lines = svg.selectAll()
-			.data(data)
-			.enter()
-			.append("line")
-			.style("stroke", function(d) {
-
-			    var bird_name = d.species.toString();
-	        	var bird_cat = bird_name.split(',')[0];
-	        	var bird_color = color_list[bird_colors[bird_cat]];
-
-	        	if (bird_cat in bird_colors) {
-	        		return bird_color;
-	        	}
-	        	else {
-	        		return "black";
-	        	}
-			})
-			.style("stroke-width", "2")
-			.attr("x1", function(d) { return x(13) + x.bandwidth() + 5; })
-			.attr("y1", function(d) { return y(d.species); })
-			.attr("x2", function(d) { return x(13) + x.bandwidth() + 5; })
-			.attr("y2", function(d) { return y(d.species) + y.bandwidth(); })
-
-        var chart = svg.selectAll()
+        var chart = svg.selectAll("myRects")
             .data(data)
             .enter()
             .append("rect")
             .attr("x", function(d) {
-            	return x(d.year);
+            	return x('`' + d.year);
             })
             .attr("y", function(d) {
-            	return y(d.species);
+            	return y(d.species) ;
             })
             .attr("rx", 4)
             .attr("ry", 4)
@@ -234,27 +249,62 @@
             	return y.bandwidth() 
             })
             .style("fill", function(d) {
-            	var bird_name = d.species.toString();
-            	var bird_cat = bird_name.split(',')[0];
-
-            	var bird_color = color_list[bird_colors[bird_cat]]
-
-            	/*
-            	if (bird_cat in bird_colors) {
-            		var birdColor = d3.scaleSqrt()
-		    			.range(["black", bird_color])
-		    			.domain([0,50]);
-
-		    		return birdColor(d.count);
-            	}
-            	else {
-            		*/
-            		return otherColor(d.count);
-            	//}
+            	return otherColor(d.count);
             })
             .style("stroke-width", 4)
 		    .style("stroke", "none")
-		    .style("opacity", 0.8);
+		    .style("opacity", 0.8)
+		    .on('mouseover', function(d) {
+		    	d3.select(this)
+		    		.style("stroke", "orange");
+
+		    console.log("IN HERE");
+
+		    	var bird_name = d.species;
+
+		    	tooltip.transition()
+                  .duration(200)
+                  .style("opacity", 1.0);
+
+                tooltip
+                	.style("left", (d3.event.pageX + 15) + "px")    
+                  	.style("top", (d3.event.pageY - 30) + "px");
+
+                inner_data = data.filter(function(d) {
+		            return (
+		                (d.species === bird_name) 
+		            );
+		        });
+
+				layer2.append("path")
+					.data([inner_data])
+					.attr("class", "line")
+					.attr("d", inner_line);
+
+				/*
+				layer1.selectAll(".bird_count_dot")
+					.data(inner_data)
+					.enter()
+					.append("circle")
+					.attr("cx", function(d) { return inner_x(parseYear(d.year)); })
+					.attr("cy", function(d) { return inner_y(d.count); })
+					.attr("r", function(d, i) { return radiusSize; })
+					.style("fill", "orange")
+				*/
+			
+		    })
+		    .on('mouseout', function(d) {
+		    	d3.select(this)
+		    		.style("stroke", "none");
+                tooltip.transition()
+                  .duration(200)
+                  .style("opacity", 0.0);
+
+
+		        layer1.selectAll("circle").remove();
+		        layer2.selectAll("path").remove();
+		    });
+
 
       })
 
