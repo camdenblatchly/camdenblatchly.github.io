@@ -92,7 +92,7 @@
 		    background-size: cover;
 		}
 
-		h1 {
+		h1,h4 {
 			text-align: center;
 		}
 
@@ -105,7 +105,8 @@
 			margin="0" padding="0" border="none" overflow="hidden" scrolling="no"></iframe></div>
 			<div class="row">
 				<div class="column">
-					<h1>Bird Populations in the Mt. Washington Valley Are Declining</h1>
+					<h1>Bird Populations in the Mt. Washington Valley Are Changing</h1>
+					<h4>From 1989 to 2013, the total number of birds counted dropped 71%</h4>
 				</div>
 			</div>
 			<div class="row">
@@ -122,6 +123,7 @@
 	<script type="text/javascript">
 
 	var wiki_url = "https://en.wikipedia.org/wiki/";
+	var wiki_bird_url = "";
 
 	var w = 1000;
 	var h = $(window).height() - 150;
@@ -129,7 +131,7 @@
 	var radiusSize = 4.5;
 
   	// set the dimensions and margins of the graph
-    var margin = {top: 100, right: 110, bottom: 100, left: 190},
+    var margin = {top: 50, right: 110, bottom: 100, left: 190},
         width = w - margin.left - margin.right,
         height = 2000 - margin.top - margin.bottom;
 
@@ -226,7 +228,10 @@
 	        .select("domain").remove()
 
         inner_x.domain(d3.extent(data, function(d) { return parseYear(d.year); }));
-		inner_y.domain(d3.extent(data, function(d) { return d.count; }));
+		inner_y.domain(d3.extent(data, function(d) {
+			if (d.species !== "All Bird Species")
+		 		return d.count; 
+		}));
 
 		inner_svg.append("g")
 			.attr("transform", "translate(0," + inner_height + ")")
@@ -255,7 +260,7 @@
 	             // Build color scale
 	      var otherColor = d3.scaleSqrt()
 		    .range(["white", "green"])
-		    .domain([0,250]);
+		    .domain([0,300]);
 
 		var x_text = svg.selectAll(".x-axis text")
 			.style("fill", "grey");
@@ -264,7 +269,14 @@
 					.style("stroke", "grey");
 
 		var y_text = svg.selectAll(".y-axis text")
-			.style("fill", "grey")
+			.style("fill", function(d) {
+				if (d === "All Bird Species") {
+					return "black";
+				}
+				else {
+					return "grey";
+				}
+			})
 			.style("font-weight", "bold")
 			.on('mouseover', function(d) {
 				d3.select(this).style("fill", "orange");
@@ -287,6 +299,8 @@
 				var wiki_frame = d3.select("#wiki-frame")
 					.attr("src", wiki_url + bird_title);
 
+				wiki_bird_url = wiki_url + bird_title;
+
 				d3.select('.box')
 					.style('display', 'block')
 					.style('position', 'absolute')
@@ -299,6 +313,9 @@
 
 				d3.select('.box')
 					.style('display', 'none');
+			})
+			.on('click', function(d) {
+				 window.open(wiki_bird_url);
 			});	
 
 
