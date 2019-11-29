@@ -27,6 +27,11 @@
 
 		<style type="text/css">
 
+		:root {
+		  --mainColor: #ff9800;
+		}
+
+
         body {
           padding: 10px;
           background-color: white;
@@ -97,6 +102,29 @@
 			text-align: center;
 		}
 
+		h1 {
+			font-weight: bold;
+		}
+
+		a {
+		  background:
+		     linear-gradient(
+		       to bottom, var(--mainColor) 0%,
+		       var(--mainColor) 100%
+		     );
+		    background-position: 0 100%;
+		    background-repeat: repeat-x;
+		    background-size: 3px 3px;
+		  color: black;
+		  text-decoration: none;
+		  transition: background-size .2s;
+		}
+
+		a:hover {
+		  background-size: 4px 50px;
+		  color: black;
+		}
+
 		</style>
 
 	</head>
@@ -106,8 +134,8 @@
 			margin="0" padding="0" border="none" overflow="hidden" scrolling="no"></iframe></div>
 			<div class="row">
 				<div class="twelve columns">
-					<h1>Bird Populations in the Mt. Washington Valley Are Changing</h1>
-					<p>Each December, Tin Mountain Conservation Center carries out the North Conway Christmas Bird count with the help of over 40 devoted volunteers both on foot in the field and at home watching their feeders. Bird counts are useful tools for evaluating yearly and long term trends of the birds wintering in our area. Use the heat map below to explore the changing bird populations over the last 25 years.
+					<h1>25 Years of Bird Observations in the<br>Mount Washington Valley</h1>
+					<p>Each December, <a href="https://www.tinmountain.org/" target="_blank">Tin Mountain Conservation Center</a> carries out the North Conway Christmas Bird count with the help of over 40 devoted volunteers both on foot, in the field, and at home watching their feeders. Bird counts are useful tools for evaluating yearly and long term trends of the birds wintering in our area. Use the heat map below to explore the changing bird populations over the last 25 years.
 				</div>
 			</div>
 			<div class="row">
@@ -144,7 +172,7 @@
             wrap: 100     
           },
           x: 700,
-          y: 35,
+          y: 55,
           dy: 20,
           dx: 10,
         },
@@ -155,7 +183,7 @@
           wrap: 100     
           },
           x: 700,
-          y: 225,
+          y: 245,
           dy: 20,
           dx: 10,
         }
@@ -204,6 +232,9 @@
 	var inner_y = d3.scaleLinear()
 		.range([inner_height, 0]);
 
+	var all_species_y = d3.scaleLinear()
+		.range([inner_height, 0]);
+
 	// bottom layer
 	var layer2 = inner_svg.append('g');
 	// top layer
@@ -216,6 +247,10 @@
 	var inner_line = d3.line()
 		.x(function(d) { return inner_x(parseYear(d.year)); })
 		.y(function(d) { return inner_y(d.count); });
+
+	var all_species_line = d3.line()
+		.x(function(d) { return inner_x(parseYear(d.year)); })
+		.y(function(d) { return all_species_y(d.count); });
 
     var tooltip = d3.selectAll(".tooltip")
         .attr("class", "tooltip")
@@ -237,7 +272,7 @@
   	 	data.sort(function(x, y){
 		   		return d3.descending(x.species, y.species);
 
-		})
+		});
 
       	var lag_rank = 0;
  		var species_list = d3.set(data.map(function(d) {
@@ -276,12 +311,23 @@
 		 		return d.count; 
 		}));
 
+		all_species_y.domain(d3.extent(data, function(d) {
+			if (d.species === "All Bird Species")
+				return d.count;
+		}))
+
 		inner_svg.append("g")
 			.attr("transform", "translate(0," + inner_height + ")")
 			.call(d3.axisBottom(inner_x).ticks(4));
 
 		inner_svg.append("g")
+			.attr('id', "inner-y-axis")
 			.call(d3.axisLeft(inner_y).ticks(4));
+
+		inner_svg.append("g")
+			.attr('id', 'all-species-axis')
+			.style("opacity", 0)
+			.call(d3.axisLeft(all_species_y).ticks(4));
 
 			/*
 		inner_svg.append("text")
@@ -304,6 +350,10 @@
 	      var otherColor = d3.scaleSqrt()
 		    .range(["white", "green"])
 		    .domain([0,300]);
+
+	      var allColor = d3.scaleSqrt()
+		    .range(["white", "black"])
+		    .domain([0,4000]);
 
 		var x_text = svg.selectAll(".x-axis text")
 			.style("fill", "grey");
@@ -382,7 +432,12 @@
             	return y.bandwidth() 
             })
             .style("fill", function(d) {
-            	return otherColor(d.count);
+            	if (d.species === "All Bird Species") {
+            		return allColor(d.count);
+            	}
+            	else {
+            		return otherColor(d.count);
+            	}
             })
             .style("stroke-width", 4)
 		    .style("stroke", "none")
@@ -456,13 +511,21 @@
 
                	tooltip.select("#tooltip-text")
                		.html("<p>In " + displayFullYear(parseYear(year)) + ", volunteers observed " + d.count + " " +
-               			bird_title + " in the Mount Washington Valley. The overall population of " + bird_title +
+               			bird_title + " in the Mount Washington Valley. Observations of " + bird_title +
                			" " + change_word + " between 1989 to 2013.")
 
-				layer2.append("path")
-					.data([inner_data])
-					.attr("class", "line")
-					.attr("d", inner_line);
+               	if (d.species === "All Bird Species") {
+					layer2.append("path")
+						.data([inner_data])
+						.attr("class", "line")
+						.attr("d", all_species_line);
+               	}
+               	else {
+					layer2.append("path")
+						.data([inner_data])
+						.attr("class", "line")
+						.attr("d", inner_line);
+				}
 
 			
 				layer1.selectAll(".bird_count_dot")
@@ -471,9 +534,32 @@
 					.append("circle")
 					.filter(function(d) { return d.year === year })
 					.attr("cx", function(d) { return inner_x(parseYear(d.year)); })
-					.attr("cy", function(d) { return inner_y(d.count); })
+					.attr("cy", function(d) {
+						if (d.species === "All Bird Species") {
+							return all_species_y(d.count);
+						}
+						else {
+							return inner_y(d.count); 
+						}
+
+					})
 					.attr("r", function(d, i) { return radiusSize; })
 					.style("fill", "orange")
+
+				if (d.species === "All Bird Species") {
+					d3.select("#inner-y-axis")
+						.style("opacity", 0);
+
+					d3.select("#all-species-axis")
+						.style("opacity", 1);
+				}
+				else  {
+					d3.select("#inner-y-axis")
+						.style("opacity", 1);
+
+					d3.select("#all-species-axis")
+						.style("opacity", 0);					
+				}
 				
 			
 		    })
