@@ -28,7 +28,7 @@
 		<style type="text/css">
 
 		:root {
-		  --mainColor: #ff9800;
+		  --mainColor: orange;
 		}
 
 
@@ -87,6 +87,11 @@
 		#tooltip-text {
 			padding-left: 5px;
 			padding-right: 5px;
+		}
+
+		#tooltip-text span {
+			color: black;
+			font-size: 13px;
 		}
 
 		.box{
@@ -352,7 +357,7 @@
 		    .domain([0,300]);
 
 	      var allColor = d3.scaleSqrt()
-		    .range(["white", "black"])
+		    .range(["white", "navy"])
 		    .domain([0,4000]);
 
 		var x_text = svg.selectAll(".x-axis text")
@@ -372,43 +377,64 @@
 			})
 			.style("font-weight", "bold")
 			.on('mouseover', function(d) {
-				d3.select(this).style("fill", "orange");
 
-				var bird_name = d;
-		    	var bird_cat;
-		    	var bird_type;
-		    	var bird_title;
+				var bird_name = d.toString();
 
+				if (bird_name !== "All Bird Species") {
+					d3.select(this).style("fill", "orange");
 
-		    	if (bird_name.indexOf(',') > -1) {
-		    		bird_cat = bird_name.split(",")[0];
-		    		bird_type = bird_name.split(",")[1];
-		    		bird_title = bird_type + "_" + bird_cat;
-		    	}
-		    	else {
-		    		bird_title = bird_name;
-		    	}
+			    	var bird_cat;
+			    	var bird_type;
+			    	var bird_title;
 
-				var wiki_frame = d3.select("#wiki-frame")
-					.attr("src", wiki_url + bird_title);
+			    	console.log(d);
 
-				wiki_bird_url = wiki_url + bird_title;
+			    	if (bird_name.indexOf(',') > -1) {
+			    		bird_cat = bird_name.split(",")[0];
+			    		bird_type = bird_name.split(",")[1];
+			    		bird_title = bird_type + "_" + bird_cat;
+			    	}
+			    	else {
+			    		bird_title = bird_name;
+			    	}
 
-				d3.select('.box')
-					.style('display', 'block')
-					.style('position', 'absolute')
-					.style('z-index', 100)
-					.style("left", (d3.event.pageX - 100) + "px")    
-                  	.style("top", (d3.event.pageY - 230) + "px");
+			    	if (bird_name === "Sparrow species (US)") {
+			    		bird_title = "Old_World_Sparrow";
+			    	}
+			    	if (bird_name === "Hawk Species (UH)") {
+			    		bird_title = "Hawk";
+			    	}
+			    	if (bird_name === "Gull Species (UG)") {
+			    		bird_title = "Gull";
+			    	}
+
+					var wiki_frame = d3.select("#wiki-frame")
+						.attr("src", wiki_url + bird_title);
+
+					wiki_bird_url = wiki_url + bird_title;
+
+					d3.select('.box')
+						.style('display', 'block')
+						.style('position', 'absolute')
+						.style('z-index', 100)
+						.style("left", (d3.event.pageX - 100) + "px")    
+	                  	.style("top", (d3.event.pageY - 230) + "px");
+				}
+
 			})
 			.on('mouseout', function(d) {
-				d3.select(this).style("fill", "grey");
+
+				if (d === "All Bird Species")
+					d3.select(this).style("fill", "black");
+				else
+					d3.select(this).style("fill", "grey");
 
 				d3.select('.box')
 					.style('display', 'none');
 			})
 			.on('click', function(d) {
-				 window.open(wiki_bird_url);
+				if (d !== "All Bird Species")
+					window.open(wiki_bird_url);
 			});	
 
 
@@ -459,7 +485,10 @@
 		    		bird_title = bird_type + " " + bird_cat + "s";
 		    	}
 		    	else {
-		    		bird_title = bird_name;
+		    		if (bird_name === "All Bird Species")
+		    			bird_title = "birds";
+		    		else
+						bird_title = bird_name;
 		    	}
 
 		    	var year = d.year;
@@ -506,13 +535,13 @@
                 	change_word = change_word + " from " + first_year_count + " to zero";
                 }
                 else {
-                	change_word = change_word + " " + perc_change;
+                	change_word = change_word + " " + "<span>" + perc_change + "</span>";
                 }
 
                	tooltip.select("#tooltip-text")
-               		.html("<p>In " + displayFullYear(parseYear(year)) + ", volunteers observed " + d.count + " " +
+               		.html("<p>In " + displayFullYear(parseYear(year)) + ", volunteers observed " + "<span>" + d.count + "</span> " +
                			bird_title + " in the Mount Washington Valley. Observations of " + bird_title +
-               			" " + change_word + " between 1989 to 2013.")
+               			" " + change_word + " between 1989 to 2013.</p>")
 
                	if (d.species === "All Bird Species") {
 					layer2.append("path")
