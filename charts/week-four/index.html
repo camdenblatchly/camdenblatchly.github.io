@@ -357,7 +357,7 @@
 		    .domain([0,300]);
 
 	      var allColor = d3.scaleSqrt()
-		    .range(["white", "navy"])
+		    .range(["white", "#363738"])
 		    .domain([0,4000]);
 
 		var x_text = svg.selectAll(".x-axis text")
@@ -511,6 +511,7 @@
 		            );
 		        });
 
+                
                 var first_year_count = inner_data[0].count;
                 var last_year_count = inner_data[inner_data.length-1].count;
 
