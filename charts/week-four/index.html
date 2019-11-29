@@ -12,6 +12,7 @@
 	    –––––––––––––––––––––––––––––––––––––––––––––––––– -->
 	    <link href="//fonts.googleapis.com/css?family=Raleway:400,300,600" rel="stylesheet" type="text/css">
 	    <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.4.1/jquery.min.js"></script>
+	    <script src="https://rawgit.com/susielu/d3-annotation/master/d3-annotation.min.js"></script>
 
 	    <script src="https://d3js.org/d3-color.v1.min.js"></script>
 		<script src="https://d3js.org/d3-interpolate.v1.min.js"></script>
@@ -104,9 +105,14 @@
 		<div class="box"><iframe id="wiki-frame" src="http://en.wikipedia.org/wiki/Red-winged_blackbird" width="100%" height="100%"
 			margin="0" padding="0" border="none" overflow="hidden" scrolling="no"></iframe></div>
 			<div class="row">
-				<div class="column">
+				<div class="twelve columns">
 					<h1>Bird Populations in the Mt. Washington Valley Are Changing</h1>
-					<h4>From 1989 to 2013, the total number of birds counted dropped 71%</h4>
+					<p>Each December, Tin Mountain Conservation Center carries out the North Conway Christmas Bird count with the help of over 40 devoted volunteers both on foot in the field and at home watching their feeders. Bird counts are useful tools for evaluating yearly and long term trends of the birds wintering in our area. Use the heat map below to explore the changing bird populations over the last 25 years.
+				</div>
+			</div>
+			<div class="row">
+				<div class="twelve columns">
+					<div id="chart_total"></div>
 				</div>
 			</div>
 			<div class="row">
@@ -124,6 +130,36 @@
 
 	var wiki_url = "https://en.wikipedia.org/wiki/";
 	var wiki_bird_url = "";
+
+	// annotation variables
+	var annotation_labels,
+	    annotations,
+	    makeAnnotations;
+
+	annotations = [
+        {
+          note: {
+            label: "Lighter color indicates a smaller value",
+            align: "left",
+            wrap: 100     
+          },
+          x: 700,
+          y: 35,
+          dy: 20,
+          dx: 10,
+        },
+        {
+          note: {
+          label: "Darker color indicates a larger value",
+          align: "left",
+          wrap: 100     
+          },
+          x: 700,
+          y: 225,
+          dy: 20,
+          dx: 10,
+        }
+      ]
 
 	var w = 1000;
 	var h = $(window).height() - 150;
@@ -143,6 +179,13 @@
       .append("g")
         .attr("transform",
               "translate(" + margin.left + "," + margin.top + ")");
+
+          // Add annotation to the chart
+      makeAnnotations = d3.annotation()
+        .annotations(annotations)
+      svg
+        .append("g")
+        .call(makeAnnotations)
 
 	var inner_margin = {top: 36, right: 36, bottom: 50, left: 50},
 		inner_width = 400 - inner_margin.left - inner_margin.right,
@@ -444,7 +487,7 @@
 
 		        layer1.selectAll("circle").remove();
 		        layer2.selectAll("path").remove();
-		    });
+		    });		    	
 
 
       })
