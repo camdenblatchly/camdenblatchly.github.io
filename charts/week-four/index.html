@@ -387,8 +387,6 @@
 			    	var bird_type;
 			    	var bird_title;
 
-			    	console.log(d);
-
 			    	if (bird_name.indexOf(',') > -1) {
 			    		bird_cat = bird_name.split(",")[0];
 			    		bird_type = bird_name.split(",")[1];
@@ -511,8 +509,16 @@
 		            );
 		        });
 
-                
-                var first_year_count = inner_data[0].count;
+               	var year_index;
+
+               	if (d.year < 14) {
+               		year_index = (parseInt(d.year) + 2000) - 1989;
+               	}
+               	else {
+               		year_index = d.year - 89;
+               	}
+
+                var first_year_count = inner_data[year_index].count;
                 var last_year_count = inner_data[inner_data.length-1].count;
 
                 var change_word;
@@ -524,10 +530,13 @@
                 	change_word = "increased";
                 }
 
-                var perc_change = d3.format(".0%")(last_year_count/first_year_count);
+                var perc_change = d3.format(".0%")((Math.abs(last_year_count-first_year_count)/first_year_count));
 
                 if (first_year_count === 0 & last_year_count === 0) {
                 	change_word = "did not change"
+                }
+                else if (first_year_count === last_year_count) {
+                	change_word = "did not change";
                 }
                 else if (first_year_count === 0) {
                 	change_word = change_word + " from zero to " + last_year_count; 
@@ -542,7 +551,7 @@
                	tooltip.select("#tooltip-text")
                		.html("<p>In " + displayFullYear(parseYear(year)) + ", volunteers observed " + "<span>" + d.count + "</span> " +
                			bird_title + " in the Mount Washington Valley. Observations of " + bird_title +
-               			" " + change_word + " between 1989 to 2013.</p>")
+               			" " + change_word + " between " + displayFullYear(parseYear(year)) + " to 2013.</p>")
 
                	if (d.species === "All Bird Species") {
 					layer2.append("path")
