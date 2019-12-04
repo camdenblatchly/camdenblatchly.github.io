@@ -94,6 +94,11 @@
 			font-size: 13px;
 		}
 
+		#footer {
+			text-align: center;
+			color: grey;
+		}
+
 		.box{
 		    display: none;
 		    width: 700px;
@@ -151,6 +156,15 @@
 			<div class="row">
 				<div class="twelve columns">
 					<div id="chart"></div>
+				</div>
+			</div>
+			<div class="row">
+				<div class="twelve columns">
+					<div id="footer">
+						<p>Copyright © Camden Blatchly. Data for this project can be found 
+							<a href="https://www.tinmountain.org/get-involved/christmas-bird-count/#:~:targetText=The%202018%20Christmas%20Bird%20Count,at%20home%20watching%20their%20feeders." target="_blank">here</a>.
+						</p>
+					</div>
 				</div>
 			</div>
 		</div>
@@ -415,8 +429,8 @@
 						.style('display', 'block')
 						.style('position', 'absolute')
 						.style('z-index', 100)
-						.style("left", (d3.event.pageX - 100) + "px")    
-	                  	.style("top", (d3.event.pageY - 230) + "px");
+						.style("left", 200 + "px")    
+	                  	.style("top", (d3.event.pageY - 300) + "px");
 				}
 
 			})
