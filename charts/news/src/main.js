@@ -141,11 +141,11 @@ function getNews() {
                 var hover_tile_index = 0;
 
                 d3.selectAll(".article-list-elements")
-                  .transition()
-                  .duration(1000)
+                  //.transition()
+                  //.duration(1000)
                   .style("font-size", function(b, i) {
                     if (b.title === title) {
-                      return "30px";
+                      return "20px";
                     }
                     else {
                       return "4px";
@@ -158,6 +158,21 @@ function getNews() {
 
                 ///hover_tile.select('div')
                   //.style('display', 'none');
+
+                var title = d.title;
+                var hover_tile_index = 0;
+
+                d3.selectAll(".article-list-elements")
+                  //.transition()
+                  //.duration(1000)
+                  .style("font-size", function(b, i) {
+                    if (b.title === title) {
+                      return "4px";
+                    }
+                    else {
+                      return "4px";
+                    }
+                  })
             });
 
         d3.select("#article-list")
@@ -180,20 +195,20 @@ function getNews() {
               var below = this.nextElementSibling;
 
               d3.select(this)
-                .transition()
-                .duration(1000)
+                //.transition()
+                //.duration(1000)
                 .style("font-size", "20px");
 
               d3.select(above)
-                .transition()
-                .duration(1000)
-                .style("font-size", "10px");
+                //.transition()
+                //.duration(1000)
+                .style("font-size", "15px");
 
 
               d3.select(below)
-                .transition()
-                .duration(1000)
-                .style("font-size", "10px");
+                //.transition()
+                //.duration(1000)
+                .style("font-size", "15px");
 
             })
             .on("mouseout", function(d) {
@@ -202,20 +217,20 @@ function getNews() {
               var below = this.nextElementSibling;
 
               d3.select(this)
-                .transition()
-                .duration(1500)
+                //.transition()
+                //.duration(1500)
                 .style("font-size", "4px");
 
 
               d3.select(above)
-                .transition()
-                .duration(1500)
+                //.transition()
+                //.duration(1500)
                 .style("font-size", "4px");
 
 
               d3.select(below)
-                .transition()
-                .duration(1500)
+                //.transition()
+                //.duration(1500)
                 .style("font-size", "4px");
 
             });
