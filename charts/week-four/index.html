@@ -50,6 +50,8 @@
 		    border-style: solid;	
 		    pointer-events: none;	
 		    border-color: grey;
+		    z-index: 200;
+		    display: none;
 
 	    	font-size: .8em; /* currently ems cause chrome bug misinterpreting rems on body element */
 		  	line-height: 1.;
@@ -100,12 +102,15 @@
 		}
 
 		.box{
-		    display: none;
-		    width: 700px;
-		    height: 600px;
+		    opacity: 0;
+		    width: 600px;
+		    height: 500px;
 		    background-image: url("images/loader.gif");
 		    background-position: center;
 		    background-size: cover;
+		    position: absolute;
+		    z-index: 0;
+		    display: none;
 		}
 
 		h1,h4 {
@@ -135,20 +140,34 @@
 		  color: black;
 		}
 
+		iframe {
+			width: 100%;
+			height: 100%;
+			margin: 0px;
+			border: none;
+			padding: 0px;
+			overflow: hidden;
+			border: .5px solid grey;
+		}
+
+		#chart, .zindex {
+			z-index: 100;
+			position: relative;
+		}
+
 		</style>
 
 	</head>
 	<body>
 		<div class="container">
-		<div class="box"><iframe id="wiki-frame" src="http://en.wikipedia.org/wiki/Red-winged_blackbird" width="100%" height="100%"
-			margin="0" padding="0" border="none" overflow="hidden" scrolling="no"></iframe></div>
-			<div class="row">
+		<div class="box"><iframe id="wiki-frame" src="http://en.wikipedia.org/wiki/Red-winged_blackbird"  scrolling="no"></iframe></div>
+			<div class="zindex row">
 				<div class="twelve columns">
-					<h1>25 Years of Bird Observations in the<br>Mount Washington Valley</h1>
+					<h1>30 Years of Bird Observations in the<br>Mount Washington Valley</h1>
 					<p>Each December, <a href="https://www.tinmountain.org/" target="_blank">Tin Mountain Conservation Center</a> carries out the North Conway Christmas Bird count with the help of over 40 devoted volunteers both on foot, in the field, and at home watching their feeders. Bird counts are useful tools for evaluating yearly and long term trends of the birds wintering in our area. Use the heat map below to explore the changing bird populations over the last 25 years.
 				</div>
 			</div>
-			<div class="row">
+			<div class="zindex row">
 				<div class="twelve columns">
 					<div id="chart_total"></div>
 				</div>
@@ -191,7 +210,7 @@
             wrap: 100     
           },
           x: 700,
-          y: 55,
+          y: 72,
           dy: 20,
           dx: 10,
         },
@@ -202,7 +221,7 @@
           wrap: 100     
           },
           x: 700,
-          y: 245,
+          y: 218,
           dy: 20,
           dx: 10,
         }
@@ -286,7 +305,7 @@
 	  }
 
       //Read the data
-      d3.csv("data/bird_counts_edited.csv", rowConverter, function(data) {
+      d3.csv("data/bird_counts_edited_2020_03_21.csv", rowConverter, function(data) {
 
   	 	data.sort(function(x, y){
 		   		return d3.descending(x.species, y.species);
@@ -427,10 +446,14 @@
 
 					d3.select('.box')
 						.style('display', 'block')
-						.style('position', 'absolute')
-						.style('z-index', 100)
+						.style('z-index', 200)
 						.style("left", 200 + "px")    
 	                  	.style("top", (d3.event.pageY - 300) + "px");
+	                  	
+					d3.select('.box')
+						.transition()
+						.duration(250)
+						.style('opacity', 1);
 				}
 
 			})
@@ -441,8 +464,11 @@
 				else
 					d3.select(this).style("fill", "grey");
 
-				d3.select('.box')
-					.style('display', 'none');
+					d3.select('.box')
+					.transition()
+					.duration(250)
+					.style('opacity', 0)
+					.style('z-index', 0);
 			})
 			.on('click', function(d) {
 				if (d !== "All Bird Species")
@@ -450,6 +476,29 @@
 			});	
 
 
+		d3.selectAll('.box')
+			.on('mouseover', function(d) {
+
+				d3.select(this).style('z-index', 200);
+
+				d3.select(this)
+				.transition()
+				.duration(250)
+				.style('opacity', 1);
+
+				d3.selectAll("iframe")
+					.attr("scrolling", "yes");
+			})
+			.on('mouseout', function(d) {
+				d3.select(this)
+				.transition()
+				.duration(250)
+				.style('opacity', 0)
+				.style('z-index', 0);
+				
+				d3.selectAll("iframe")
+					.attr("scrolling", "no");
+			})
 
         var chart = svg.selectAll("myRects")
             .data(data)
@@ -505,6 +554,8 @@
 
 		    	var year = d.year;
 
+		    	tooltip.style("display", "block");
+
 		    	tooltip.transition()
                   .duration(500)
                   .style("opacity", 1.0);
@@ -525,7 +576,7 @@
 
                	var year_index;
 
-               	if (d.year < 14) {
+               	if (d.year < 20) {
                		year_index = (parseInt(d.year) + 2000) - 1989;
                	}
                	else {
@@ -565,7 +616,7 @@
                	tooltip.select("#tooltip-text")
                		.html("<p>In " + displayFullYear(parseYear(year)) + ", volunteers observed " + "<span>" + d.count + "</span> " +
                			bird_title + " in the Mount Washington Valley. Observations of " + bird_title +
-               			" " + change_word + " between " + displayFullYear(parseYear(year)) + " and 2013.</p>")
+               			" " + change_word + " between " + displayFullYear(parseYear(year)) + " and 2019.</p>")
 
                	if (d.species === "All Bird Species") {
 					layer2.append("path")
