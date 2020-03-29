@@ -141,7 +141,7 @@
 						<div class="title-line">
 							<h1>Number of Deaths by Risk Factor in</h1>
 							<div class="dropdown">
-							    <button id="entity-button" class="btn btn-secondary dropdown-toggle" type="button" data-toggle="dropdown">United States<span class="caret"></span></button>
+							    <button id="entity-button" class="btn btn-secondary dropdown-toggle" type="button" data-toggle="dropdown">South Africa<span class="caret"></span></button>
 							    <ul class="dropdown-menu">
 							      <input class="form-control" id="myInput" type="text" placeholder="Search..">
 							    </ul>
@@ -454,7 +454,7 @@
 
 				var countries = d3.set(data.map(function(d) { return d.entity })).values();
 
-				var filter_country = "United States";
+				var filter_country = "South Africa";
 				
 				d3.select('.dropdown-menu').selectAll(".item")
 						.data(countries)
