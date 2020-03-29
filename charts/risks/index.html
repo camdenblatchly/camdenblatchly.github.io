@@ -7,18 +7,15 @@
   	<link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.4.1/css/bootstrap.min.css">
   	<script src="https://ajax.googleapis.com/ajax/libs/jquery/3.4.1/jquery.min.js"></script>
   	<script src="https://maxcdn.bootstrapcdn.com/bootstrap/3.4.1/js/bootstrap.min.js"></script>
+  	<script src="src/jquery.fittext.js"></script>
 
-		<title>D3: Stacked area chart</title>
+		<title>Number of deaths by risk factor</title>
 		<script src="https://d3js.org/d3.v4.min.js"></script>
 		<style type="text/css">
-		h1 {
-				font-family: Helvetica, sans-serif;
-				font-size: 14px;
-				font-weight: bold;
-		}
 
 		.dropdown {
 			padding-top: 10px;
+			margin-left: 10px;
 		}
 
 		.dropdown-menu {
@@ -34,27 +31,30 @@
   	}
 
   	#entity-button {
+  		padding-right: 40px;
   		position: relative;
-  		width: 200px;
+  		min-width: 300px;
+  		max-width: 550px;
   		text-align: left;
-  		margin-bottom: 10px;
   		background-color: white;
-  		border: 1px solid grey;
+  		border: .5px solid grey;
+  		height: 100%;
+  		overflow: hidden;
+  		font-size: 36px;
   	}
 
   	#entity-button span {
   		position: absolute;
-  		left: 180px;
-  		top: 15px;
+  		left: 96%;
+  		top: 50%;
   	}
 
 		div.tooltip {
 				position: absolute;
-				text-align: center;
-				width: 300px;
-				height: 60px;
+				text-align: left;
+				max-width: 300px;
+				max-height: 100px;
 				padding: 5px;
-				font: 12px sans-serif;
 				background: white;
 				border: 0.5px solid grey;
 				pointer-events: none;
@@ -70,16 +70,18 @@
 		}
 
 		div.tooltip h4 {
-				font-size: 1.1em;
+				font-size: 1.5em;
+				font-weight: bold;
 		}
 
 		div.tooltip h5 {
-			font-size: 1em;
+			font-size: 1.4em;
 			color: #454545;
 		}
 
 		.area {
-				stroke: none;
+			stroke: none;
+			opacity: 0;
 		}
 
 		.axis {
@@ -87,14 +89,36 @@
 		}
 
 		.area:hover {
-				fill: yellow;
+			fill: #f5c242;
 		}
 
 		#chart {
 			background-color: #f7f7f7;
 			border-radius: 5px;
+			height: 500px;
 		}
 
+		.title-line {
+			display: flex;
+			padding: 5px;
+			margin: 0 auto;
+			opacity: 0;
+		}
+
+		.notes {
+			position: absolute;
+			top: 95%;
+			left: 10%;
+			color: #5c5c5c;
+			opacity: 0;
+		}
+
+		footer {
+			text-align: center;
+			color: grey;
+			padding-top: 50px;
+			opacity: 0;
+		}
 
 		</style>
 </head>
@@ -103,20 +127,29 @@
 		<div class="container">
 			<div class="row">
 				<div class="col-md-12">
-					<div class="dropdown">
-				    <button id="entity-button" class="btn btn-secondary dropdown-toggle" type="button" data-toggle="dropdown">United States
-				    <span class="caret"></span></button>
-				    <ul class="dropdown-menu">
-				      <input class="form-control" id="myInput" type="text" placeholder="Search..">
-				    </ul>
-				  </div>
+					<div class="title-wrapper">
+						<div class="title-line">
+							<h1>Number of Deaths by Risk Factor in</h1>
+							<div class="dropdown">
+							    <button id="entity-button" class="btn btn-secondary dropdown-toggle" type="button" data-toggle="dropdown">United States<span class="caret"></span></button>
+							    <ul class="dropdown-menu">
+							      <input class="form-control" id="myInput" type="text" placeholder="Search..">
+							    </ul>
+						  </div>
+						</div>
+					</div>
 				</div>
 			</div>
 			<div class="row">
 				<div class="col-md-12">
-				<div id="chart"></div>
+					<div id="chart">
+						<p class="notes">Source: Our World in Data (https://ourworldindata.org/grapher/number-of-deaths-by-risk-factor)</p>
+					</div>
+				</div>
 			</div>
-			</div>
+			<footer>
+				<p>Copyright © Camden Blatchly.</p>
+			</footer>
 		</div>
 		<script type="text/javascript">
 
@@ -186,10 +219,22 @@
 				//Create SVG element
 				var svg = d3.select("#chart")
 						.style("width", w + "px")
+						.style("height", h + "px")
 						.style("margin", "0 auto")
 						.append("svg")
 						.attr("width", w)
 						.attr("height", h);
+
+				d3.select(".title-wrapper").style("width", w + "px")
+
+				header_width = $(".title-line h1").width();
+				dropdown_width = $(".title-line .dropdown").width();
+
+				d3.select(".title-line").style("width", header_width + dropdown_width + 100 + "px");
+				d3.select(".title-line")
+					.transition()
+					.duration(500)
+					.style("opacity", 1);
 
 				//Create areas
 				svg.selectAll("path")
@@ -217,14 +262,28 @@
 										d0 = dataset[i - 1],
 										d1 = dataset[i],
 										d = x0 - d0.date > d1.date - x0 ? d1 : d0;
-								console.log("x0", x0, "d", d);
+
+								var middle_year = parseTime("2013");
+								var pagex_offset = -250;
+								var pagey_offset = -160;
+
+								/*
+								if (d.date > middle_year) {
+									pagex_offset = (-1.4) * $(".tooltip").width();
+									pagey_offset = (-2) * $(".tooltip").height();
+								}
+								else {
+									pagex_offset = -200;
+									var pagey_offset = -150;
+								}
+								*/
 
 
 								tooltip.html('<h4>' + key + '</h4>' +
 												'<h5>Year: ' + formatTime(d.date) + '</h5>' +
 												'<h5>Deaths: ' + d3.format(".2s")(d[key]) + '</h5>')
-										.style("left", (d3.event.pageX - 100) + "px")
-										.style("top", (d3.event.pageY - 70) + "px");
+										.style("left", (d3.event.pageX + pagex_offset) + "px")
+										.style("top", (d3.event.pageY + pagey_offset) + "px");
 						})
 						.on("mouseout", function(d) {
 
@@ -241,12 +300,30 @@
 										d0 = dataset[i - 1],
 										d1 = dataset[i],
 										d = x0 - d0.date > d1.date - x0 ? d1 : d0;
+
+								var middle_year = parseTime("2013");
+								var pagex_offset = -250;
+								var pagey_offset = -160;	
+
+								/*
+								if (d.date > middle_year) {
+									pagex_offset = (-1.4) * $(".tooltip").width();
+									pagey_offset = (-1) * $(".tooltip").height();
+								}
+								else {
+									pagex_offset = -200;
+									var pagey_offset = -150;
+								}
+								*/
+
 								tooltip.html('<h4>' + key + '</h4>' +
 												'<h5>Year: ' + formatTime(d.date) + '</h5>' +
 												'<h5>Deaths: ' + d3.format(".2s")(d[key]) + '</h5>')
-										.style("left", (d3.event.pageX - 100) + "px")
-										.style("top", (d3.event.pageY - 70) + "px");
+										.style("left", (d3.event.pageX + pagex_offset) + "px")
+										.style("top", (d3.event.pageY + pagey_offset) + "px");
 						});
+
+				d3.selectAll(".area").transition().duration(500).style("opacity", 1);
 
 				//Create axes
 				svg.append("g")
@@ -265,7 +342,7 @@
 		//Width and height
 		var w = w / 1.2;
 		var h = w / 2;
-		var padding = 80;
+		var padding = 100;
 
 		var dataset, xScale, yScale, xAxis, yAxis, area; //Empty, for now
 
@@ -283,6 +360,13 @@
 		var bisectDate = d3.bisector(function(d) {
 				return d.date;
 		}).left;
+
+		d3.selectAll(".notes, footer")
+			.transition()
+			.duration(500)
+			.style("opacity", 1);
+
+
 
 		//Function for converting CSV values from strings to Dates and numbers
 		//We assume one column named 'Date' plus several others that will be converted to ints 
@@ -318,7 +402,6 @@
 
 
 				var countries = d3.set(data.map(function(d) { return d.entity })).values();
-				console.log(countries);
 
 				var filter_country = "United States";
 				
@@ -335,13 +418,37 @@
 			      	return d;
 			      })
 			      .on("click", function(d) {
+
+			      	if (filter_country === d) {
+			      		return;
+			      	}
+
 			      	d3.select("#entity-button").html(d + ' <span class="caret"></span>');
+
+			      	var button_width = $("#entity-button").width();
+
+			      	var width_ratio = 300/button_width;
+			      	var font_size = 36 * width_ratio;
+			      	
+			      	if (width_ratio > 1)
+			      		font_size = 36;
+
+			      	d3.select("#entity-button").style("font-size", font_size + "px");
+
+			      	header_width = $(".title-line h1").width();
+					dropdown_width = $(".title-line .dropdown").width();
+
+					d3.select(".title-line").style("width", header_width + dropdown_width + 100 + "px");
+
+
 			      	filter_country = d;
 
 			      	dataset = data.filter(function(d) {
 									return d.entity == filter_country;
 							});
 
+
+			      	d3.selectAll(".area").transition().duration(500).style("opacity", 1);
 			      	d3.selectAll("svg").remove();
 
 							drawChart(data, dataset);
@@ -357,6 +464,26 @@
 				keys.shift();
 
 				drawChart(data, dataset);
+
+				var resizeTimer;
+				window.onresize = function() {
+
+					clearTimeout(resizeTimer);
+					resizeTimer = setTimeout(function() {
+						console.log("RESIZING");
+						d3.selectAll(".area").transition().duration(500).style("opacity", 1);
+				      	d3.selectAll("svg").remove();
+					   	w = window.innerWidth;
+
+						//Width and height
+						w = w / 1.2;
+						h = w / 2;
+
+						drawChart(data, dataset);
+					            
+					 }, 200);
+
+				}
 
 		});
 		// https://bl.ocks.org/fabiomainardi/3976176cb36e718a608f
