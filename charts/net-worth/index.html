@@ -21,22 +21,32 @@
       font-family: 'Futura';
     }
 
+    #intro-header {
+      width: 900px;
+    }
+
+    .footer {
+      width: 900px;
+    }
+
   </style>
 </head>
 <body>
   <div class="container">
-    <h1>Congressional Net Worth</h1>
-    <div id="toolbar">
-      <a href="#" id="party" class="button">By Party</a>
-      <a href="#" id="all" class="button active">All Lawmakers</a>
-      <a href="#" id="chamber" class="button">By Chamber</a>
-      <a href="#" id="distribution" class="button">By Distribution</a> 
-      <!---<input id="searchBar" placeholder="Search">-->
-      <div class="slidecontainer">
-        <input type="range" min="2004" max="2014" value="2014" class="slider" id="myRange">
-      </div>
-      <h2 id="yearLabel">2014</h2>
+    <div id="intro-header">
+      <h1>Congressional Net Worth</h1>
+      <div id="toolbar">
+        <a href="#" id="party" class="button">By Party</a>
+        <a href="#" id="all" class="button active">All Lawmakers</a>
+        <a href="#" id="chamber" class="button">By Chamber</a>
+        <a href="#" id="distribution" class="button">By Distribution</a> 
+        <!---<input id="searchBar" placeholder="Search">-->
+        <div class="slidecontainer">
+          <input type="range" min="2004" max="2014" value="2014" class="slider" id="myRange">
+        </div>
+        <h2 id="yearLabel">2014</h2>
 
+      </div>
     </div>
 
     <div id="vis"></div>
