@@ -11,6 +11,8 @@
 	    <!-- FONT
 	    –––––––––––––––––––––––––––––––––––––––––––––––––– -->
 	    <link href="//fonts.googleapis.com/css?family=Raleway:400,300,600" rel="stylesheet" type="text/css">
+	    <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.4.1/jquery.min.js"></script>
+	    <script type="text/javascript" src="src/jquery.visible.min.js"></script>
 	    <!-- CSS
 	    –––––––––––––––––––––––––––––––––––––––––––––––––– -->
 	    <link rel="stylesheet" href="css/normalize.css">
@@ -21,31 +23,40 @@
 
 		<style type="text/css">
 
-      body {
-        background-color: white;
-      }
+	      body {
+	        background-color: black;
+	        color: white;
+	        overflow: hidden;
+	      }
 
-      .article-image { 
+	      .article-image { 
 
-      	  position: absolute;
+	      	  position: absolute;
 
-          background-position: center;
-          background-repeat: no-repeat;
-          background-size: cover;        
-      }
+	          background-position: center;
+	          background-repeat: no-repeat;
+	          background-size: cover;        
+	      }
 
-      #article-list {
-        position: absolute;
-      }
+	      .site-container {
+	      	margin-top: 20px;
+	      }
+
+	      #article-list {
+	        position: absolute;
+	        margin-bottom: 0px;
+	      }
 
 		</style>
 
 	</head>
 	<body onload="getNews()">
-		<div class="site-container">
-		</div>
-    <ol id="article-list">
-    </ol>
+		<div class="container">
+			<div class="site-container">
+			</div>
+		    <ol id="article-list">
+		    </ol>
+	    </div>
     <script src='src/main.js'></script>
 	</body>
 </html>
