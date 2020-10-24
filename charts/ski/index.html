@@ -40,7 +40,7 @@
 	<div class="container">
 		<div class="chart-text">
 			<h1>The Bigger the Mountain, the Bigger the Cost</h1>
-			<p>2020-2021 Adult Season Pass Price, dollars, versus Vertical Drop, feet<br>
+			<p>Vertical Drop, feet, versus 2020-2021 Adult Season Pass Price, dollars<br>
 				Skiable Terrain, acres, corresponds to circle area
 			</p>
 		</div>
@@ -55,8 +55,8 @@ function makeplot() {
 
 function makePlotly(data){
 	var traces = [{
-		x: d3.map(data, function(d) { return d.season_pass; }),
-		y: d3.map(data, function(d) { return d.vertical_drop; }),
+		y: d3.map(data, function(d) { return d.season_pass; }),
+		x: d3.map(data, function(d) { return d.vertical_drop; }),
 		text: d3.map(data, function(d) { return d.ski_area + ", " + d.state ; }),
 		customdata: d3.map(data, function(d) { return d.avg_snowfall ; }),
 		marker: { size: d3.map(data, function(d) { return d.skiable_acres; }), sizemode: "area" },
@@ -65,8 +65,8 @@ function makePlotly(data){
 		type: 'scatter',
 		hovertemplate:
             "<b>%{text}</b><br>" +
-            "Vertical Drop: %{y} ft<br>" +
-            "Season Pass Price: %{x}<br>" +
+            "Vertical Drop: %{x} ft<br>" +
+            "Season Pass Price: %{y}<br>" +
             "Skiable Terrain: %{marker.size:,} acres<br>" +
             "Avg. Snowfall: %{customdata:,} in" + 
             "<extra></extra>",
@@ -89,7 +89,7 @@ function makePlotly(data){
   		margin: {
   			t: 10
   		},
-	  	yaxis: {
+	  	xaxis: {
 	  		tickformat: ",.0",
           	zeroline: false,
           	tickfont: {
@@ -101,11 +101,10 @@ function makePlotly(data){
           		font: {
           			family: 'Raleway',
           			color: 'black'
-          		},
-          		standoff: 10
+          		}
           	}
         },
-        xaxis: {
+        yaxis: {
         	tickformat: "$,.0",
           	zeroline: false,
           	tickfont: {
