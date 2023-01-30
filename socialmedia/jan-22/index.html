@@ -1,0 +1,150 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <!-- Basic Page Needs
+    –––––––––––––––––––––––––––––––––––––––––––––––––– -->
+    <meta charset="utf-8">
+    <title>Zine - January 22</title>
+    <meta name="description" content="">
+    <meta name="Camden Blatchly" content="">
+    <!-- Mobile Specific Metas
+    –––––––––––––––––––––––––––––––––––––––––––––––––– -->
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <!-- FONT
+    –––––––––––––––––––––––––––––––––––––––––––––––––– -->
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Rubik+Bubbles&display=swap" rel="stylesheet">
+    <!-- CSS
+    –––––––––––––––––––––––––––––––––––––––––––––––––– -->
+    <link rel="stylesheet" href="../../css/normalize.css">
+    <link rel="stylesheet" href="../../css/skeleton.css">
+    <link rel="stylesheet" href="css/page.css">
+    <!-- Favicon
+    –––––––––––––––––––––––––––––––––––––––––––––––––– -->
+    <link rel="icon" type="image/png" href="../../images/watercolour.jpg">
+</head>
+
+<body>
+    <!-- Primary Page Layout
+  –––––––––––––––––––––––––––––––––––––––––––––––––– -->
+    <div class="security-overlay">
+      <p>welcome to camden's social media</p>
+      <input id="password" type="text" required
+       minlength="4" maxlength="8" size="10">
+       <button id="password-submit">Enter site</button>
+    </div>
+    <div class="bganimate">
+        <p>
+            camden's social media<br>
+            <span style="color: black;">january 2023</span>
+        </p>
+    </div>
+    <div class="container">
+        <div class="row">
+            <div class="col-md-12 intro">
+                <p>Hello. Thanks for tuning into my social media for the month of January in the year 2023. Here are some things I want to share. I hope you</p>
+                <div class="spin">ENJOY</div>
+                <div class="spin">ENJOY</div>
+                <div class="spin">ENJOY</div>
+                <div class="spin">ENJOY</div>
+                <div class="spin">ENJOY</div>
+            </div>
+        </div>
+    </div>
+    <div class="container">
+        <p>Here is a nice poem that Eliza shared with me. It is by Reverand Max Coots.
+        </p>
+        <p class="poem">
+            Let us give thanks for a bounty of people:<br><br>
+            For children who are our second planting, and though they grow like weeds and the wind
+            too soon blows them away, may they forgive us our cultivation and fondly remember
+            where their roots are;<br><br>
+            For generous friends with hearts and smiles as bright as their blossoms;<br><br>
+            For feisty friends as tart as apples;<br><br>
+            For continuous friends, who, like scallions and cucumbers, keep reminding us that we've
+            had them;<br><br>
+            For crotchety friends, as sour as rhubarb and as indestructible;<br><br>
+            For handsome friends, who are as gorgeous as eggplants and as elegant as a row of corn,
+            and the other, plain as potatoes and as good for you;<br><br>
+            For funny friends, who are as silly as Brussels Sprouts and as amusing as Jerusalem
+            Artichokes, and serious friends, as complex as cauliflowers and as intricate as onions;
+            For friends as unpretentious as cabbages, as subtle as summer squash, as persistent as
+            parsley, as delightful as dill, as endless as zucchini, and who, like parsnips, can be
+            counted on to see you through the winter;<br><br>
+            For old friends, nodding like sunflowers in the evening-time, and young friends coming
+            on as fast as radishes;<br><br>
+            For loving friends, who wind around us like tendrils and hold us, despite our blights,
+            wilts and witherings;<br><br>
+            And finally, for those friends now gone, like gardens past that have been harvested, and
+            who fed us in their times that we might have life thereafter;<br><br>
+            For all these we give thanks.
+        </p>
+    </div>
+    <div class="container ytfilm">
+        <div class="row">
+            <div class="col-md-12">
+                <h2>free youtube film of the month</h2>
+            </div>
+        </div>
+        <div class="row">
+            <div style="text-align: center;" class="col-md-12">
+                <iframe width="560" height="315" src="https://www.youtube.com/embed/BdSL8GBfcXI" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
+            </div>
+        </div>
+        <div class="row">
+            <div class="col-md-12">
+                <p><br>
+                    Now that streaming has turned into cable television, we can return to the wonderful world of free films on youtube.<br><br>
+                    This month's free youtube film comes from director Matt Wolf and centers on the story of Arthur Russell, a talented avant-garde cellist and disco producer, who died from AIDS-related illnesses in 1992. A series of post-humous releases led to a resurgence of interest in his work.
+                    <br><br>
+                    The highlights of the film are:
+                    <ul>
+                        <li>Russell’s midwestern parents (who remind me of my grandparents)</li>
+                        <li>It’s depiction of NYC in the 70s and 80s (Russell was a close friend of Allen Ginsberg)</li>
+                        <li>Tom Lee’s efforts to share Russell’s music</li>
+                </p>
+            </div>
+        </div>
+    </div>
+    <div class="container">
+        <p>
+            This month's free youtube film comes from director Matt Wolf and centers on the story of Arthur Russell, a talented avant-garde cellist and disco producer, who died from AIDS-related illnesses in 1992. A series of post-humous releases led to a resurgence of interest in his work.
+        </p>
+    </div>
+    <!-- End Document
+  –––––––––––––––––––––––––––––––––––––––––––––––––– -->
+    <script src="js/enter-view.min.js"></script>
+    <script src="https://d3js.org/d3.v7.min.js"></script>
+    <script>
+    enterView({
+        selector: 'body',
+        offset: 0.0,
+        enter: function(el) {
+            el.classList.add('entered');
+        },
+        progress: function(el, progress) {
+            console.log(progress.toFixed(2));
+            let b_val = (progress.toFixed(2) * 250);
+            let r_val = (progress.toFixed(2) * 250);
+
+            if (progress.toFixed(2) > .5) {
+                r_val = 255 / 2;
+            }
+            console.log(r_val, b_val);
+            d3.select('html').style("background-color", "rgba(" + r_val + ",30," + b_val + ",1)");
+        }
+    });
+
+    d3.select("#password-submit")
+      .on('click', function() {
+        let input_text = document.getElementById("password").value;
+        if (input_text == "carrot") {
+          d3.select(".security-overlay").style("display", "none");
+        }
+      })
+    </script>
+</body>
+
+</html>
