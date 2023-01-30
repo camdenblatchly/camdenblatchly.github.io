@@ -1,7 +1,7 @@
 
 html {
 	background-color: rgba(18,30,34, 1);
-	font-size: 120%;
+	font-size: 100%;
 }
 
 body {
@@ -84,7 +84,6 @@ body {
 }
 
 .ytfilm {
-	font-family: ;
 	background-color: #2D3047;
 	padding: 25px;
 }
@@ -99,10 +98,59 @@ body {
     padding-bottom: 50px;
 }
 
-.poem {
-    max-width: 600px;
+.bw-bg {
     background-color: white;
     color: black;
+}
+
+.poem {
+    max-width: 600px;
     padding: 25px;
 }
 
+.animate-charcter
+{
+   text-transform: uppercase;
+  background-image: linear-gradient(
+    -225deg,
+    #231557 0%,
+    #44107a 29%,
+    #ff1361 67%,
+    #fff800 100%
+  );
+  background-size: auto auto;
+  background-clip: border-box;
+  background-size: 200% auto;
+  color: #fff;
+  background-clip: text;
+  text-fill-color: transparent;
+  -webkit-background-clip: text;
+  -webkit-text-fill-color: transparent;
+  animation: textclip 2s linear infinite;
+  display: inline-block;
+}
+
+@keyframes textclip {
+  to {
+    background-position: 200% center;
+  }
+}
+
+.fotm {
+    background-color: white;
+    padding: 25px;
+    color: black;
+}
+
+.fotm p {
+    font-family: Poppins, Arial, sans-serif;
+    font-size: 90%;
+}
+
+.fotm img {
+    display: block;
+    width: 100%;
+    max-width: 500px;
+    padding-bottom: 50px;
+    margin: 0 auto;
+}
