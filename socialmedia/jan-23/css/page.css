@@ -70,6 +70,7 @@ hr {
 
 .spin-container {
     display: flex;
+    overflow: hidden;
 }
 
 .spin {
