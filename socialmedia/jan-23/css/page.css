@@ -11,6 +11,17 @@ body {
     cursor: url("../img/camden-cursor-v03.png"), auto;
 }
 
+ul {
+    list-style-position: outside;
+    padding-left: 25px;
+    list-style-image: url('../img/cat_head 1.png');
+
+}
+
+hr {
+    border-color: purple;
+}
+
 .security-overlay {
     width: 100%;
     height: 100%;
@@ -57,15 +68,21 @@ body {
     100% {-webkit-transform: rotate(360deg);}   
 }
 
+.spin-container {
+    display: flex;
+}
+
 .spin {
 	-webkit-animation: spin 4s infinite linear;
+    max-width: 20vw;
+
 }
 
 .bganimate {
 
 	font-size: 10vw;
 
-	font-family: Rubik Bubbles;
+	font-family: Rubik Bubbles, Arial, sans-serif;
 	text-align: center;
 
 	width: 100%;
@@ -74,6 +91,8 @@ body {
     animation: bgcolor 10s infinite;
     -webkit-animation-direction: alternate;
     animation-direction: alternate;
+
+    border-radius: 10vw;
 
 }
 
@@ -89,13 +108,8 @@ body {
 }
 
 .ytfilm h1, h2, h3, h4, h5 {
-	font-family: Rubik Bubbles, sans-serif;
+	font-family: Rubik Bubbles, Arial, sans-serif;
 	text-align: center;
-}
-
-.container {
-    padding-top: 50px;
-    padding-bottom: 50px;
 }
 
 .bw-bg {
@@ -128,6 +142,7 @@ body {
   -webkit-text-fill-color: transparent;
   animation: textclip 2s linear infinite;
   display: inline-block;
+  background-color: red;
 }
 
 @keyframes textclip {
@@ -143,7 +158,7 @@ body {
 }
 
 .fotm p {
-    font-family: Poppins, Arial, sans-serif;
+    font-family: Open Sans, Arial, sans-serif;
     font-size: 90%;
 }
 
@@ -153,4 +168,41 @@ body {
     max-width: 500px;
     padding-bottom: 50px;
     margin: 0 auto;
+}
+
+.video {
+    display: block;
+    width: 100%;
+    max-width: 500px;
+    margin: 0 auto;
+}
+
+.ranking {
+    background-color: #FBF8E9;
+    padding: 25px;
+    color: black;
+    max-width: 800px;
+    border: 10px solid black;
+    border-radius: 50px;
+    margin-top: 50px;
+    margin-bottom: 50px;
+}
+
+.playlist {
+    background-color: #FECEB8;
+    color: black;
+    padding: 20px;
+    margin-top: 50px;
+}
+
+.ranking p {
+    font-family: Open Sans, Arial, sans-serif;
+    font-size: 90%;
+}
+
+.ranking img {
+    display: block;
+    width: 100%;
+    margin: 0 auto 25px auto;
+    border-radius: 5px;
 }
