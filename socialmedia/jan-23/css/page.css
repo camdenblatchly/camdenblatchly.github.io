@@ -22,6 +22,12 @@ hr {
     border-color: purple;
 }
 
+@media only screen and (max-width: 600px) {
+  h2 {
+    font-size: 2.5rem;
+  }
+}
+
 .security-overlay {
     width: 100%;
     height: 100%;
