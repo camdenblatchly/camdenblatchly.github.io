@@ -1,4 +1,159 @@
+/* BASE */
+
 :root {
+    --mainColor: #ff9800;
+}
+
+html {
+    background-color: #FBF8E9;
+    font-family: Poppins;
+    font-weight: 400;
+    color: #121E22;
+}
+
+/* Typography
+–––––––––––––––––––––––––––––––––––––––––––––––––– */
+h1, h2, h3, h4, h5, h6 {
+  margin-top: 0rem;
+  margin-bottom: .5rem;
+  font-weight: 600;
+}
+
+h1 { font-size: 3.6rem; }
+h2 { font-size: 3.0rem; }
+h3 { font-size: 2.4rem; }
+h4 { font-size: 1.8rem; }
+h5 { font-size: 1.5rem; }
+h6 { font-size: 1.3rem; }
+
+p {
+    font-size: 1em;
+    font-family: Lora, Poppins, monospace;
+    line-height: 1.6;
+}
+
+text {
+    font-family: Lora, Poppins, monospace;
+}
+
+a {
+    background:
+        linear-gradient(to bottom, var(--mainColor) 0%,
+        var(--mainColor) 100%);
+    background-position: 0 100%;
+    background-repeat: repeat-x;
+    background-size: 4px 4px;
+    color: black;
+    text-decoration: none;
+    transition: background-size .2s;
+}
+
+a:hover {
+    background-size: 4px 50px;
+    color: black;
+}
+
+/* HOME */
+
+.container {
+    padding-top: 15px;
+    margin: 0 auto;
+
+    max-width: 800px;
+}
+
+@media (min-width: 550px) {
+
+    .container {
+        padding-top: 60px;
+    }
+
+}
+
+.home h1 {
+    margin-bottom: 2rem;
+}
+
+.home p {
+    font-weight: 300;
+    font-size: 1.4rem;
+}
+
+.home strong {
+    font-weight: 600;
+}
+
+.portfolio {
+    margin-top: 2rem;
+}
+
+/* WORK TILE */
+
+.tile-container {
+    background: none;
+    display: flex;
+    transition: transform 400ms;
+    margin-bottom: 80px;
+}
+
+.tile-container:hover {
+    background: none;
+    transform: rotate(1deg);
+}
+
+.tile-container:hover > .tile-img {
+    border: 2px solid #ff9800;
+}
+
+.tile-container:hover > .tile-text h6 {
+    text-decoration: underline;
+}
+
+.tile-img {
+    border: 2px solid black;
+    margin-right: 10px;
+    border-radius: 5px;
+
+    width: 100%;
+    max-width: 400px;
+    height: auto;
+    object-fit: cover;
+}
+
+.tile-img:hover {
+    background: none;
+}
+
+.tile-text {
+    margin: 0px;
+}
+
+.tile-text h6 {
+    margin: 0px 0px 10px 0px;
+}
+
+.tile-text p {
+    font-size: 1rem;
+    margin: 0px;
+    line-height: 1.5;
+}
+
+@media (max-width: 800px) {
+
+    .tile-container {
+        display: block;
+    }
+
+    .tile-text {
+        margin-top: 20px;
+    }
+
+}
+
+
+/* WORK TILE */
+
+/*:root {
     --mainColor: #ff9800;
 }
 
@@ -97,7 +252,6 @@ html {
 
 @-webkit-keyframes colorchange
 
-/* Safari and Chrome - necessary duplicate */
     {
     0% {
         background-color: #E6D26C;
@@ -144,4 +298,4 @@ html {
 
 hr {
   margin-bottom: 3rem;
-}
+}*/
