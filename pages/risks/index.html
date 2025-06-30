@@ -1,0 +1,577 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+		<meta name="viewport" content="width=device-width, initial-scale=1">
+
+  	<link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.4.1/css/bootstrap.min.css">
+  	<link rel="icon" type="image/jpg" href="../../images/watercolour.jpg">
+  	<script src="https://ajax.googleapis.com/ajax/libs/jquery/3.4.1/jquery.min.js"></script>
+  	<script src="https://maxcdn.bootstrapcdn.com/bootstrap/3.4.1/js/bootstrap.min.js"></script>
+
+		<title>Number of deaths by risk factor</title>
+		<script src="https://d3js.org/d3.v4.min.js"></script>
+		<style type="text/css">
+
+		.dropdown {
+			padding-top: 10px;
+			margin-left: 10px;
+		}
+
+		.dropdown-menu {
+			max-height: 200px;
+			overflow: auto;
+		}
+
+		#myInput {
+	    margin-top: -6px;
+	    border: 0;
+	    border-radius: 0;
+	    background: #f1f1f1;
+  		}
+
+	  	#entity-button {
+	  		padding-right: 40px;
+	  		position: relative;
+	  		min-width: 300px;
+	  		text-align: left;
+	  		background-color: white;
+	  		border: .5px solid grey;
+	  		height: 100%;
+	  		overflow: hidden;
+	  		font-size: 2.3vw;
+	  	}
+
+	  	#entity-button span {
+	  		position: absolute;
+	  		left: 96%;
+	  		top: 50%;
+	  		font-size: 1vw;
+	  	}
+
+		div.tooltip {
+				position: absolute;
+				text-align: left;
+				max-width: 300px;
+				max-height: 100px;
+				padding: 5px;
+				background: white;
+				border: 0.5px solid grey;
+				pointer-events: none;
+
+				font-size: .8em;
+				/* currently ems cause chrome bug misinterpreting rems on body element */
+				font-weight: 400;
+				font-family: "Open Sans", "HelveticaNeue", "Helvetica Neue", Helvetica, Arial, sans-serif;
+		}
+
+		div.tooltip h4, h5 {
+				margin: 0px;
+		}
+
+		div.tooltip h4 {
+				font-size: 1.5em;
+				font-weight: bold;
+		}
+
+		div.tooltip h5 {
+			font-size: 1.4em;
+			color: #454545;
+		}
+
+		.area {
+			stroke: none;
+			opacity: 0;
+		}
+
+		.axis {
+			font-size: 1vw;
+		}
+
+		.area:hover {
+			fill: #f5c242;
+		}
+
+		#chart {
+			background-color: #f7f7f7;
+			border-radius: 5px;
+			height: 500px;
+		}
+
+		.title-line {
+			display: flex;
+			padding: 5px;
+			margin: 0 auto;
+			opacity: 0;
+		}
+
+		.notes {
+			position: absolute;
+			top: 95%;
+			left: 15%;
+			color: #5c5c5c;
+			opacity: 0;
+			max-width: 80%;
+			font-size: 1vw;
+		}
+
+		footer {
+			text-align: center;
+			color: grey;
+			padding-top: 50px;
+			opacity: 0;
+		}
+
+		.title-line h1 {
+			font-size: 2.3vw;
+			white-space: nowrap;
+		}
+
+		.title-wrapper {
+			width: 100%;
+		}
+
+		</style>
+</head>
+
+<body>
+		<div class="container-fluid">
+			<div class="row">
+				<div class="col-md-12">
+					<div class="title-wrapper">
+						<div class="title-line">
+							<h1>Number of Deaths by Risk Factor in</h1>
+							<div class="dropdown">
+							    <button id="entity-button" class="btn btn-secondary dropdown-toggle" type="button" data-toggle="dropdown">South Africa<span class="caret"></span></button>
+							    <ul class="dropdown-menu">
+							      <input class="form-control" id="myInput" type="text" placeholder="Search..">
+							    </ul>
+						  </div>
+						</div>
+					</div>
+				</div>
+			</div>
+			<div class="row">
+				<div class="col-md-12">
+					<div id="chart">
+						<p class="notes">Source: Our World in Data (ourworldindata.org)</p>
+					</div>
+				</div>
+			</div>
+			<footer>
+			</footer>
+		</div>
+		<script type="text/javascript">
+
+		var keys;
+		var xticks = 10;
+		var yticks = 5;
+
+		$(document).ready(function(){
+		  $("#myInput").on("keyup", function() {
+		    var value = $(this).val().toLowerCase();
+		    $(".dropdown-menu li").filter(function() {
+		      $(this).toggle($(this).text().toLowerCase().indexOf(value) > -1)
+		    });
+		  });
+		});
+
+		function drawChart(data, dataset) {
+				//Now that we know the column names in the data…
+				stack.keys(keys); //Stack using what's left (the car names)
+
+				//Data, stacked
+				var series = stack(dataset);
+				// console.log(series);
+
+				//Create scale functions
+				xScale = d3.scaleTime()
+						.domain([
+								d3.min(dataset, function(d) { return d.date; }), 
+								d3.max(dataset, function(d) { return d.date; })
+						])
+						.range([padding, w - padding]);
+				yScale = d3.scaleLinear()
+						.domain([
+								0,
+								d3.max(dataset, function(d) {
+										var sum = 0;
+
+										//Loops once for each row, to calculate
+										//the total (sum) of sales of all vehicles
+										for (var i = 0; i < keys.length; i++) {
+												sum += d[keys[i]];
+										};
+
+										return sum;
+								})
+						])
+						.range([h - padding, padding / 2])
+						.nice();
+
+				//Define axes
+				xAxis = d3.axisBottom()
+						.scale(xScale)
+						.ticks(xticks)
+						.tickFormat(formatTime);
+
+				//Define Y axis
+				yAxis = d3.axisLeft()
+						.scale(yScale)
+						.ticks(yticks);
+
+				//Define area generator
+				area = d3.area()
+						.x(function(d) { return xScale(d.data.date); })
+						.y0(function(d) {
+								return yScale(d[0]);
+						})
+						.y1(function(d) { return yScale(d[1]); });
+
+				//Create SVG element
+				var svg = d3.select("#chart")
+						.style("width", w + "px")
+						.style("height", h + "px")
+						.style("margin", "0 auto")
+						.append("svg")
+						.attr("width", w)
+						.attr("height", h);
+
+				//d3.select(".title-wrapper").style("width", w + "px")
+				
+				var button_width = $("#entity-button").width();
+
+		      	var width_ratio = 300/button_width;
+		      	var font_size = 2.3 * width_ratio;
+		      	
+		      	if (width_ratio >= 1)
+		      		font_size = 2.3;
+
+				
+
+		      	d3.select("#entity-button").style("font-size", font_size + "vw");
+		      	
+
+				header_width = $(".title-line h1").width();
+				dropdown_width = $(".title-line .dropdown").width();
+
+				if (window.innerWidth < 600) {
+					d3.select(".title-line").style("width", w + "px");
+				}
+				else {
+					d3.select(".title-line").style("width", header_width + dropdown_width + 10 + "px");
+				}
+
+				d3.select(".title-line")
+					.transition()
+					.duration(500)
+					.style("opacity", 1);
+
+				//Create areas
+				svg.selectAll("path")
+						.data(series)
+						.enter()
+						.append("path")
+						.attr("class", "area")
+						.attr("d", area)
+						.attr("fill", function(d, i) {
+								if (i < 20)
+										return d3.schemeCategory20b[i];
+								else
+										return d3.schemeCategory20c[i - 20];
+						})
+						.on("mouseover", function(d) {
+
+								var key = d.key;
+
+								tooltip.transition()
+										.duration(200)
+										.style("opacity", 0.95);
+
+								var x0 = xScale.invert(d3.mouse(this)[0]),
+										i = bisectDate(dataset, x0, 1),
+										d0 = dataset[i - 1],
+										d1 = dataset[i],
+										d = x0 - d0.date > d1.date - x0 ? d1 : d0;
+
+								var middle_year = parseTime("2013");
+								var pagex_offset = -150;
+								var pagey_offset = -160;
+
+								/*
+								if (d.date > middle_year) {
+									pagex_offset = (-1.4) * $(".tooltip").width();
+									pagey_offset = (-2) * $(".tooltip").height();
+								}
+								else {
+									pagex_offset = -200;
+									var pagey_offset = -150;
+								}
+								*/
+
+
+								tooltip.html('<h4>' + key + '</h4>' +
+												'<h5>Year: ' + formatTime(d.date) + '</h5>' +
+												'<h5>Deaths: ' + d3.format(".2s")(d[key]) + '</h5>')
+										.style("left", (d3.event.pageX + pagex_offset) + "px")
+										.style("top", (d3.event.pageY + pagey_offset) + "px");
+						})
+						.on("mouseout", function(d) {
+
+								tooltip.transition()
+										.duration(200)
+										.style("opacity", 0.0);
+						})
+						.on("mousemove", function(d) {
+
+								var key = d.key;
+
+								var x0 = xScale.invert(d3.mouse(this)[0]),
+										i = bisectDate(dataset, x0, 1),
+										d0 = dataset[i - 1],
+										d1 = dataset[i],
+										d = x0 - d0.date > d1.date - x0 ? d1 : d0;
+
+								var middle_year = parseTime("2013");
+								var pagex_offset = -150;
+								var pagey_offset = -160;	
+
+								/*
+								if (d.date > middle_year) {
+									pagex_offset = (-1.4) * $(".tooltip").width();
+									pagey_offset = (-1) * $(".tooltip").height();
+								}
+								else {
+									pagex_offset = -200;
+									var pagey_offset = -150;
+								}
+								*/
+
+								tooltip.html('<h4>' + key + '</h4>' +
+												'<h5>Year: ' + formatTime(d.date) + '</h5>' +
+												'<h5>Deaths: ' + d3.format(".2s")(d[key]) + '</h5>')
+										.style("left", (d3.event.pageX + pagex_offset) + "px")
+										.style("top", (d3.event.pageY + pagey_offset) + "px");
+						});
+
+				d3.selectAll(".area").transition().duration(500).style("opacity", 1);
+
+				//Create axes
+				svg.append("g")
+						.attr("class", "axis")
+						.attr("transform", "translate(0," + (h - padding) + ")")
+						.call(xAxis);
+
+				svg.append("g")
+						.attr("class", "axis")
+						.attr("transform", "translate(" + (padding * 1) + ",0)")
+						.call(yAxis);
+		}
+
+		var w = window.innerWidth;
+
+		//Width and height
+		d3.select(".title-line h1").style("font-size", "2.3vw");
+		d3.select(".dropdown").style("margin-left", "10px");
+		if (w < 600) {
+			w = w / 1.3;
+			h = w * 1;
+			xticks = 2;
+			yticks = 3;
+			d3.select(".title-line").style("display", "block");
+			d3.select(".dropdown").style("margin-left", "0px");
+			d3.select(".title-line h1").style("font-size", "4vw");
+	   	}
+	   	else if (w < 1100) {
+	   		xticks = 7;
+	   		yticks = 3;
+	   		w = w / 1.3;
+			h = w / 2;
+	   	}
+	   	else {
+	   		yticks = 5;
+			w = w / 1.3;
+			h = w / 2;
+			xticks = 10;
+	   	}
+
+		var padding = w/10;
+
+		var dataset, xScale, yScale, xAxis, yAxis, area; //Empty, for now
+
+		//For converting strings to Dates
+		var parseTime = d3.timeParse("%Y");
+
+		//For converting Dates to strings
+		var formatTime = d3.timeFormat("%Y");
+
+		var tooltip = d3.select("#chart")
+				.append("div")
+				.attr("class", "tooltip")
+				.style("opacity", 0);
+
+		var bisectDate = d3.bisector(function(d) {
+				return d.date;
+		}).left;
+
+		d3.selectAll(".notes, footer")
+			.transition()
+			.duration(500)
+			.style("opacity", 1);
+
+
+
+		//Function for converting CSV values from strings to Dates and numbers
+		//We assume one column named 'Date' plus several others that will be converted to ints 
+
+		var rowConverter = function(d, i, cols) {
+
+				//Initial 'row' object includes only date
+				var row = {
+						date: parseTime(d.Year), //Make a new Date object for each year + month
+						entity: d.Entity
+				};
+
+				//Loop once for each vehicle type
+				for (var i = 3; i < cols.length; i++) {
+						var col = cols[i];
+
+						//If the value exists…
+						if (d[cols[i]]) {
+								row[cols[i]] = +d[cols[i]]; //Convert from string to int
+						} else { //Otherwise…
+								row[cols[i]] = 0; //Set to zero
+						}
+				}
+
+				return row;
+		}
+
+		//Set up stack method
+		var stack = d3.stack().order(d3.stackOrderDescending);
+
+		//Load in data
+		d3.csv("data/number-of-deaths-by-risk-factor.csv", rowConverter, function(data) {
+
+
+				var countries = d3.set(data.map(function(d) { return d.entity })).values();
+
+				var filter_country = "South Africa";
+				
+				d3.select('.dropdown-menu').selectAll(".item")
+						.data(countries)
+						.enter()
+						.append("li")
+						.attr("role", "presentation")
+						.select(function (d) {
+			        return this.insertBefore(document.createElement("a"), null);
+			      })
+			      .attr("role", "menuitem")
+			      .html(function(d) {
+			      	return d;
+			      })
+			      .on("click", function(d) {
+
+			      	if (filter_country === d) {
+			      		return;
+			      	}
+
+			      	d3.select("#entity-button").html(d + ' <span class="caret"></span>');
+
+			      	var button_width = $("#entity-button").width();
+
+			      	var width_ratio = 300/button_width;
+			      	var font_size = 2.3 * width_ratio;
+			      	
+			      	if (width_ratio >= 1)
+			      		font_size = 2.3;
+
+
+			      	d3.select("#entity-button").style("font-size", font_size + "vw");
+
+			      	header_width = $(".title-line h1").width();
+					dropdown_width = $(".title-line .dropdown").width();
+
+					if (window.innerWidth < 600) {
+						d3.select(".title-line").style("width", w + "px");
+					}
+					else {
+						d3.select(".title-line").style("width", header_width + dropdown_width + 10 + "px");
+					}
+
+
+			      	filter_country = d;
+
+			      	dataset = data.filter(function(d) {
+									return d.entity == filter_country;
+							});
+
+
+			      	d3.selectAll(".area").transition().duration(500).style("opacity", 1);
+			      	d3.selectAll("svg").remove();
+
+							drawChart(data, dataset);
+			      });
+
+				var dataset = data.filter(function(d) {
+						return d.entity == filter_country;
+				});
+
+				keys = data.columns;
+				keys.shift(); // Shift to Remove Entity, Code, and Year
+				keys.shift();
+				keys.shift();
+
+				drawChart(data, dataset);
+
+				var resizeTimer;
+				window.onresize = function() {
+
+					clearTimeout(resizeTimer);
+					resizeTimer = setTimeout(function() {
+						console.log("RESIZING");
+						d3.selectAll(".area").transition().duration(500).style("opacity", 1);
+				      	d3.selectAll("svg").remove();
+
+					   	w = window.innerWidth;
+					   	h = window.innerHeight;
+
+					   	d3.select(".title-line").style("display", "flex");
+					   	d3.select(".dropdown").style("margin-left", "10px");
+					   	d3.select(".title-line h1").style("font-size", "2.3vw");
+					   	if (w < 600) {
+							w = w / 1.3;
+							h = w * 1;
+							xticks = 2;
+							yticks = 3;
+							d3.select(".title-line").style("display", "block");
+							d3.select(".dropdown").style("margin-left", "0px");
+							d3.select(".title-line h1").style("font-size", "4vw");
+					   	}
+					   	else if (w < 1100) {
+					   		xticks = 7;
+					   		yticks = 3;
+					   		w = w / 1.3;
+							h = w / 1.3;
+					   	}
+					   	else {
+					   		yticks = 5;
+							w = w / 1.3;
+							h = w / 2;
+							xticks = 10;
+					   	}
+
+					   	padding = w/10;
+
+						drawChart(data, dataset);
+					            
+					 }, 200);
+
+				}
+
+		});
+		// https://bl.ocks.org/fabiomainardi/3976176cb36e718a608f
+		</script>
+</body>
+
+</html>
