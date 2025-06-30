@@ -4,7 +4,7 @@
 <head>
     <meta charset="utf-8">
     <meta name="viewport" content="width=device-width, initial-scale=1">
-    <title>The Little Libraries of Somerville</title>
+    <title>Inside Somerville's little libraries</title>
 
     <!-- Google fonts -->
     <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
@@ -25,12 +25,17 @@
             margin: auto;
         }
 
+        .chart {
+            max-width: 840px;
+            margin: auto;
+        }
+
         .header {
             padding: 3em 0;
         }
 
         a {
-            color: #f05349;
+            color: #2b8cbe;
         }
 
         .footer {
@@ -113,16 +118,16 @@
 <body>
     <div class="content">
         <div class="header">
-            <h1>A deep dive into the little libraries of Somerville, MA</h1>
-            <p class="subhead">A data-centric investigation</p>
+            <h1>Inside Somerville's Little Libraries</h1>
+            <p class="subhead">A data-driven look at the books, genres, and trends across 17 neighborhood collections</p>
         </div>
         <div class="byline">
-            <p>By <a href="https://camdenblatchly.com">Camden Blatchly</a></p>
+            <p>By Camden Blatchly</p>
         </div>
         
         <p>
             Have you ever scored a great book at a little library? I 
-            once did. Deep into a months-long wait for Crying in H-Mart 
+            once did. Deep into a months-long wait for <em>Crying in H-Mart</em> 
             at the public library, I came across a copy at my 
             neighborhood little library. My find wasn’t entirely 
             perfect—the text was in large print—but it was better 
@@ -136,8 +141,8 @@
 
         <figure>
             <img
-                src="https://static01.nyt.com/images/2024/02/01/multimedia/01eu-hungary-orban-2-ghkw/01eu-hungary-orban-2-ghkw-superJumbo.jpg?quality=75&auto=webp">
-            <figcaption>Put a photo of a little library here</figcaption>
+                src="images/willoughby.jpeg">
+            <figcaption>The little library on Willoughby St—home to the largest collection I catalogued</figcaption>
         </figure>
 
         <p>
@@ -148,12 +153,18 @@
             in Somerville little libraries. After consulting 
             a map of local little libraries, I hit the streets. 
             At each little library, I scanned all the books 
-            into the Libib app using their barcodes, if present. 
+            into the <a href="https://www.libib.com/" target="_blank">Libib</a> app using their barcodes, if present. 
             Once scanned, I was able to get the ISBN of each book, 
             which I then used to query the Google Books and Open 
             Library APIs to create a complete dataset with details 
             on each books’ publishing date, length, genre, and more.
         </p>
+
+        <figure>
+            <img
+                src="images/spring_hill_terrace.jpeg">
+            <figcaption>This little library on Spring Hill Terrace was worth a visit for its yard decorations alone</figcaption>
+        </figure>
 
         <p>
             Right away, I noticed a big difference in how well-stocked 
@@ -161,18 +172,20 @@
             I found the largest assortment of titles in a sturdy 
             green library on Willoughby St, which held an impressive 
             21 books. Some, like a slogan-covered library on 
-            Norfolk St (“You can do this!”) with a sparse 3 books, 
+            Norfolk St with a sparse 3 books, 
             were disappointing in their collection size. Most, however, 
             offered a decent browsing selection. With the median little 
             library holding about 10 books, I found most libraries 
             worthy of a brief look.
         </p>
-
+    </div>
+    <div class="chart">
         <img 
             src="images/little_libraries_size_map.png"
             alt="A bubble map of Somerville little libraries, showing the size of their collection." 
         />
-
+    </div>
+    <div class="content">
         <p>
             What did these collections contain? I wasn’t sure 
             if there were actually that many parenting guides, 
@@ -181,7 +194,7 @@
             out, my perception wasn’t entirely unfounded as the 
             Family & Relationships category came in as the 7th 
             most common genre. While fiction was overwhelmingly 
-            the most popular category, I was surprised to see how 
+            the most prevalent category, I was surprised to see how 
             popular the Juvenile and Young Adult genres were, 
             which, when combined together, accounted for 28 books. 
         </p>
@@ -195,12 +208,14 @@
             Turns out, the prevalence of this genre is widespread 
             across Somerville and Cambridge.
         </p>
-
+    </div>
+    <div class="chart">
         <img 
             src="images/most_popular_genres.png"
             alt="Horizontal bar chart showing the most popular genres in Somerville little libraries. Fiction is most popular." 
         />
-        
+    </div> 
+    <div class="content">
         <p>
             When were most books published? I expected the collection 
             in little libraries to trend older, since I assumed 
@@ -228,22 +243,29 @@
             advance reader copies, likely donated by a book 
             reviewer or editor.
         </p>
-
+    </div>
+    <div class="chart">
         <img 
             src="images/books_by_decade.png"
             alt="Bar chart showing the number of books in Somerville little libraries by decade of publication. The 2010s are the most common decade." 
         />
+    </div>
+    <div class="content">
         <p>
             The longest book I catalogued was <em>The Bedford Handbook</em>, an 
-            849 page monster about the mechanics of the English language. 
+            849 page tome about the mechanics of the English language. 
             At the other end of the scale were two alliterative children’s 
             books—<em>Sammy Spider's First Mitzvah</em> and <em>Sunny the Sneaker</em>—each 
             just 24 pages long. The most common length was right around 300 pages.
         </p>
+    </div> 
+    <div class="chart">
         <img 
             src="images/page_length.png"
             alt="Histogram showing the distribution of page lengths in Somerville little libraries. The most common length is around 300 pages." 
         />
+    </div>
+    <div class="content">
         <p>
             During my 17 little library visits, I did manage to find a book I wanted to 
             read: <em>A Room with a View by E.M. Forster</em>—a classic I’ve had on my list 
