@@ -137,14 +137,46 @@
 </head>
 
 <body>
-
     <div id="map"></div>
     <div id="story"></div>
 
     <script>
-        function filterGoogleEarth() {
-            map.setFilter('city-centers-tidy-v01-7uwh26', ['==', ['get', 'definition'], 'Google Earth']);
+
+        const circle_layer_name = 'city-centers';
+
+        function showAllDefinitions() {
+            map.setFilter(circle_layer_name, null);
         }
+
+        function hideAllDefinitions() {
+            map.setFilter(circle_layer_name, ['==', ['get', 'definition'], '']);
+        }
+
+        // Specific functions to filter the map layers based on the chapter definitions
+        function showGoogleEarthDefinition() {
+            map.setFilter(circle_layer_name, ['==', ['get', 'definition'], 'Google Earth']);
+        }
+
+        function showCityHallDefinition() {
+            map.setFilter(circle_layer_name, ['==', ['get', 'definition'], 'City Hall']);
+        }
+
+        function showPopulationDefinition() {
+            map.setFilter(circle_layer_name, ['==', ['get', 'definition'], 'Population center']);
+        }
+
+        function showBuildingHeightDefinition() {
+            map.setFilter(circle_layer_name, ['==', ['get', 'definition'], 'Building height center']);
+        }
+
+        function showCBDDefinition() {
+            map.setFilter(circle_layer_name, ['==', ['get', 'definition'], 'Central Business District']);
+        }
+
+        function showGazetteerDefinition() {
+            map.setFilter(circle_layer_name, ['==', ['get', 'definition'], 'Gazetteer']);
+        }
+
     </script>
     <script src="./config.js"></script>
     <script>
