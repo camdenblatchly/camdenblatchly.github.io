@@ -12,7 +12,7 @@ var config = {
         markerColor: "blue"
     },
     insetPosition: 'bottom-right',
-    theme: 'dark',
+    theme: 'light',
     use3dTerrain: false, //set true for enabling 3D maps.
     auto: false,
     title: "Where is Boston's city center?",
@@ -162,6 +162,23 @@ var config = {
             mapAnimation: 'flyTo',
             rotateAnimation: false,
             callback: 'showBuildingHeightDefinition',
+            onChapterEnter: [],
+            onChapterExit: []
+        },
+        {
+            id: 'conclusion-chapter',
+            alignment: 'left',
+            hidden: false,
+            description: `Some closing thoughts on this story`,
+            location: {
+                center: [-71.06014, 42.35465],
+                zoom: 13,
+                pitch: 30,
+                bearing: 0.00
+            },
+            mapAnimation: 'flyTo',
+            rotateAnimation: true,
+            callback: 'showAllDefinitions',
             onChapterEnter: [],
             onChapterExit: []
         }

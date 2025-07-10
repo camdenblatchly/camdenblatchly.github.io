@@ -11,12 +11,24 @@
     <link href='https://api.tiles.mapbox.com/mapbox-gl-js/v3.8.0/mapbox-gl.css' rel='stylesheet' />
     <script src="https://cdn.jsdelivr.net/npm/mapbox-gl-globe-minimap@1.2.0/dist/bundle.js"></script>
     <script src="https://unpkg.com/scrollama"></script>
+    <!-- Google fonts -->
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Lora:ital,wght@0,400;0,700;1,400;1,700&display=swap"
+        rel="stylesheet">
     <style>
+
         body {
             margin: 0;
             padding: 0;
-            font-family: sans-serif;
+            
+            font-size: 18px;
+            font-family: Georgia, 'Times New Roman', Times, serif;
+            text-rendering: optimizeLegibility;
         }
+
+        /* Original Mapbox styles */
 
         a,
         a:hover,
@@ -104,13 +116,11 @@
         }
 
         .step.active {
-            opacity: 0.9;
+            opacity: 0.95;
         }
 
         .step div {
             padding: 25px 50px;
-            line-height: 25px;
-            font-size: 13px;
         }
 
         .step img {
@@ -133,6 +143,49 @@
         .mapboxgl-canvas-container.mapboxgl-touch-zoom-rotate.mapboxgl-touch-drag-pan .mapboxgl-canvas {
             touch-action: unset;
         }
+
+        /* Soma template styles */
+        h1 {
+            font-family: 'Lora', Georgia, serif;
+            font-weight: bold;
+            font-size: 3em;
+            line-height: 1.1;
+        }
+
+        h2 {
+            font-family: 'Lora', Georgia, serif;
+            font-size: 18px;
+            font-weight: 400;
+            line-height: 1.6;
+            margin: 0;
+            padding-bottom: 1.2em;
+        }
+
+        #header {
+            padding: 3em 0;
+        }
+
+        #header h2,
+        #header p {
+            text-align: center;
+        }
+
+        a {
+            color: #2b8cbe;
+        }
+
+        p {
+            line-height: 1.6;
+            margin: 0;
+        }
+
+        /* margin on mobile */
+        @media (max-width: 640px) {
+            body {
+                font-size: 16px;
+            }
+        }
+
     </style>
 </head>
 
