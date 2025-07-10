@@ -143,38 +143,47 @@
     <script>
 
         const circle_layer_name = 'city-centers';
+        const circle_labels_layer_name = 'city-centers-labels';
 
         function showAllDefinitions() {
             map.setFilter(circle_layer_name, null);
+            map.setFilter(circle_labels_layer_name, null);
         }
 
         function hideAllDefinitions() {
             map.setFilter(circle_layer_name, ['==', ['get', 'definition'], '']);
+            map.setFilter(circle_labels_layer_name, ['==', ['get', 'definition'], '']);
         }
 
         // Specific functions to filter the map layers based on the chapter definitions
         function showGoogleEarthDefinition() {
             map.setFilter(circle_layer_name, ['==', ['get', 'definition'], 'Google Earth']);
+            map.setFilter(circle_labels_layer_name, ['==', ['get', 'definition'], 'Google Earth']);
         }
 
         function showCityHallDefinition() {
             map.setFilter(circle_layer_name, ['==', ['get', 'definition'], 'City Hall']);
+            map.setFilter(circle_labels_layer_name, ['==', ['get', 'definition'], 'City Hall']);
         }
 
         function showPopulationDefinition() {
             map.setFilter(circle_layer_name, ['==', ['get', 'definition'], 'Population center']);
+            map.setFilter(circle_labels_layer_name, ['==', ['get', 'definition'], 'Population center']);
         }
 
         function showBuildingHeightDefinition() {
             map.setFilter(circle_layer_name, ['==', ['get', 'definition'], 'Building height center']);
+            map.setFilter(circle_labels_layer_name, ['==', ['get', 'definition'], 'Building height center']);
         }
 
         function showCBDDefinition() {
             map.setFilter(circle_layer_name, ['==', ['get', 'definition'], 'Central Business District']);
+            map.setFilter(circle_labels_layer_name, ['==', ['get', 'definition'], 'Central Business District']);
         }
 
         function showGazetteerDefinition() {
             map.setFilter(circle_layer_name, ['==', ['get', 'definition'], 'Gazetteer']);
+            map.setFilter(circle_labels_layer_name, ['==', ['get', 'definition'], 'Gazetteer']);
         }
 
     </script>
