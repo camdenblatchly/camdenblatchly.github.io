@@ -16,17 +16,26 @@ var config = {
     use3dTerrain: false, //set true for enabling 3D maps.
     auto: false,
     title: "Where is Boston's city center?",
-    subtitle: 'Six perspectives on the center of Boston',
+    subtitle: 'Six perspectives on the heart of the city',
     byline: 'By Camden Blatchly',
-    footer: `<b>Sources</b>
-    <br>Holian, M. J. (2019). Where is the city’s center? On the recent use 
+    footer: `
+    <b>Sources</b>
+    <br>
+    Holian, M. J. (2019). Where is the city’s center? On the recent use 
     of measures of central city location. <em>Cityscape: A Journal of Policy Development 
     and Research</em>, 21(2), 213–226. U.S. Department of Housing and Urban Development.
-    <br> 2019 American Community Survey 5-Year Estimates. U.S. Census Bureau.
-    <br> Falcone, J. A. (2016). <em>U.S. national categorical mapping of building heights by 
+    <br>
+    2019 American Community Survey 5-Year Estimates. U.S. Census Bureau.
+    <br>
+    Falcone, J. A. (2016). <em>U.S. national categorical mapping of building heights by 
     block group from Shuttle Radar Topography Mission data</em>. U.S. Geological Survey. <a href="https://doi.org/10.5066/F7W09416" target="_blank">https://doi.org/10.5066/F7W09416</a>
     <br>
-    <br> Created using <a href="https://github.com/mapbox/storytelling" target="_blank">Mapbox Storytelling</a> template.`,
+    <br>
+    Created using <a href="https://github.com/mapbox/storytelling" target="_blank">Mapbox Storytelling</a> template.
+    <br>
+    <br>
+    You can find my code and data on <a href="https://github.com/camdenblatchly/citycenters/" target="_blank">GitHub</a>
+    `,
     chapters: [
         {
             id: 'slug-style-id',
@@ -160,7 +169,11 @@ var config = {
             id: 'city-hall-chapter',
             alignment: 'left',
             hidden: false,
-            description: 'Finally, <b>City Hall</b> often serves as the symbolic anchor for a city. While it isn’t always connected to the economic or geographic center, City Hall reflects the civic and administrative heart of a place. In Boston’s case, it proves to be a reasonably good estimate, located in Government Center and within walking distance of the business district, Boston City Hall reflects the city’s political and historical core.',
+            description: `Finally, <b>City Hall</b> often serves as the symbolic anchor 
+            for a city. While it isn’t always connected to the economic or geographic 
+            center, City Hall reflects the civic and administrative heart of a place. Boston’s brutalist 
+            City Hall may be divisive in style, but its location undeniably 
+            reflects the city’s political and historical core.`,
             location: {
                 center: [-71.05776, 42.35918],
                 zoom: 15,
