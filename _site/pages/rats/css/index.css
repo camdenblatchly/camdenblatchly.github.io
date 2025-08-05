@@ -31,6 +31,11 @@ p {
     margin: auto;
 }
 
+.chart {
+  max-width: 800px;
+  margin: auto;
+}
+
 #scrolly {
   position: relative;
   padding: 1rem;
@@ -66,7 +71,7 @@ p {
   background-color: #eee;
   background-color: #fff;
   color: black;
-  text-align: center;
+  text-align: left;
 }
 
 .step p {
@@ -118,6 +123,11 @@ p {
   display: block;
 }
 
+iframe,
+img,
+video {
+  max-width: 100%;
+}
 
 @media only screen and (max-width: 800px) {
 

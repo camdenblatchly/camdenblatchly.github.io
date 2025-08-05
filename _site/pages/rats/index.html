@@ -18,38 +18,28 @@
   <body>
   <div class="content">
     <div class="header">
-      <h1>Cambridge Neighborhoods with the Worst Rat Problems</h1>
-      <p>And what the city is doing about it</p>
+      <h1>The Cambridge neighborhoods with the greatest rat issues</h1>
+      <p>And how the city is getting smart to get rid of the rats</p>
     </div>
     <p>
-      This is a template for a scrollytelling experience 
-      that basically puts an image element on the webpage 
-      in the html (you can see it in the code below here, 
-      it's called scrollyPhoto) and then uses different 
-      scrolly steps (step1, step2, etc) to change the image 
-      that shows up in the image element. You change the 
-      image that shows up by changing the "src" that the 
-      image element looks for.
+      Rats are so ever present in the city of Cambridge that they have become a part of the city's cultural lexicon, appearing regularly in small talk, art exhibits, and, in neighboring Somerville, even titling the local musical festival: Ratchella.
     </p>
     <p>
-      This template will help cheat a kind of scrolly telling 
-      map that "changes" as you scroll.
+      These cultural appearances hint towards an ugly truth: rats are everywhere in the city. The Cambridge Day has reported on rats “dripping out of heaters” and construction in Riverside “unleashing [their] fury.” In 2020, Cambridge’s city manager declared what many residents already knew, “we’re still losing the battle” against rats.
+    </p>
+    <p>
+      Faced with this onslaught, the city has deployed new tactics, such as installing rat-proof Big Belly trash cans throughout the city and, as of 2023, deploying “Smart Box” rat traps, which electrically kill rats with a charge, and provide live kill totals. So, five years later, where does the battle stand? I analyzed Cambridge Commonwealth Connect, also known as 311, reports to see where the fighting was most intense—and if the city had made any progress.
+    </p>
+    <p>
+      The City of Cambridge encourages residents to report rodent sightings using 311 and makes all rodent reports available on their open data portal. After downloading the latest 311 data, I filtered to records that specifically mentioned rats in their description. In addition, since almost 80% of 311 rodent sightings with a description mention rats, I included general rodent reports that did not specifically mention another rodent (such as mice or raccoons), assuming that these reports were most likely about rats even if they didn’t mention them by name. 
     </p>
   </div>
   <section id="scrolly">
     <div class="sticky-thing">
-    <!-- Sticky Thing 1 goes below this line -->
-    <!-- <div class="photoDiv">
-      <div class="chartTitle">
-        <h2>Cambridge rats yayayaya</h2>
-        <p>Testing having a title for this chart</p>
-      </div>
-      <img id="scrollyPhoto" src="images/likely_rat_reports_cambridge_rats_map@3x.png">
-    </div> -->
     <div class="photoDiv">
       <div class="chartTitle">
-        <h2>Cambridge rats yayayaya</h2>
-        <p>Testing having a title for this chart</p>
+        <h2 id="chartHeader">Rat-related 311 reports</h2>
+        <p id="chartSubtitle">Each dot represents a 311 rat report from 2016 to 2024</p>
       </div>
       <div class="imageWrapper">
         <img id="scrollyPhoto" src="images/likely_rat_reports_cambridge_rats_map@3x.png">
@@ -60,32 +50,33 @@
     </div>
     <div class="scrolly-overlay">
       <div class="step" id="step1">
-        <p>STEP ONE<br><br>Changes the image</p>
+        <p>
+          Rat reports are primarily concentrated in the eastern half of the city, with the highest concentrations in Central Square, the Port, and Cambridgeport.
+        </p>
       </div>
       <div class="step" id="step2">
-        <p>STEP TWO<br><br>Changes the image again, this is all by changing the "src" address that "#scrollyPhoto1" is looking for.</p>
+        <p>
+          To identify which neighborhoods have the highest concentrations of rat reports, I aggregated the data by census block. The darkest blocks, such as those on Broadway in East Cambridge, have the highest concentration of rat reports per square kilometer.
+        </p>
       </div>
       <div class="step" id="step3">
-        <p>STEP THREE<br><br>You can add as many steps as you want. You could even add an image inside a scrolly step — just look at Etai, below:</p>
+        <p>
+          Since 2022, smart rat traps have been strategically deployed to rat hotspots across the city. The most productive trap, located in a pipe by 88 Allston St, has caught 614 rats since its installation in 2023.
+        </p>
       </div>
     </div>
   </section>
   <div class="content">
     <p>
-      Then maybe I have a block of text talking about 
-      something or another and then I want to direct 
-      you to another map, or a different zoom level, 
-      or an image that I want to annotate — whatever.
-      I can create another photoDiv below. In fact, 
-      I can add as many as I want.
+      So have these new rat strategies worked? Using the same 311 data, I calculated the number of rat reports per year since 2016. While rat reports ticked up between 2023 and 2024, overall they are down from a peak of 1,267 in 2021. As a percentage of total 311 requests, rat reports are down too, declining to 4.4% from a peak of 8.1% in 2021.
     </p>
+  </div>
+  <div class="chart">
+    <img src="images/cambridge_ma_rat_311_reports_over_time.png" alt="Line chart showing the number of rat-related 311 reports in Cambridge, MA from 2016 to 2024. The number of reports peaked in 2021.">
+  </div>
+  <div class="content">
     <p>
-      This concept works best if you have a simple base map 
-      with a story that progresses with prose on the left 
-      and changing annotations on that base map on the right. 
-      and it requires that when you export images from Adobe 
-      Illustrator you ALWAYS USE THE ARTBOARD when saving 
-      and keep all save settings the same (size, image type, etc).
+      Further rat mitigation strategies may be coming soon. Cambridge and Somerville recently launched a rodent fertility control study in February, which uses Evolve, “a hormonal fertility control product designed to humanely curb rat reproduction.” With 420 rat reports already submitted in 2025, it’s clear that our struggle with rats is here to stay, but our new approaches appear to be working, and that should give us hope. 
     </p>
   </div>
   <script>
@@ -95,22 +86,49 @@
 
       // Code for the Photo Div #1 (aka #scrollyPhoto1)
         
-        // Entering Step One
+      // Entering Step One
       d3.select("#step1").on('stepin',function(e) {
+
         console.log("We've arrived at STEP ONE in the photo div")
-        d3.select("#scrollyPhoto").attr("src", "images/likely_rat_reports_cambridge_rats_map@3x.png");
+        d3.select("#scrollyPhoto")
+          .attr("src", "images/likely_rat_reports_cambridge_rats_map@3x.png");
+
+        d3.select("#chartHeader")
+          .text("Rat-related 311 reports");
+
+        d3.select("#chartSubtitle")
+          .text("Each dot represents a 311 rat report from 2016 to 2024");
+
       })
 
-        // Entering Step Two
-        d3.select("#step2").on('stepin',function(e) {
+      // Entering Step Two
+      d3.select("#step2").on('stepin',function(e) {
+
         console.log("We've arrived at STEP TWO in the photo div")
-        d3.select("#scrollyPhoto").attr("src", "images/blocks_cambridge_rats_map@3x.png");
+        d3.select("#scrollyPhoto")
+          .attr("src", "images/blocks_cambridge_rats_map@3x.png");
+
+        d3.select("#chartHeader")
+          .text("Annual rat reports per city block");
+
+        d3.select("#chartSubtitle")
+          .text("Adjusted for land area, 2016 to 2024");
+
       })
 
        // Entering Step Three
        d3.select("#step3").on('stepin',function(e) {
+
         console.log("We've arrived at STEP Three in the photo div")
-        d3.select("#scrollyPhoto").attr("src", "images/smart_traps_cambridge_rats_map@3x.png");
+        d3.select("#scrollyPhoto")
+          .attr("src", "images/smart_traps_cambridge_rats_map@3x.png");
+
+        d3.select("#chartHeader")
+          .text("Smart rat traps in Cambridge");
+
+        d3.select("#chartSubtitle")
+          .text("Circles sized by number of rats caught since smart trap installation");          
+
       })
 
     </script>
