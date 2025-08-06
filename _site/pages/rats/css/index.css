@@ -1,0 +1,155 @@
+body {
+  margin: 0;
+  font-size: 20px;
+  font-family: 'EB Garamond', Georgia, 'Times New Roman', Times, serif;
+  text-rendering: optimizeLegibility;
+}
+
+h1 {
+  font-family: 'Fira Sans', Arial, Helvetica, sans-serif;
+  font-weight: bold;
+  font-size: 3em;
+  line-height: 1.1;
+}
+
+p {
+  font-family: 'EB Garamond', Georgia, 'Times New Roman', Times, serif;
+  margin: 0 auto 2rem auto;
+  font-size: 20px;
+
+  line-height: 1.6;
+  margin: 0;
+  padding-bottom: 1.2em;
+}
+
+a {
+  color: #2b8cbe;
+}
+
+.header {
+  padding: 3em 0;
+}
+
+.content {
+    max-width: 640px;
+    margin: auto;
+}
+
+.footer {
+    background: #f4f4f4;
+    text-align: center;
+    font-size: 0.8em;
+    margin-top: 4em;
+    padding: 4em 0;
+}
+
+.chart {
+  max-width: 800px;
+  margin: 2rem auto;
+}
+
+#scrolly {
+  position: relative;
+  padding: 1rem;
+}
+
+.scrolly-overlay {
+  position: relative;
+  padding: 0;
+  max-width: 30%;
+  margin-left: 2px;
+  margin-right: auto;
+}
+
+.sticky-thing {
+  position: -webkit-sticky;
+  position: sticky;
+  left: 0;
+  width: 100%;
+  margin: 0;
+  z-index: 0;
+  top: 0;
+  height: 100vh;
+  /* Center everything inside */
+  display: flex;
+  justify-content: center;
+  flex-direction: column;
+  justify-content: center;
+}
+
+.step {
+  margin: 0 auto 2rem auto;
+  margin-bottom: 25rem;
+  background-color: #eee;
+  background-color: #fff;
+  color: black;
+  text-align: left;
+}
+
+.step p {
+  padding: 1rem;
+  font-size: 1.25rem;
+  border: black;
+}
+.photoDiv {
+  width: 60%;
+  height: 100vh;
+  margin: 20px 0px 20px auto;
+  display: flex;
+  flex-direction: column;
+  overflow: hidden;
+  text-align: center;
+}
+
+.chartTitle {
+  flex-shrink: 0;
+  padding-bottom: 0.5em;
+}
+
+.chartTitle h2 {
+  font-family: 'Fira Sans', Arial, Helvetica, sans-serif;
+  font-weight: bold;
+  font-size: 24px;
+  margin: 0 0 0.25em 0;
+}
+
+.chartTitle p {
+  margin: 0 0 .75em 0;
+  padding: 0;
+}
+
+.imageWrapper {
+  flex-grow: 1;
+  display: flex;
+  align-items: flex-start; /* align image to top of wrapper */
+  justify-content: center; /* optional: center horizontally */
+  overflow: hidden;
+}
+
+.imageWrapper img {
+  max-height: 100%;
+  max-width: 100%;
+  object-fit: contain;
+  height: auto;
+  width: auto;
+  display: block;
+}
+
+iframe,
+img,
+video {
+  max-width: 100%;
+}
+
+@media only screen and (max-width: 800px) {
+
+  .scrolly-overlay {
+    max-width: 100%;
+    margin: 0 auto;
+  }
+
+  .photoDiv {
+    width: 100%;
+  }
+
+}

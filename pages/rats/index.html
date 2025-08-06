@@ -1,0 +1,290 @@
+<!-- The originial version of this template was made by Johnathan Soma and then messed with and customized by Aaron Reiss -->
+<!DOCTYPE html>
+<html>
+  <head>
+    <meta charset="utf-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1" />
+    <script src="https://unpkg.com/intersection-observer@0.5.1/intersection-observer.js"></script>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/scrollama/3.0.4/scrollama.min.js"></script>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/d3/7.3.0/d3.min.js"></script>
+    <!-- Google fonts-->
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=EB+Garamond:ital,wght@0,400..800;1,400..800&family=Fira+Sans:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&display=swap" rel="stylesheet">
+    <!-- Custom styles -->
+    <link rel="stylesheet" href="css/index.css" />
+  </head>
+
+  <body>
+  <div class="content">
+    <div class="header">
+      <h1>Mapping Cambridge's Rat Hotspots</h1>
+      <p>And the city's new strategies for addressing them</p>
+    </div>
+    <div class="byline">
+      <p>By <a href="https://camdenblatchly.github.io/">Camden Blatchly</a></p>
+    </div>
+    <p>
+      Rats are so common in Cambridge, they’ve become part of the city's cultural identity, appearing regularly in small talk, <a href='https://www.instagram.com/p/DFL14IfOJV8/'' target='_blank'>art exhibits</a>, and, in neighboring Somerville, even giving a local musical festival its name: <a href='https://yardworkproductions.com/'' target='_blank'>Ratchella</a>.
+    </p>
+    <p>
+      These cultural appearances hint towards an ugly truth: rats are abundant in the city. The <em>Cambridge Day</em> has reported on rats “dripping out of heaters” and construction in Riverside “unleashing [their] fury.” In 2020, the city manager declared what many residents already knew: “We’re still losing the battle” against rats.
+    </p>
+    <p>
+      Faced with this surge, the city has deployed new tactics, such as installing rat-proof Big Belly trash cans throughout the city, and, as of 2023, deploying SMART box rat traps that use an electrical charge to kill rats and report the number of captures in real time. So, five years later, where does the battle stand? I analyzed 311 reports submitted through Cambridge’s Commonwealth Connect system to identify rat hotspots—and see if the city has made any progress on addressing them.
+    </p>
+    <p>Here's what I found.</p>
+  </div>
+  <section id="scrolly">
+    <div class="sticky-thing">
+    <div class="photoDiv">
+      <div class="chartTitle">
+        <h2 id="chartHeader">Rat-related 311 reports</h2>
+        <p id="chartSubtitle">Each dot represents a 311 report from 2016 to 2024</p>
+      </div>
+      <div class="imageWrapper">
+        <img id="scrollyPhoto" src="images/likely_rat_reports_cambridge_rats_map@3x.png">
+      </div>
+    </div>
+
+    <!-- Sticky Thing 1 goes above this line -->
+    </div>
+    <div class="scrolly-overlay">
+      <div class="step" id="step1">
+        <p>
+          Rat reports are primarily concentrated in the eastern half of the city, with the highest concentrations in Central Square, the Port, and Cambridgeport.
+        </p>
+      </div>
+      <div class="step" id="step2">
+        <p>
+          Aggregating rat reports by census block helps to clarify these trends. The darkest blocks have the highest concentration of rat reports per square kilometer.
+        </p>
+      </div>
+      <div class="step" id="step2b">
+        <p>
+          The neighborhood on Broadway near Sennot Park, Lamplighter Brewing Co., and Squirrel Brand Community Garden had the most blocks with high concentrations of rat reports.
+        </p>
+      </div>
+      <div class="step" id="step3">
+        <p>
+         Since 2022, smart rat traps have been strategically deployed to rat hotspots across the city.
+        </p>
+      </div>
+      <div class="step" id="step3b">
+        <p>
+         The most active trap, installed in a pipe near 88 Allston St, has recorded 614 kills since its installation in 2023.
+        </p>
+      </div>
+    </div>
+  </section>
+  <div class="content">
+    <p>
+      So have these new strategies worked? Using the same 311 data, I calculated the number of rat reports per year since 2016. While rat reports ticked up between 2023 and 2024, overall they have declined from a peak of 1,267 in 2021. As a percentage of total 311 requests, rat reports are down too, declining to 4.4% from a peak of 8.1% in 2021.
+    </p>
+  </div>
+  <div class="chart">
+    <img src="images/cambridge_ma_rat_311_reports_over_time.png" alt="Line chart showing the number of rat-related 311 reports in Cambridge, MA from 2016 to 2024. The number of reports peaked in 2021.">
+  </div>
+  <div class="content">
+    <p>
+      More rat mitigation strategies are being tested too. In February, 
+      Cambridge and Somerville launched a rodent fertility control 
+      study using Evolve, a hormonal product designed to humanely curb rat 
+      reproduction over time.
+    </p>
+    <p>
+      With more than 420 rat reports already submitted in 2025, it’s clear 
+      that our struggle with rats is here to stay, but with smarter 
+      strategies and sustained, coordinated efforts, the city may 
+      finally be on a more hopeful path forward.
+    </p>
+  </div>
+  <div class="footer">
+    <div class="content">
+        <p>You can find data and code for this post on <a href="https://github.com/camdenblatchly/cambridge-rats" target="_blank">GitHub</a></p>
+    </div>
+    </div>
+  <script>
+
+      
+    /* Scrollytelling code goes under here */
+
+      // Code for the Photo Div #1 (aka #scrollyPhoto1)
+        
+      // Entering Step One
+      d3.select("#step1").on('stepin',function(e) {
+
+        console.log("We've arrived at STEP ONE in the photo div")
+        d3.select("#scrollyPhoto")
+          .attr("src", "images/likely_rat_reports_cambridge_rats_map@3x.png");
+
+        d3.select("#chartHeader")
+          .text("Rat-related 311 reports");
+
+        d3.select("#chartSubtitle")
+          .text("Each dot represents a 311 report from 2016 to 2024");
+
+      })
+
+      // Entering Step Two
+      d3.select("#step2").on('stepin',function(e) {
+
+        console.log("We've arrived at STEP TWO in the photo div")
+        d3.select("#scrollyPhoto")
+          .attr("src", "images/step_2_cambridge_rats_map@3x.png");
+
+        d3.select("#chartHeader")
+          .text("Annual rat reports per city block");
+
+        d3.select("#chartSubtitle")
+          .text("Adjusted for land area, 2016 to 2024");
+
+      })
+
+      // Entering Step Two B
+      d3.select("#step2b").on('stepin',function(e) {
+
+        console.log("We've arrived at STEP TWO B in the photo div")
+        d3.select("#scrollyPhoto")
+          .attr("src", "images/step_2b_cambridge_rats_map@3x.png");
+
+        d3.select("#chartHeader")
+          .text("Annual rat reports per city block");
+
+        d3.select("#chartSubtitle")
+          .text("Adjusted for land area, 2016 to 2024");
+
+      })      
+
+       // Entering Step Three
+       d3.select("#step3").on('stepin',function(e) {
+
+        console.log("We've arrived at STEP Three in the photo div")
+        d3.select("#scrollyPhoto")
+          .attr("src", "images/step_3_cambridge_rats_map@3x.png");
+
+        d3.select("#chartHeader")
+          .text("Smart rat traps in Cambridge");
+
+        d3.select("#chartSubtitle")
+          .text("Circles sized by number of rats caught since smart trap installation");          
+
+      })
+
+       // Entering Step Three B
+       d3.select("#step3b").on('stepin',function(e) {
+
+        console.log("We've arrived at STEP Three in the photo div")
+        d3.select("#scrollyPhoto")
+          .attr("src", "images/step_3b_cambridge_rats_map@3x.png");
+
+        d3.select("#chartHeader")
+          .text("Smart rat traps in Cambridge");
+
+        d3.select("#chartSubtitle")
+          .text("Circles sized by number of rats caught since smart trap installation");          
+
+      })      
+
+    </script>
+
+<script>
+    const scroller = scrollama();
+
+	scroller
+		.setup({
+			step: "#scrolly .scrolly-overlay .step",
+			offset: 0.5,
+			debug: false
+		})
+		.onStepEnter(function({ element, index, direction}) {
+			const event = new CustomEvent('stepin', { detail: { direction: direction } })
+			element.dispatchEvent(event);
+		})
+		.onStepExit(function({ element, index, direction }) {
+			const event = new CustomEvent('stepout', { detail: { direction: direction } })
+			element.dispatchEvent(event);
+		});
+
+	window.addEventListener("resize", scroller.resize);
+    </script>
+
+
+    <!-- ai2html resizer script -->
+
+<script type="text/javascript">
+  (function() {
+      // only want one resizer on the page
+      if (document.documentElement.className.indexOf("g-resizer-v3-init") > -1) return;
+      document.documentElement.className += " g-resizer-v3-init";
+      // require IE9+
+      if (!("querySelector" in document)) return;
+      function resizer() {
+          var elements = Array.prototype.slice.call(document.querySelectorAll(".g-artboard[data-min-width]")),
+              widthById = {};
+          elements.forEach(function(el) {
+              var parent = el.parentNode,
+                  width = widthById[parent.id] || parent.getBoundingClientRect().width,
+                  minwidth = el.getAttribute("data-min-width"),
+                  maxwidth = el.getAttribute("data-max-width");
+              widthById[parent.id] = width;
+
+              if (+minwidth <= width && (+maxwidth >= width || maxwidth === null)) {
+                  el.style.display = "block";
+              } else {
+                  el.style.display = "none";
+              }
+          });
+          try {
+              if (window.parent && window.parent.$) {
+                  window.parent.$("body").trigger("resizedcontent", [window]);
+              }
+              if (window.require) {
+                  require(['foundation/main'], function() {
+                      require(['shared/interactive/instances/app-communicator'], function(AppCommunicator) {
+                          AppCommunicator.triggerResize();
+                      });
+                  });
+              }
+          } catch(e) { console.log(e); }
+      }
+
+      document.addEventListener('DOMContentLoaded', resizer);
+      // feel free to replace throttle with _.throttle, if available
+      window.addEventListener('resize', throttle(resizer, 200));        
+
+      function throttle(func, wait) {
+          // from underscore.js
+          var _now = Date.now || function() { return new Date().getTime(); },
+              context, args, result, timeout = null, previous = 0;
+          var later = function() {
+              previous = _now();
+              timeout = null;
+              result = func.apply(context, args);
+              if (!timeout) context = args = null;
+          };
+          return function() {
+              var now = _now(), remaining = wait - (now - previous);
+              context = this;
+              args = arguments;
+              if (remaining <= 0 || remaining > wait) {
+                  if (timeout) {
+                      clearTimeout(timeout);
+                      timeout = null;
+                  }
+                  previous = now;
+                  result = func.apply(context, args);
+                  if (!timeout) context = args = null;
+              } else if (!timeout) {
+                  timeout = setTimeout(later, remaining);
+              }
+              return result;
+          };
+      }
+
+     
+  })();
+</script>
+
+  </body>
+</html>
